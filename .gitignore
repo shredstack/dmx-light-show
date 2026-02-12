@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Audio files (large binaries — don't commit)
+audio/*.wav
+audio/*.mp3
+audio/*.flac
+audio/*.aiff
+audio/*_analysis.json
+*.mp3
+
+# Keep playlist template
+!audio/playlist.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# QLC+ autosave/backup
+*.qxw.bak
+*.autosave.qxw
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Claude Code instructions
+claude_code_instructions/*

@@ -1,0 +1,16 @@
+{
+  "playlist_name": "My Birthday House Party Light Show",
+  "songs": [
+    {
+      "id": "pitbull__time_of_our_lives",
+      "title": "Time of Our Lives",
+      "artist": "Pitbull",
+      "file": "pitbull__time_of_our_lives.wav",
+      "bpm": 123.0,
+      "duration_seconds": 229.4,
+      "analysis_file": "pitbull__time_of_our_lives_analysis.json",
+      "show_file": "../shows/pitbull__time_of_our_lives_show.qxw",
+      "notes": "Fill in BPM and duration after running analyze_audio.py"
+    }
+  ]
+}
