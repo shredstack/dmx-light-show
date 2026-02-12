@@ -1,0 +1,157 @@
+{
+  "fixtures": [
+    {
+      "name": "PAR Far Left",
+      "manufacturer": "Generic",
+      "model": "Generic RGB",
+      "mode": "3 Channel",
+      "universe": 1,
+      "address": 1,
+      "channels": 3,
+      "channel_map": {
+        "red": 0,
+        "green": 1,
+        "blue": 2
+      }
+    },
+    {
+      "name": "PAR Left",
+      "manufacturer": "Generic",
+      "model": "Generic RGB",
+      "mode": "3 Channel",
+      "universe": 1,
+      "address": 4,
+      "channels": 3,
+      "channel_map": {
+        "red": 0,
+        "green": 1,
+        "blue": 2
+      }
+    },
+    {
+      "name": "PAR Center",
+      "manufacturer": "Generic",
+      "model": "Generic RGB",
+      "mode": "3 Channel",
+      "universe": 1,
+      "address": 7,
+      "channels": 3,
+      "channel_map": {
+        "red": 0,
+        "green": 1,
+        "blue": 2
+      }
+    },
+    {
+      "name": "PAR Right",
+      "manufacturer": "Generic",
+      "model": "Generic RGB",
+      "mode": "3 Channel",
+      "universe": 1,
+      "address": 10,
+      "channels": 3,
+      "channel_map": {
+        "red": 0,
+        "green": 1,
+        "blue": 2
+      }
+    },
+    {
+      "name": "PAR Far Right",
+      "manufacturer": "Generic",
+      "model": "Generic RGB",
+      "mode": "3 Channel",
+      "universe": 1,
+      "address": 13,
+      "channels": 3,
+      "channel_map": {
+        "red": 0,
+        "green": 1,
+        "blue": 2
+      }
+    },
+    {
+      "name": "Moving Head Left",
+      "manufacturer": "Generic",
+      "model": "Generic RGB",
+      "mode": "3 Channel",
+      "universe": 1,
+      "address": 16,
+      "channels": 3,
+      "channel_map": {
+        "red": 0,
+        "green": 1,
+        "blue": 2
+      }
+    },
+    {
+      "name": "Moving Head Right",
+      "manufacturer": "Generic",
+      "model": "Generic RGB",
+      "mode": "3 Channel",
+      "universe": 1,
+      "address": 19,
+      "channels": 3,
+      "channel_map": {
+        "red": 0,
+        "green": 1,
+        "blue": 2
+      }
+    },
+    {
+      "name": "LED Bar Back Left",
+      "manufacturer": "Generic",
+      "model": "Generic RGB",
+      "mode": "3 Channel",
+      "universe": 1,
+      "address": 22,
+      "channels": 3,
+      "channel_map": {
+        "red": 0,
+        "green": 1,
+        "blue": 2
+      }
+    },
+    {
+      "name": "LED Bar Back Right",
+      "manufacturer": "Generic",
+      "model": "Generic RGB",
+      "mode": "3 Channel",
+      "universe": 1,
+      "address": 25,
+      "channels": 3,
+      "channel_map": {
+        "red": 0,
+        "green": 1,
+        "blue": 2
+      }
+    },
+    {
+      "name": "Strobe Center",
+      "manufacturer": "Generic",
+      "model": "Generic RGB",
+      "mode": "3 Channel",
+      "universe": 1,
+      "address": 28,
+      "channels": 3,
+      "channel_map": {
+        "red": 0,
+        "green": 1,
+        "blue": 2
+      }
+    }
+  ],
+  "color_palette": {
+    "hot_pink":       [255, 20, 147],
+    "magenta":        [255, 0, 255],
+    "purple":         [128, 0, 255],
+    "gold":           [255, 215, 0],
+    "rose":           [255, 82, 131],
+    "electric_blue":  [0, 100, 255],
+    "coral":          [255, 127, 80],
+    "lavender":       [180, 130, 255],
+    "champagne":      [255, 222, 173],
+    "white":          [255, 255, 255],
+    "off":            [0, 0, 0]
+  }
+}

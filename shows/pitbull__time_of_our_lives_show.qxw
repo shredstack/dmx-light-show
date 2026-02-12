@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="ShowManager">
+  <Creator>
+    <Name>Q Light Controller Plus</Name>
+    <Version>4.13.1</Version>
+    <Author>dmx-light-show-generator</Author>
+  </Creator>
+  <Engine>
+    <InputOutputMap>
+      <Universe Name="Universe 1" ID="0" Passthrough="false"/>
+    </InputOutputMap>
+    <Fixture>
+      <Manufacturer>Generic</Manufacturer>
+      <Model>Generic RGB</Model>
+      <Mode>3 Channel</Mode>
+      <Universe>0</Universe>
+      <Address>0</Address>
+      <Channels>3</Channels>
+      <Name>PAR Left</Name>
+      <ID>0</ID>
+    </Fixture>
+    <Fixture>
+      <Manufacturer>Generic</Manufacturer>
+      <Model>Generic RGB</Model>
+      <Mode>3 Channel</Mode>
+      <Universe>0</Universe>
+      <Address>3</Address>
+      <Channels>3</Channels>
+      <Name>PAR Center</Name>
+      <ID>1</ID>
+    </Fixture>
+    <Fixture>
+      <Manufacturer>Generic</Manufacturer>
+      <Model>Generic RGB</Model>
+      <Mode>3 Channel</Mode>
+      <Universe>0</Universe>
+      <Address>6</Address>
+      <Channels>3</Channels>
+      <Name>PAR Right</Name>
+      <ID>2</ID>
+    </Fixture>
+    <Function ID="0" Type="Scene" Name="All Red">
+      <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+      <FixtureVal ID="0">0,255,1,0,2,0</FixtureVal>
+      <FixtureVal ID="1">0,255,1,0,2,0</FixtureVal>
+      <FixtureVal ID="2">0,255,1,0,2,0</FixtureVal>
+    </Function>
+    <Function ID="1" Type="Scene" Name="All Green">
+      <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+      <FixtureVal ID="0">0,0,1,255,2,0</FixtureVal>
+      <FixtureVal ID="1">0,0,1,255,2,0</FixtureVal>
+      <FixtureVal ID="2">0,0,1,255,2,0</FixtureVal>
+    </Function>
+    <Function ID="2" Type="Scene" Name="All Blue">
+      <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+      <FixtureVal ID="0">0,0,1,0,2,255</FixtureVal>
+      <FixtureVal ID="1">0,0,1,0,2,255</FixtureVal>
+      <FixtureVal ID="2">0,0,1,0,2,255</FixtureVal>
+    </Function>
+    <Function ID="3" Type="Scene" Name="All Purple">
+      <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+      <FixtureVal ID="0">0,128,1,0,2,255</FixtureVal>
+      <FixtureVal ID="1">0,128,1,0,2,255</FixtureVal>
+      <FixtureVal ID="2">0,128,1,0,2,255</FixtureVal>
+    </Function>
+    <Function ID="4" Type="Scene" Name="All Warm">
+      <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+      <FixtureVal ID="0">0,255,1,147,2,41</FixtureVal>
+      <FixtureVal ID="1">0,255,1,147,2,41</FixtureVal>
+      <FixtureVal ID="2">0,255,1,147,2,41</FixtureVal>
+    </Function>
+    <Function ID="5" Type="Scene" Name="All Cool">
+      <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+      <FixtureVal ID="0">0,100,1,149,2,237</FixtureVal>
+      <FixtureVal ID="1">0,100,1,149,2,237</FixtureVal>
+      <FixtureVal ID="2">0,100,1,149,2,237</FixtureVal>
+    </Function>
+    <Function ID="6" Type="Scene" Name="All White">
+      <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+      <FixtureVal ID="0">0,255,1,255,2,255</FixtureVal>
+      <FixtureVal ID="1">0,255,1,255,2,255</FixtureVal>
+      <FixtureVal ID="2">0,255,1,255,2,255</FixtureVal>
+    </Function>
+    <Function ID="7" Type="Scene" Name="All Off">
+      <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+      <FixtureVal ID="0">0,0,1,0,2,0</FixtureVal>
+      <FixtureVal ID="1">0,0,1,0,2,0</FixtureVal>
+      <FixtureVal ID="2">0,0,1,0,2,0</FixtureVal>
+    </Function>
+    <Function ID="8" Type="Chaser" Name="Fast Color Cycle">
+      <Direction>Forward</Direction>
+      <RunOrder>Loop</RunOrder>
+      <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+      <Speed FadeIn="100" FadeOut="100" Duration="487"/>
+      <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">0</Step>
+      <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">1</Step>
+      <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">2</Step>
+      <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">3</Step>
+    </Function>
+    <Function ID="9" Type="Chaser" Name="Medium Color Cycle">
+      <Direction>Forward</Direction>
+      <RunOrder>Loop</RunOrder>
+      <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+      <Speed FadeIn="150" FadeOut="150" Duration="975"/>
+      <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">1</Step>
+      <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">2</Step>
+      <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">3</Step>
+      <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">4</Step>
+    </Function>
+    <Function ID="10" Type="Chaser" Name="Slow Color Fade">
+      <Direction>Forward</Direction>
+      <RunOrder>Loop</RunOrder>
+      <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+      <Speed FadeIn="500" FadeOut="500" Duration="1950"/>
+      <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">2</Step>
+      <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">3</Step>
+      <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">4</Step>
+      <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">5</Step>
+    </Function>
+    <Function ID="11" Type="Audio" Name="pitbull__time_of_our_lives.wav">
+      <Source>audio/pitbull__time_of_our_lives.wav</Source>
+    </Function>
+    <Function ID="12" Type="Show" Name="Generated Light Show">
+      <TimeDivision Type="BPM_4_4" BPM="123"/>
+      <Track ID="0" Name="Audio" SceneID="4294967295" isMute="0">
+        <ShowFunction ID="11" StartTime="0" Duration="229358"/>
+      </Track>
+      <Track ID="1" Name="Main Lights" SceneID="0" isMute="0">
+        <ShowFunction ID="7" StartTime="0" Duration="500" Color="#000000"/>
+        <ShowFunction ID="8" StartTime="500" Duration="31543" Color="#ff4444"/>
+        <ShowFunction ID="8" StartTime="32043" Duration="29419" Color="#ff4444"/>
+        <ShowFunction ID="8" StartTime="61463" Duration="17043" Color="#ff4444"/>
+        <ShowFunction ID="8" StartTime="78506" Duration="77415" Color="#ff4444"/>
+        <ShowFunction ID="8" StartTime="155921" Duration="37964" Color="#ff4444"/>
+        <ShowFunction ID="8" StartTime="193886" Duration="31741" Color="#ff4444"/>
+        <ShowFunction ID="10" StartTime="225628" Duration="3730" Color="#44ff44"/>
+        <ShowFunction ID="7" StartTime="227358" Duration="2000" Color="#000000"/>
+      </Track>
+    </Function>
+  </Engine>
+  <VirtualConsole>
+    <Frame Caption="">
+      <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+      </Appearance>
+      <Button Caption="GO" ID="0" Icon="">
+        <WindowState Visible="True" X="10" Y="10" Width="100" Height="100"/>
+        <Appearance>
+          <FrameStyle>None</FrameStyle>
+          <ForegroundColor>Default</ForegroundColor>
+          <BackgroundColor>Default</BackgroundColor>
+        </Appearance>
+        <Function ID="12"/>
+        <Action>Toggle</Action>
+      </Button>
+      <Slider Caption="Master" ID="1" InvertedAppearance="false">
+        <WindowState Visible="True" X="120" Y="10" Width="60" Height="200"/>
+        <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None">Level</SliderMode>
+        <Level LowLimit="0" HighLimit="255"/>
+      </Slider>
+      <Button Caption="BLACKOUT" ID="2" Icon="">
+        <WindowState Visible="True" X="10" Y="120" Width="100" Height="60"/>
+        <Appearance>
+          <FrameStyle>None</FrameStyle>
+          <ForegroundColor>Default</ForegroundColor>
+          <BackgroundColor>Default</BackgroundColor>
+        </Appearance>
+        <Function ID="7"/>
+        <Action>Toggle</Action>
+      </Button>
+    </Frame>
+  </VirtualConsole>
+  <SimpleDesk>
+    <Engine/>
+  </SimpleDesk>
+</Workspace>
