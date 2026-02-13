@@ -25,7 +25,6 @@ import json
 import os
 import sys
 import xml.etree.ElementTree as ET
-from xml.dom import minidom
 
 
 # ---------------------------------------------------------------------------
@@ -348,15 +347,14 @@ def build_workspace(fixture_config: dict, analysis: dict,
     fixtures = fixture_config["fixtures"]
     palette = fixture_config["color_palette"]
 
-    # Root element
+    # Root element (QLC+ 4.x format)
     workspace = ET.Element("Workspace",
-                           xmlns="http://www.qlcplus.org/Workspace",
-                           CurrentWindow="ShowManager")
+                           CurrentWindow="VirtualConsole")
 
     # Creator info
     creator = ET.SubElement(workspace, "Creator")
     ET.SubElement(creator, "Name").text = "Q Light Controller Plus"
-    ET.SubElement(creator, "Version").text = "4.13.1"
+    ET.SubElement(creator, "Version").text = "4.14.3"
     ET.SubElement(creator, "Author").text = "dmx-light-show-generator"
 
     # Engine
@@ -364,8 +362,7 @@ def build_workspace(fixture_config: dict, analysis: dict,
 
     # Input/Output map
     io_map = ET.SubElement(engine, "InputOutputMap")
-    universe = ET.SubElement(io_map, "Universe", Name="Universe 1", ID="0",
-                             Passthrough="false")
+    ET.SubElement(io_map, "Universe", Name="Universe 1", ID="0")
 
     # Fixtures — convert 1-indexed DMX addresses to 0-indexed for XML
     fixture_ids = []
@@ -389,6 +386,7 @@ def build_workspace(fixture_config: dict, analysis: dict,
         engine.append(scene["element"])
 
     # Override audio path in analysis if provided
+    # QLC+ resolves paths relative to the .qxw file, so adjust accordingly
     if audio_path:
         analysis["filepath"] = audio_path
 
@@ -402,53 +400,76 @@ def build_workspace(fixture_config: dict, analysis: dict,
     for elem in timeline["elements"]:
         engine.append(elem)
 
-    # Virtual Console
+    # Virtual Console (QLC+ 4.x format)
     vc = ET.SubElement(workspace, "VirtualConsole")
+
+    def _vc_appearance(parent, frame_style="None", fg="Default",
+                       bg="Default", font="Default"):
+        """Add a QLC+ 4.x Appearance block."""
+        app = ET.SubElement(parent, "Appearance")
+        ET.SubElement(app, "FrameStyle").text = frame_style
+        ET.SubElement(app, "ForegroundColor").text = fg
+        ET.SubElement(app, "BackgroundColor").text = bg
+        ET.SubElement(app, "BackgroundImage").text = "None"
+        ET.SubElement(app, "Font").text = font
+
+    # Root frame (wraps the entire VC)
     frame = ET.SubElement(vc, "Frame", Caption="")
-    appearance = ET.SubElement(frame, "Appearance")
-    ET.SubElement(appearance, "FrameStyle").text = "None"
-    ET.SubElement(appearance, "ForegroundColor").text = "Default"
-    ET.SubElement(appearance, "BackgroundColor").text = "Default"
+    _vc_appearance(frame, frame_style="None")
+    ET.SubElement(frame, "WindowState", Visible="False",
+                  X="0", Y="0", Width="1920", Height="1080")
+    ET.SubElement(frame, "AllowChildren").text = "True"
+    ET.SubElement(frame, "AllowResize").text = "True"
+    ET.SubElement(frame, "ShowHeader").text = "False"
+    ET.SubElement(frame, "ShowEnableButton").text = "True"
+    ET.SubElement(frame, "Collapsed").text = "False"
+    ET.SubElement(frame, "Disabled").text = "False"
 
     # GO button
-    button = ET.SubElement(frame, "Button", Caption="GO", ID="0", Icon="")
-    btn_ws = ET.SubElement(button, "WindowState", Visible="True",
-                           X="10", Y="10", Width="100", Height="100")
-    btn_app = ET.SubElement(button, "Appearance")
-    ET.SubElement(btn_app, "FrameStyle").text = "None"
-    ET.SubElement(btn_app, "ForegroundColor").text = "Default"
-    ET.SubElement(btn_app, "BackgroundColor").text = "Default"
-    ET.SubElement(button, "Function", ID=str(timeline["show_id"]))
-    ET.SubElement(button, "Action").text = "Toggle"
+    go_btn = ET.SubElement(frame, "Button", Icon="", Caption="GO")
+    ET.SubElement(go_btn, "Function", ID=str(timeline["show_id"]))
+    ET.SubElement(go_btn, "Action").text = "Toggle"
+    ET.SubElement(go_btn, "Intensity", Adjust="False").text = "100"
+    ET.SubElement(go_btn, "WindowState", Visible="False",
+                  X="10", Y="10", Width="150", Height="150")
+    _vc_appearance(go_btn, fg="4294967295", bg="4278233600")
 
-    # Grand Master slider
-    slider = ET.SubElement(frame, "Slider", Caption="Master", ID="1",
+    # Master slider (Level mode controlling all fixture channels)
+    slider = ET.SubElement(frame, "Slider", Caption="Master",
+                           WidgetStyle="Slider",
                            InvertedAppearance="false")
-    ET.SubElement(slider, "WindowState", Visible="True",
-                  X="120", Y="10", Width="60", Height="200")
+    ET.SubElement(slider, "WindowState", Visible="False",
+                  X="200", Y="10", Width="60", Height="200")
+    _vc_appearance(slider)
     sm = ET.SubElement(slider, "SliderMode",
                        ValueDisplayStyle="Percentage",
-                       ClickAndGoType="None")
+                       Monitor="false")
     sm.text = "Level"
-    ET.SubElement(slider, "Level", LowLimit="0", HighLimit="255")
+    level = ET.SubElement(slider, "Level", LowLimit="0", HighLimit="255",
+                          Value="255")
+    for i, fid in enumerate(fixture_ids):
+        for ch in range(fixtures[i]["channels"]):
+            ET.SubElement(level, "Channel",
+                          Fixture=str(fid)).text = str(ch)
 
     # Blackout button
-    blackout_scene = next((s for s in scenes if s["color_name"] == "off"), None)
+    blackout_scene = next((s for s in scenes if s["color_name"] == "off"),
+                          None)
     if blackout_scene:
-        bo_btn = ET.SubElement(frame, "Button", Caption="BLACKOUT",
-                               ID="2", Icon="")
-        ET.SubElement(bo_btn, "WindowState", Visible="True",
-                      X="10", Y="120", Width="100", Height="60")
-        bo_app = ET.SubElement(bo_btn, "Appearance")
-        ET.SubElement(bo_app, "FrameStyle").text = "None"
-        ET.SubElement(bo_app, "ForegroundColor").text = "Default"
-        ET.SubElement(bo_app, "BackgroundColor").text = "Default"
+        bo_btn = ET.SubElement(frame, "Button", Icon="",
+                               Caption="BLACKOUT")
         ET.SubElement(bo_btn, "Function", ID=str(blackout_scene["id"]))
         ET.SubElement(bo_btn, "Action").text = "Toggle"
+        ET.SubElement(bo_btn, "Intensity", Adjust="False").text = "100"
+        ET.SubElement(bo_btn, "WindowState", Visible="False",
+                      X="10", Y="180", Width="150", Height="80")
+        _vc_appearance(bo_btn, fg="4294967295", bg="4278190080")
 
-    # Simple Desk (empty)
-    sd = ET.SubElement(workspace, "SimpleDesk")
-    ET.SubElement(sd, "Engine")
+    # Properties (required by QLC+ 4.x)
+    props = ET.SubElement(vc, "Properties")
+    ET.SubElement(props, "Size", Width="1920", Height="1080")
+    gm = ET.SubElement(props, "GrandMaster", ChannelMode="Intensity",
+                       ValueMode="Reduce", SliderMode="Normal")
 
     return workspace
 
@@ -459,18 +480,10 @@ def build_workspace(fixture_config: dict, analysis: dict,
 
 def prettify_xml(element: ET.Element) -> str:
     """Return a pretty-printed XML string with the DOCTYPE declaration."""
-    rough_string = ET.tostring(element, encoding="unicode", xml_declaration=False)
-    reparsed = minidom.parseString(rough_string)
-    pretty = reparsed.toprettyxml(indent="  ", encoding=None)
-
-    # minidom adds its own XML declaration; replace with ours + DOCTYPE
-    lines = pretty.split("\n")
-    # Remove minidom's XML declaration
-    if lines[0].startswith("<?xml"):
-        lines = lines[1:]
-
-    header = '<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE Workspace>\n'
-    return header + "\n".join(lines)
+    ET.indent(element, space=" ")
+    xml_body = ET.tostring(element, encoding="unicode", xml_declaration=False,
+                           short_empty_elements=True)
+    return '<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE Workspace>\n' + xml_body + "\n"
 
 
 # ---------------------------------------------------------------------------

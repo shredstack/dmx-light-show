@@ -29,10 +29,11 @@ source .venv/bin/activate
 
 More manual setup:
 ```bash
-# QLC+ (the DMX control software)
-# Via Homebrew:
-brew install --cask qlc+
-# Or download the DMG from https://www.qlcplus.org/download
+# QLC+ 4.14.3 (the DMX control software)
+# IMPORTANT: Do NOT install via Homebrew — `brew install --cask qlc+` installs
+# QLC+ 5.x which has a broken Virtual Console. Use 4.14.3 from qlcplus.org:
+# https://www.qlcplus.org/downloads/4.14.3/
+# Download the DMG for your architecture (x86_64 or arm64) and install to /Applications.
 
 # Python 3.12 + virtual environment (3.13+ not yet supported by librosa/numba)
 brew install python@3.12
@@ -73,7 +74,14 @@ python scripts/generate_show_xml.py \
 
 ### 5. Open in QLC+
 
-Open the generated `.qxw` file in QLC+. Press the GO button on the Virtual Console to play the show. Refine the timeline manually in Show Manager.
+Open the generated `.qxw` file in QLC+. Switch to **Operate mode** (Ctrl+F12), then press the GO button on the Virtual Console to play the show. Refine the timeline manually in Show Manager (switch back to Design mode with Ctrl+F12).
+
+```bash
+open shows/<song>_show.qxw
+
+# For example:
+open shows/pitbull__time_of_our_lives_show.qxw
+```
 
 ## Project Structure
 
