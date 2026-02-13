@@ -101,7 +101,8 @@ def load_analysis(path: str) -> dict:
 def make_fixture_val(channel_map: dict, color_rgb: list,
                      motor_speed: int = 0, laser_values: list = None,
                      strobe: int = 0, strobe_rgb: list = None,
-                     uv: int = 0, white: int = 0) -> str:
+                     uv: int = 0, white: int = 0,
+                     color2_rgb: list = None) -> str:
     """Build a FixtureVal string: 'ch,val,ch,val,...' for a fixture's channels.
 
     Supports two channel_map formats:
@@ -114,18 +115,21 @@ def make_fixture_val(channel_map: dict, color_rgb: list,
         strobe, UV, and white values are all set explicitly.
 
     Parameters:
-        color_rgb:    [R, G, B] for magic ball LEDs
+        color_rgb:    [R, G, B] for magic ball LED group 1
         motor_speed:  0-255 for laser_motors channel
         laser_values: [green, red, blue, red] for the 4 laser channels, or None for all off
         strobe:       0-255 for strobe channel (0=off, 1-4=on, 5-29=random, 30-255=speed)
         strobe_rgb:   [R, G, B] for strobe LED color, or None to match color_rgb
         uv:           0-255 for led_violet_light
         white:        0-255 for magic_ball_white_1
+        color2_rgb:   [R, G, B] for magic ball LED group 2, or None to match color_rgb
     """
     if laser_values is None:
         laser_values = [0, 0, 0, 0]
     if strobe_rgb is None:
         strobe_rgb = color_rgb
+    if color2_rgb is None:
+        color2_rgb = color_rgb
 
     # Legacy 3-channel RGB format
     if set(channel_map.keys()) == {"red", "green", "blue"}:
@@ -137,6 +141,7 @@ def make_fixture_val(channel_map: dict, color_rgb: list,
 
     # Extended channel map — set each channel explicitly
     r, g, b = color_rgb[0], color_rgb[1], color_rgb[2]
+    r2, g2, b2 = color2_rgb[0], color2_rgb[1], color2_rgb[2]
     laser_idx = 0
     pairs = []
     for name, offset in sorted(channel_map.items(), key=lambda x: x[1]):
@@ -163,6 +168,16 @@ def make_fixture_val(channel_map: dict, color_rgb: list,
                 pairs.append(f"{offset},0")
         elif name == "led_violet_light":
             pairs.append(f"{offset},{uv}")
+        # RGB group 2 — use color2_rgb
+        elif name in ("magic_ball_red_2", "magic_ball_green_2",
+                       "magic_ball_blue_ray_2"):
+            if "red" in name:
+                pairs.append(f"{offset},{r2}")
+            elif "green" in name:
+                pairs.append(f"{offset},{g2}")
+            else:
+                pairs.append(f"{offset},{b2}")
+        # RGB group 1 (and any other color channels)
         elif "red" in name:
             pairs.append(f"{offset},{r}")
         elif "green" in name:
@@ -176,11 +191,13 @@ def make_fixture_val(channel_map: dict, color_rgb: list,
 
 
 def _build_scene(ids: IDAllocator, name: str, fixtures: list,
-                  fixture_ids: list, **fixture_val_kwargs) -> dict:
+                  fixture_ids: list, fade_in: int = 0,
+                  **fixture_val_kwargs) -> dict:
     """Helper to build a single Scene element with the given fixture values."""
     func_id = ids.function_id()
     elem = ET.Element("Function", ID=str(func_id), Type="Scene", Name=name)
-    ET.SubElement(elem, "Speed", FadeIn="0", FadeOut="0", Duration="0")
+    ET.SubElement(elem, "Speed", FadeIn=str(fade_in), FadeOut="0",
+                  Duration="0")
 
     for i, fix in enumerate(fixtures):
         fv = ET.SubElement(elem, "FixtureVal", ID=str(fixture_ids[i]))
@@ -209,9 +226,12 @@ class SceneCache:
 
     def get_or_create(self, color_name: str, color_rgb: list,
                       motor_speed: int, laser_values: list,
-                      strobe: int, uv: int, white: int) -> dict:
-        key = (tuple(color_rgb), motor_speed, tuple(laser_values),
-               strobe, uv, white)
+                      strobe: int, uv: int, white: int,
+                      color2_rgb: list = None,
+                      fade_in: int = 0) -> dict:
+        c2 = tuple(color2_rgb) if color2_rgb else tuple(color_rgb)
+        key = (tuple(color_rgb), c2, motor_speed, tuple(laser_values),
+               strobe, uv, white, fade_in)
 
         if key in self._cache:
             return self._cache[key]
@@ -223,12 +243,16 @@ class SceneCache:
             name += f" S{strobe}"
         if white:
             name += f" W{white}"
+        if fade_in:
+            name += f" F{fade_in}"
 
         scene = _build_scene(
             self.ids, name, self.fixtures, self.fixture_ids,
+            fade_in=fade_in,
             color_rgb=color_rgb, motor_speed=motor_speed,
             laser_values=laser_values, strobe=strobe,
             strobe_rgb=color_rgb, uv=uv, white=white,
+            color2_rgb=color2_rgb,
         )
         scene["rgb"] = list(color_rgb)
         scene["color_name"] = color_name
@@ -361,10 +385,16 @@ _MOTOR_SPEEDS = {1: 0, 2: 60, 3: 130, 4: 190, 5: 245}
 _UV_LEVELS = {1: 0, 2: 40, 3: 100, 4: 170, 5: 230}
 
 
-def get_laser_pattern(tier: int, beat_idx: int) -> list:
-    """Get laser values that alternate every 2 beats within the tier's patterns."""
+def get_laser_pattern(tier: int, beat_idx: int,
+                      onset_dense: bool = False) -> list:
+    """Get laser values that alternate within the tier's patterns.
+
+    When onset_dense is True, patterns switch every beat instead of every 2
+    for a more responsive feel during rhythmically busy passages.
+    """
     patterns = _LASER_PATTERNS[tier]
-    return patterns[(beat_idx // 2) % len(patterns)]
+    divisor = 1 if onset_dense else 2
+    return patterns[(beat_idx // divisor) % len(patterns)]
 
 
 # ---------------------------------------------------------------------------
@@ -379,6 +409,40 @@ def _find_segment(time: float, seg_bounds: list) -> int:
     return len(seg_bounds) - 2
 
 
+def _count_nearby_onsets(time: float, onset_set: set, window: float) -> int:
+    """Count onsets within +/- window of time (using 10ms-bucketed set)."""
+    count = 0
+    t = time - window
+    while t <= time + window:
+        if round(t, 2) in onset_set:
+            count += 1
+        t += 0.01
+    return count
+
+
+def _has_nearby_onset(time: float, onset_set: set,
+                      tolerance: float = 0.05) -> bool:
+    """Check if any onset falls within tolerance of the given time."""
+    t = time - tolerance
+    while t <= time + tolerance:
+        if round(t, 2) in onset_set:
+            return True
+        t += 0.01
+    return False
+
+
+def _get_fade_for_tier(tier: int) -> int:
+    """Energy-driven fade times: smooth fades for calm, hard cuts for peaks."""
+    if tier <= 1:
+        return 400
+    elif tier == 2:
+        return 300
+    elif tier == 3:
+        return 150
+    else:
+        return 0
+
+
 # ---------------------------------------------------------------------------
 # Show Timeline Generation
 # ---------------------------------------------------------------------------
@@ -388,12 +452,16 @@ def generate_show_timeline(ids: IDAllocator, analysis: dict,
                            fixtures: list, fixture_ids: list) -> dict:
     """Generate the Show function with per-beat dynamic scene selection.
 
-    Key improvements over the old approach:
-    - Per-beat energy drives laser, motor, UV, and color intensity on EVERY beat
-    - Section-aware color palettes (2-4 colors per section, not all 10)
-    - Build-up ramps before high-energy sections (gradual laser/motor increase)
-    - Blackout accents before drops and as breathing breaks
-    - Dynamic scene creation with caching (50-150+ unique scenes)
+    Features:
+    - Continuous energy interpolation for motor speed and UV (not 5-tier steps)
+    - Beat brightness drives color temperature and white LED intensity
+    - Onset reactivity: beats with transient hits get boosted energy tier
+    - Dual-color RGB groups with ping-pong alternation
+    - Energy-driven fade times (smooth fades for calm, hard cuts for drops)
+    - Sub-beat onset flashes between beats for rhythmic detail
+    - Forced color changes on sudden energy spikes
+    - Build-up ramps and blackout accents before drops
+    - Section-aware color palettes
 
     Returns: {show_id, audio_id, elements, all_scenes}
     """
@@ -407,8 +475,16 @@ def generate_show_timeline(ids: IDAllocator, analysis: dict,
     if seg_bounds[-1] < analysis["duration"] - 1.0:
         seg_bounds.append(analysis["duration"])
 
-    # --- Per-beat energy ---
+    # --- Per-beat energy and brightness ---
     beat_energies = get_beat_energies(analysis)
+    beat_brightnesses = analysis.get("beat_brightness", [])
+    if len(beat_brightnesses) != len(beat_times):
+        beat_brightnesses = [0.5] * len(beat_times)
+
+    # --- Onset lookup set (bucketed to 10ms for fast proximity checks) ---
+    onset_set = set()
+    for t in onset_times:
+        onset_set.add(round(t, 2))
 
     # --- Per-segment average energy (for section palette assignment) ---
     seg_avg_energies = []
@@ -484,6 +560,8 @@ def generate_show_timeline(ids: IDAllocator, analysis: dict,
 
     color_counter = 0
     prev_seg_idx = -1
+    prev_energy = 0.0
+    beat_window = 60.0 / bpm  # duration of one beat in seconds
 
     for beat_idx in range(len(beat_times)):
         beat_time = beat_times[beat_idx]
@@ -502,7 +580,16 @@ def generate_show_timeline(ids: IDAllocator, analysis: dict,
         seg_idx = _find_segment(beat_time, seg_bounds)
         energy = (beat_energies[beat_idx]
                   if beat_idx < len(beat_energies) else 0.5)
+        brightness = (beat_brightnesses[beat_idx]
+                      if beat_idx < len(beat_brightnesses) else 0.5)
         tier = classify_energy(energy)
+
+        # --- Onset reactivity: bump tier if this beat has a transient hit ---
+        has_onset = _has_nearby_onset(beat_time, onset_set)
+        onset_density = _count_nearby_onsets(beat_time, onset_set, beat_window)
+        onset_dense = onset_density >= 3
+        if has_onset and tier < 5:
+            tier = min(5, tier + 1)
 
         # Reset color counter on segment change
         if seg_idx != prev_seg_idx:
@@ -527,12 +614,15 @@ def generate_show_timeline(ids: IDAllocator, analysis: dict,
                           Duration=str(beat_duration),
                           Color="#000000")
             color_counter += 1
+            prev_energy = energy
             continue
 
         # Build-up ramp: gradually boost tier in the 8 beats before a drop
         if building_up:
-            ramp = 1.0 - (beats_to_seg / 8.0)  # 0→1 as we approach
+            ramp = 1.0 - (beats_to_seg / 8.0)  # 0->1 as we approach
             tier = min(5, tier + int(ramp * 3))
+            # Also ramp the raw energy for continuous interpolation
+            energy = min(1.0, energy + ramp * 0.3)
 
         # Breathing blackout: 1 beat of dark every 32 beats in high-energy
         if (tier >= 4 and color_counter > 0
@@ -543,6 +633,7 @@ def generate_show_timeline(ids: IDAllocator, analysis: dict,
                           Duration=str(beat_duration),
                           Color="#000000")
             color_counter += 1
+            prev_energy = energy
             continue
 
         # --- Transition blackout at segment boundaries ---
@@ -557,28 +648,70 @@ def generate_show_timeline(ids: IDAllocator, analysis: dict,
                           Duration=str(beat_duration),
                           Color="#000000")
             color_counter += 1
+            prev_energy = energy
             continue
 
         # --- Select color ---
-        # High energy = change color every beat; low energy = hold longer
+        # Force a color change on sudden energy spikes
+        energy_spike = (energy - prev_energy) > 0.3
+
+        # Use brightness to offset the cycling counter so the color
+        # choice responds to the sound character while still advancing
+        # every beat. This prevents long stretches of the same color.
         color_rate = 1 if tier >= 4 else base_beats_per_color
-        color_idx = (color_counter // color_rate) % len(sec_pal)
+        counter_idx = (color_counter // color_rate) % len(sec_pal)
+
+        # Brightness nudge: shift the counter-based index by brightness
+        # so bass-heavy beats lean toward warm colors and bright/harsh
+        # beats lean toward cool colors in the palette
+        brightness_offset = int(brightness * (len(sec_pal) - 1))
+        color_idx = (counter_idx + brightness_offset) % len(sec_pal)
+
+        if energy_spike:
+            # On a spike, jump ahead in the palette for a visible change
+            color_idx = (color_idx + len(sec_pal) // 2) % len(sec_pal)
+
         color_name, color_rgb = sec_pal[color_idx]
 
-        # --- Compute per-beat feature levels ---
-        lasers = get_laser_pattern(tier, beat_idx)
-        motor = _MOTOR_SPEEDS[tier]
-        uv = _UV_LEVELS[tier]
+        # --- Secondary color for RGB group 2 (ping-pong effect) ---
+        color2_offset = 1 if len(sec_pal) <= 2 else 2
+        color2_idx = (color_idx + color2_offset) % len(sec_pal)
+        color2_name, color2_rgb = sec_pal[color2_idx]
 
-        # White LED flash on accent beats in high-energy sections
-        white = 200 if (tier >= 4 and beat_idx % 4 == 0) else 0
+        # Ping-pong: swap groups on odd beats
+        if beat_idx % 2 == 1:
+            color_rgb, color2_rgb = color2_rgb, color_rgb
+            color_name, color2_name = color2_name, color_name
+
+        # --- Scale disco ball LED intensity with energy ---
+        # At low energy the ball dims, at high energy it's full brightness.
+        # Floor at 0.3 so the ball is never completely dark (that's what
+        # blackout scenes are for).
+        intensity = max(0.3, energy)
+        color_rgb = [int(c * intensity) for c in color_rgb]
+        color2_rgb = [int(c * intensity) for c in color2_rgb]
+
+        # --- Compute per-beat feature levels (continuous interpolation) ---
+        lasers = get_laser_pattern(tier, beat_idx, onset_dense)
+        motor = int(energy * 245)       # continuous, not 5-step
+        uv = int(energy * 230)          # continuous, not 5-step
+
+        # White LED driven by brightness in energetic sections
+        if tier >= 3:
+            white = int(brightness * 220)
+        else:
+            white = 0
 
         # Strobe only on peak moments (tier 5, first 2 of every 8 beats)
         strobe = 150 if (tier == 5 and beat_idx % 8 < 2) else 0
 
+        # --- Energy-driven fade time ---
+        fade_in = _get_fade_for_tier(tier)
+
         # --- Get or create the scene ---
         scene = scene_cache.get_or_create(
-            color_name, color_rgb, motor, lasers, strobe, uv, white)
+            color_name, color_rgb, motor, lasers, strobe, uv, white,
+            color2_rgb=color2_rgb, fade_in=fade_in)
 
         r, g, b = color_rgb
         color_hex = f"#{r:02x}{g:02x}{b:02x}"
@@ -590,6 +723,7 @@ def generate_show_timeline(ids: IDAllocator, analysis: dict,
                       Color=color_hex)
 
         color_counter += 1
+        prev_energy = energy
 
     # End with blackout (2s fade out)
     end_start = max(0, duration_ms - 2000)
@@ -628,6 +762,61 @@ def generate_show_timeline(ids: IDAllocator, analysis: dict,
                                   Duration=str(avg_beat_ms),
                                   Color="#ffffff")
                     last_strobe_end = start_ms + avg_beat_ms
+
+    # --- Track 3: Sub-beat onset flashes ---
+    # Short UV/white flashes on onsets that fall between beats, adding
+    # rhythmic detail that the beat grid alone can't capture.
+    flash_scene = scene_cache.get_or_create(
+        "white", [255, 255, 255], 0, [0, 0, 0, 0], 0, 200, 220)
+
+    flash_track = ET.SubElement(show_elem, "Track", ID="3",
+                                Name="Onset Flashes",
+                                SceneID=str(flash_scene["id"]),
+                                isMute="0")
+
+    flash_duration_ms = 100  # short burst
+    last_flash_beat_idx = -1
+
+    for onset_t in onset_times:
+        onset_ms = int(onset_t * 1000)
+
+        # Only in high-energy segments
+        s_idx = _find_segment(onset_t, seg_bounds)
+        if s_idx >= len(seg_avg_energies) or seg_avg_energies[s_idx] <= 0.5:
+            continue
+
+        # Find which beat gap this onset falls in
+        is_between_beats = True
+        current_beat_idx = -1
+        for bi in range(len(beat_times)):
+            bt_ms = int(beat_times[bi] * 1000)
+            # If onset is within 60ms of a beat, it's ON the beat, skip
+            if abs(onset_ms - bt_ms) < 60:
+                is_between_beats = False
+                break
+            if beat_times[bi] > onset_t:
+                current_beat_idx = bi - 1
+                break
+        else:
+            current_beat_idx = len(beat_times) - 1
+
+        if not is_between_beats:
+            continue
+
+        # Limit to 1 flash per beat gap
+        if current_beat_idx == last_flash_beat_idx:
+            continue
+        last_flash_beat_idx = current_beat_idx
+
+        # Don't overlap with end of song
+        if onset_ms + flash_duration_ms > duration_ms:
+            continue
+
+        ET.SubElement(flash_track, "ShowFunction",
+                      ID=str(flash_scene["id"]),
+                      StartTime=str(onset_ms),
+                      Duration=str(flash_duration_ms),
+                      Color="#ffffff")
 
     return {
         "show_id": show_id,
