@@ -1,0 +1,46 @@
+{
+  "fixtures": [
+    {
+      "name": "KeoBin L2800",
+      "manufacturer": "KeoBin",
+      "model": "L2800",
+      "mode": "18CH",
+      "universe": 1,
+      "address": 1,
+      "channels": 18,
+      "channel_map": {
+        "special_channel": 0,
+        "green_laser_1": 1,
+        "red_laser_2": 2,
+        "blue_laser_3": 3,
+        "red_laser_4": 4,
+        "laser_motors": 5,
+        "magic_ball_red_1": 6,
+        "magic_ball_green_1": 7,
+        "magic_ball_blu_ray_1": 8,
+        "magic_ball_white_1": 9,
+        "magic_ball_red_2": 10,
+        "magic_ball_green_2": 11,
+        "magic_ball_blue_ray_2": 12,
+        "strobe": 13,
+        "strobe_led_red": 14,
+        "strobe_led_green": 15,
+        "strobe_led_blue": 16,
+        "led_violet_light": 17
+      }
+    }
+  ],
+  "color_palette": {
+    "hot_pink":       [255, 20, 147],
+    "magenta":        [255, 0, 255],
+    "purple":         [128, 0, 255],
+    "gold":           [255, 215, 0],
+    "rose":           [255, 82, 131],
+    "electric_blue":  [0, 100, 255],
+    "coral":          [255, 127, 80],
+    "lavender":       [180, 130, 255],
+    "champagne":      [255, 222, 173],
+    "white":          [255, 255, 255],
+    "off":            [0, 0, 0]
+  }
+}
