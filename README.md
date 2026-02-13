@@ -83,6 +83,8 @@ open shows/<song>_show.qxw
 open shows/pitbull__time_of_our_lives_show.qxw
 ```
 
+You will need to map the inputs/outputs every time you re-open a show in QLC+. Make sure you select the DMX USB plugin as the Output. Click on FT232R USB then click the Tools symbol. Make sure the Mode is "Open TX".
+
 ## Project Structure
 
 ```
