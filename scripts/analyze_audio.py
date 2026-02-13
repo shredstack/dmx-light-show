@@ -38,6 +38,29 @@ def analyze_audio(filepath: str) -> dict:
     bound_frames = librosa.segment.agglomerative(mfcc, k=8)
     bound_times = librosa.frames_to_time(bound_frames, sr=sr)
 
+    # Per-beat energy (RMS) — allows the show generator to vary intensity
+    # on every single beat rather than per-segment
+    print("Computing per-beat energy...")
+    rms = librosa.feature.rms(y=y)[0]
+    rms_times = librosa.frames_to_time(np.arange(len(rms)), sr=sr)
+    beat_rms = np.interp(beat_times, rms_times, rms)
+    rms_max = beat_rms.max()
+    if rms_max > 0:
+        beat_energy = beat_rms / rms_max
+    else:
+        beat_energy = beat_rms
+
+    # Per-beat spectral brightness — high values indicate bright/harsh
+    # sounds (cymbals, synth stabs), low values indicate bass/warm sounds
+    cent = librosa.feature.spectral_centroid(y=y, sr=sr)[0]
+    cent_times = librosa.frames_to_time(np.arange(len(cent)), sr=sr)
+    beat_cent = np.interp(beat_times, cent_times, cent)
+    cent_max = beat_cent.max()
+    if cent_max > 0:
+        beat_brightness = beat_cent / cent_max
+    else:
+        beat_brightness = beat_cent
+
     # Handle librosa versions where tempo may be an array
     bpm = float(tempo) if not hasattr(tempo, '__len__') else float(tempo[0])
 
@@ -48,6 +71,8 @@ def analyze_audio(filepath: str) -> dict:
         "beat_times": [float(t) for t in beat_times],
         "onset_times": [float(t) for t in onset_times],
         "segment_boundaries": [float(t) for t in bound_times],
+        "beat_energy": [round(float(e), 4) for e in beat_energy],
+        "beat_brightness": [round(float(b), 4) for b in beat_brightness],
     }
     return result
 
