@@ -1,0 +1,2398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.14.3</Version>
+  <Author>dmx-light-show-generator</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0" />
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>KeoBin</Manufacturer>
+   <Model>L2800</Model>
+   <Mode>18CH</Mode>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>18</Channels>
+   <Name>KeoBin L2800</Name>
+   <ID>0</ID>
+  </Fixture>
+  <Function ID="0" Type="Scene" Name="off M0 L0000 UV0">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0</FixtureVal>
+  </Function>
+  <Function ID="3" Type="Scene" Name="purple M22 L1000 UV21 F300">
+   <Speed FadeIn="300" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,180,2,0,3,0,4,0,5,22,6,38,7,0,8,76,9,0,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,21</FixtureVal>
+  </Function>
+  <Function ID="4" Type="Scene" Name="champagne M31 L0010 UV29 F300">
+   <Speed FadeIn="300" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,180,4,0,5,31,6,76,7,66,8,51,9,0,10,0,11,30,12,76,13,0,14,76,15,66,16,51,17,29</FixtureVal>
+  </Function>
+  <Function ID="5" Type="Scene" Name="lavender M41 L0100 UV38 F300">
+   <Speed FadeIn="300" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,180,3,0,4,0,5,41,6,54,7,39,8,76,9,0,10,38,11,0,12,76,13,0,14,54,15,39,16,76,17,38</FixtureVal>
+  </Function>
+  <Function ID="6" Type="Scene" Name="electric_blue M52 L0101 UV49 W56 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,52,6,0,7,30,8,76,9,56,10,76,11,66,12,51,13,0,14,0,15,30,16,76,17,49</FixtureVal>
+  </Function>
+  <Function ID="7" Type="Scene" Name="purple M63 L1100 UV59 W48 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,63,6,38,7,0,8,76,9,48,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,59</FixtureVal>
+  </Function>
+  <Function ID="8" Type="Scene" Name="champagne M70 L0011 UV65 W48 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,70,6,76,7,66,8,51,9,48,10,0,11,30,12,76,13,0,14,76,15,66,16,51,17,65</FixtureVal>
+  </Function>
+  <Function ID="9" Type="Scene" Name="lavender M77 L0111 UV72 W51">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,220,3,220,4,220,5,77,6,57,7,41,8,80,9,51,10,40,11,0,12,80,13,0,14,57,15,41,16,80,17,72</FixtureVal>
+  </Function>
+  <Function ID="10" Type="Scene" Name="purple M53 L1100 UV50 W102 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,53,6,38,7,0,8,76,9,102,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,50</FixtureVal>
+  </Function>
+  <Function ID="11" Type="Scene" Name="purple M69 L0011 UV65 W172 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,69,6,38,7,0,8,76,9,172,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,65</FixtureVal>
+  </Function>
+  <Function ID="12" Type="Scene" Name="lavender M43 L0100 UV41 F300">
+   <Speed FadeIn="300" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,180,3,0,4,0,5,43,6,54,7,39,8,76,9,0,10,38,11,0,12,76,13,0,14,54,15,39,16,76,17,41</FixtureVal>
+  </Function>
+  <Function ID="13" Type="Scene" Name="lavender M60 L0101 UV56 W167 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,60,6,54,7,39,8,76,9,167,10,38,11,0,12,76,13,0,14,54,15,39,16,76,17,56</FixtureVal>
+  </Function>
+  <Function ID="14" Type="Scene" Name="purple M58 L1100 UV54 W117 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,58,6,38,7,0,8,76,9,117,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,54</FixtureVal>
+  </Function>
+  <Function ID="15" Type="Scene" Name="purple M70 L0011 UV65 W165 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,70,6,38,7,0,8,76,9,165,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,65</FixtureVal>
+  </Function>
+  <Function ID="16" Type="Scene" Name="lavender M46 L0100 UV43 F300">
+   <Speed FadeIn="300" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,180,3,0,4,0,5,46,6,54,7,39,8,76,9,0,10,38,11,0,12,76,13,0,14,54,15,39,16,76,17,43</FixtureVal>
+  </Function>
+  <Function ID="17" Type="Scene" Name="electric_blue M79 L0101 UV74 W138 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,79,6,0,7,32,8,82,9,138,10,82,11,71,12,56,13,0,14,0,15,32,16,82,17,74</FixtureVal>
+  </Function>
+  <Function ID="18" Type="Scene" Name="purple M69 L1100 UV65 W79 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,69,6,38,7,0,8,76,9,79,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,65</FixtureVal>
+  </Function>
+  <Function ID="19" Type="Scene" Name="purple M71 L0011 UV67 W169 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,71,6,38,7,0,8,76,9,169,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,67</FixtureVal>
+  </Function>
+  <Function ID="20" Type="Scene" Name="lavender M45 L0100 UV42 F300">
+   <Speed FadeIn="300" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,180,3,0,4,0,5,45,6,54,7,39,8,76,9,0,10,38,11,0,12,76,13,0,14,54,15,39,16,76,17,42</FixtureVal>
+  </Function>
+  <Function ID="21" Type="Scene" Name="lavender M59 L0101 UV55 W170 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,59,6,54,7,39,8,76,9,170,10,38,11,0,12,76,13,0,14,54,15,39,16,76,17,55</FixtureVal>
+  </Function>
+  <Function ID="22" Type="Scene" Name="purple M64 L1100 UV60 W73 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,64,6,38,7,0,8,76,9,73,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,60</FixtureVal>
+  </Function>
+  <Function ID="23" Type="Scene" Name="purple M66 L0011 UV62 W158 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,66,6,38,7,0,8,76,9,158,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,62</FixtureVal>
+  </Function>
+  <Function ID="24" Type="Scene" Name="electric_blue M41 L0100 UV38 F300">
+   <Speed FadeIn="300" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,180,3,0,4,0,5,41,6,0,7,30,8,76,9,0,10,76,11,66,12,51,13,0,14,0,15,30,16,76,17,38</FixtureVal>
+  </Function>
+  <Function ID="25" Type="Scene" Name="lavender M82 L0101 UV77 W156 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,82,6,60,7,43,8,85,9,156,10,42,11,0,12,85,13,0,14,60,15,43,16,85,17,77</FixtureVal>
+  </Function>
+  <Function ID="26" Type="Scene" Name="champagne M68 L1100 UV64 W62 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,68,6,76,7,66,8,51,9,62,10,0,11,30,12,76,13,0,14,76,15,66,16,51,17,64</FixtureVal>
+  </Function>
+  <Function ID="27" Type="Scene" Name="purple M83 L0011 UV77 W154 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,83,6,43,7,0,8,86,9,154,10,61,11,44,12,86,13,0,14,43,15,0,16,86,17,77</FixtureVal>
+  </Function>
+  <Function ID="28" Type="Scene" Name="lavender M49 L1010 UV46 W117 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,0,3,200,4,0,5,49,6,54,7,39,8,76,9,117,10,38,11,0,12,76,13,0,14,54,15,39,16,76,17,46</FixtureVal>
+  </Function>
+  <Function ID="29" Type="Scene" Name="lavender M66 L0101 UV62 W172 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,66,6,54,7,39,8,76,9,172,10,38,11,0,12,76,13,0,14,54,15,39,16,76,17,62</FixtureVal>
+  </Function>
+  <Function ID="30" Type="Scene" Name="champagne M64 L1100 UV60 W60 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,64,6,76,7,66,8,51,9,60,10,0,11,30,12,76,13,0,14,76,15,66,16,51,17,60</FixtureVal>
+  </Function>
+  <Function ID="31" Type="Scene" Name="purple M69 L0011 UV64 W149 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,69,6,38,7,0,8,76,9,149,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,64</FixtureVal>
+  </Function>
+  <Function ID="32" Type="Scene" Name="lavender M58 L1010 UV55 W90 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,0,3,200,4,0,5,58,6,54,7,39,8,76,9,90,10,38,11,0,12,76,13,0,14,54,15,39,16,76,17,55</FixtureVal>
+  </Function>
+  <Function ID="33" Type="Scene" Name="lavender M77 L0101 UV72 W151 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,77,6,56,7,41,8,80,9,151,10,40,11,0,12,80,13,0,14,56,15,41,16,80,17,72</FixtureVal>
+  </Function>
+  <Function ID="34" Type="Scene" Name="champagne M62 L1100 UV58 W60 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,62,6,76,7,66,8,51,9,60,10,0,11,30,12,76,13,0,14,76,15,66,16,51,17,58</FixtureVal>
+  </Function>
+  <Function ID="35" Type="Scene" Name="purple M58 L0011 UV54 W167 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,58,6,38,7,0,8,76,9,167,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,54</FixtureVal>
+  </Function>
+  <Function ID="36" Type="Scene" Name="lavender M40 L0100 UV38 F300">
+   <Speed FadeIn="300" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,180,3,0,4,0,5,40,6,54,7,39,8,76,9,0,10,38,11,0,12,76,13,0,14,54,15,39,16,76,17,38</FixtureVal>
+  </Function>
+  <Function ID="37" Type="Scene" Name="lavender M71 L0101 UV66 W150 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,71,6,54,7,39,8,76,9,150,10,38,11,0,12,76,13,0,14,54,15,39,16,76,17,66</FixtureVal>
+  </Function>
+  <Function ID="38" Type="Scene" Name="champagne M68 L1100 UV64 W67 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,68,6,76,7,66,8,51,9,67,10,0,11,30,12,76,13,0,14,76,15,66,16,51,17,64</FixtureVal>
+  </Function>
+  <Function ID="39" Type="Scene" Name="purple M59 L0011 UV55 W165 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,59,6,38,7,0,8,76,9,165,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,55</FixtureVal>
+  </Function>
+  <Function ID="40" Type="Scene" Name="electric_blue M20 L0100 UV19 F300">
+   <Speed FadeIn="300" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,180,3,0,4,0,5,20,6,0,7,30,8,76,9,0,10,76,11,66,12,51,13,0,14,0,15,30,16,76,17,19</FixtureVal>
+  </Function>
+  <Function ID="41" Type="Scene" Name="purple M23 L0001 UV22 F300">
+   <Speed FadeIn="300" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,180,5,23,6,38,7,0,8,76,9,0,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,22</FixtureVal>
+  </Function>
+  <Function ID="42" Type="Scene" Name="purple M55 L1100 UV52 W103 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,55,6,38,7,0,8,76,9,103,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,52</FixtureVal>
+  </Function>
+  <Function ID="43" Type="Scene" Name="purple M69 L0011 UV65 W152 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,69,6,38,7,0,8,76,9,152,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,65</FixtureVal>
+  </Function>
+  <Function ID="44" Type="Scene" Name="lavender M63 L1010 UV60 W78 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,0,3,200,4,0,5,63,6,54,7,39,8,76,9,78,10,38,11,0,12,76,13,0,14,54,15,39,16,76,17,60</FixtureVal>
+  </Function>
+  <Function ID="45" Type="Scene" Name="lavender M80 L0101 UV75 W157 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,80,6,59,7,42,8,83,9,157,10,42,11,0,12,83,13,0,14,59,15,42,16,83,17,75</FixtureVal>
+  </Function>
+  <Function ID="46" Type="Scene" Name="purple M67 L1100 UV63 W75 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,67,6,38,7,0,8,76,9,75,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,63</FixtureVal>
+  </Function>
+  <Function ID="47" Type="Scene" Name="champagne M78 L0011 UV74 W139 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,78,6,82,7,71,8,55,9,139,10,0,11,32,12,82,13,0,14,82,15,71,16,55,17,74</FixtureVal>
+  </Function>
+  <Function ID="48" Type="Scene" Name="lavender M63 L1010 UV59 W91 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,0,3,200,4,0,5,63,6,54,7,39,8,76,9,91,10,38,11,0,12,76,13,0,14,54,15,39,16,76,17,59</FixtureVal>
+  </Function>
+  <Function ID="49" Type="Scene" Name="electric_blue M93 L0101 UV87 W132 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,93,6,0,7,37,8,96,9,132,10,96,11,84,12,65,13,0,14,0,15,37,16,96,17,87</FixtureVal>
+  </Function>
+  <Function ID="50" Type="Scene" Name="purple M69 L1100 UV64 W89 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,69,6,38,7,0,8,76,9,89,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,64</FixtureVal>
+  </Function>
+  <Function ID="51" Type="Scene" Name="purple M73 L0011 UV69 W158 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,73,6,38,7,0,8,76,9,158,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,69</FixtureVal>
+  </Function>
+  <Function ID="52" Type="Scene" Name="lavender M66 L0100 UV62 F300">
+   <Speed FadeIn="300" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,180,3,0,4,0,5,66,6,54,7,39,8,76,9,0,10,38,11,0,12,76,13,0,14,54,15,39,16,76,17,62</FixtureVal>
+  </Function>
+  <Function ID="53" Type="Scene" Name="lavender M83 L0101 UV78 W149 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,83,6,61,7,44,8,87,9,149,10,43,11,0,12,87,13,0,14,61,15,44,16,87,17,78</FixtureVal>
+  </Function>
+  <Function ID="54" Type="Scene" Name="champagne M81 L1100 UV76 W57 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,81,6,84,7,73,8,57,9,57,10,0,11,33,12,84,13,0,14,84,15,73,16,57,17,76</FixtureVal>
+  </Function>
+  <Function ID="55" Type="Scene" Name="purple M80 L0011 UV76 W149 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,80,6,42,7,0,8,84,9,149,10,59,11,42,12,84,13,0,14,42,15,0,16,84,17,76</FixtureVal>
+  </Function>
+  <Function ID="56" Type="Scene" Name="lavender M68 L1010 UV64 W85 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,0,3,200,4,0,5,68,6,54,7,39,8,76,9,85,10,38,11,0,12,76,13,0,14,54,15,39,16,76,17,64</FixtureVal>
+  </Function>
+  <Function ID="57" Type="Scene" Name="electric_blue M93 L0101 UV87 W140 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,93,6,0,7,38,8,96,9,140,10,96,11,84,12,65,13,0,14,0,15,38,16,96,17,87</FixtureVal>
+  </Function>
+  <Function ID="58" Type="Scene" Name="purple M77 L1100 UV73 W76 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,77,6,40,7,0,8,81,9,76,10,57,11,41,12,81,13,0,14,40,15,0,16,81,17,73</FixtureVal>
+  </Function>
+  <Function ID="59" Type="Scene" Name="purple M74 L0011 UV69 W151 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,74,6,38,7,0,8,77,9,151,10,54,11,39,12,77,13,0,14,38,15,0,16,77,17,69</FixtureVal>
+  </Function>
+  <Function ID="60" Type="Scene" Name="lavender M67 L1010 UV63 W82 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,0,3,200,4,0,5,67,6,54,7,39,8,76,9,82,10,38,11,0,12,76,13,0,14,54,15,39,16,76,17,63</FixtureVal>
+  </Function>
+  <Function ID="61" Type="Scene" Name="lavender M78 L0101 UV73 W150 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,78,6,57,7,41,8,82,9,150,10,41,11,0,12,82,13,0,14,57,15,41,16,82,17,73</FixtureVal>
+  </Function>
+  <Function ID="62" Type="Scene" Name="purple M66 L1100 UV62 W103 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,66,6,38,7,0,8,76,9,103,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,62</FixtureVal>
+  </Function>
+  <Function ID="63" Type="Scene" Name="purple M88 L0011 UV82 W147 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,88,6,46,7,0,8,91,9,147,10,64,11,46,12,91,13,0,14,46,15,0,16,91,17,82</FixtureVal>
+  </Function>
+  <Function ID="64" Type="Scene" Name="lavender M60 L1010 UV56 W84 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,0,3,200,4,0,5,60,6,54,7,39,8,76,9,84,10,38,11,0,12,76,13,0,14,54,15,39,16,76,17,56</FixtureVal>
+  </Function>
+  <Function ID="65" Type="Scene" Name="electric_blue M83 L0101 UV78 W146 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,83,6,0,7,34,8,87,9,146,10,87,11,75,12,59,13,0,14,0,15,34,16,87,17,78</FixtureVal>
+  </Function>
+  <Function ID="66" Type="Scene" Name="purple M71 L1100 UV67 W90 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,71,6,38,7,0,8,76,9,90,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,67</FixtureVal>
+  </Function>
+  <Function ID="67" Type="Scene" Name="purple M59 L0011 UV56 W165 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,59,6,38,7,0,8,76,9,165,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,56</FixtureVal>
+  </Function>
+  <Function ID="68" Type="Scene" Name="lavender M42 L0100 UV39 F300">
+   <Speed FadeIn="300" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,180,3,0,4,0,5,42,6,54,7,39,8,76,9,0,10,38,11,0,12,76,13,0,14,54,15,39,16,76,17,39</FixtureVal>
+  </Function>
+  <Function ID="69" Type="Scene" Name="lavender M77 L0101 UV72 W155 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,77,6,56,7,41,8,80,9,155,10,40,11,0,12,80,13,0,14,56,15,41,16,80,17,72</FixtureVal>
+  </Function>
+  <Function ID="70" Type="Scene" Name="purple M69 L1100 UV65 W90 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,69,6,38,7,0,8,76,9,90,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,65</FixtureVal>
+  </Function>
+  <Function ID="71" Type="Scene" Name="purple M64 L0011 UV60 W162 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,64,6,38,7,0,8,76,9,162,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,60</FixtureVal>
+  </Function>
+  <Function ID="72" Type="Scene" Name="lavender M69 L1010 UV64 W98 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,0,3,200,4,0,5,69,6,54,7,39,8,76,9,98,10,38,11,0,12,76,13,0,14,54,15,39,16,76,17,64</FixtureVal>
+  </Function>
+  <Function ID="73" Type="Scene" Name="lavender M92 L0101 UV87 W158 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,92,6,68,7,49,8,96,9,158,10,48,11,0,12,96,13,0,14,68,15,49,16,96,17,87</FixtureVal>
+  </Function>
+  <Function ID="74" Type="Scene" Name="champagne M88 L1100 UV82 W63 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,88,6,91,7,79,8,62,9,63,10,0,11,35,12,91,13,0,14,91,15,79,16,62,17,82</FixtureVal>
+  </Function>
+  <Function ID="75" Type="Scene" Name="champagne M89 L1100 UV84 W141 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,89,6,93,7,81,8,63,9,141,10,0,11,36,12,93,13,0,14,93,15,81,16,63,17,84</FixtureVal>
+  </Function>
+  <Function ID="76" Type="Scene" Name="lavender M43 L0100 UV40 F300">
+   <Speed FadeIn="300" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,180,3,0,4,0,5,43,6,54,7,39,8,76,9,0,10,38,11,0,12,76,13,0,14,54,15,39,16,76,17,40</FixtureVal>
+  </Function>
+  <Function ID="77" Type="Scene" Name="lavender M84 L0101 UV79 W147 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,84,6,62,7,45,8,88,9,147,10,44,11,0,12,88,13,0,14,62,15,45,16,88,17,79</FixtureVal>
+  </Function>
+  <Function ID="78" Type="Scene" Name="purple M71 L1100 UV67 W101 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,71,6,38,7,0,8,76,9,101,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,67</FixtureVal>
+  </Function>
+  <Function ID="79" Type="Scene" Name="champagne M91 L0011 UV85 W132 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,91,6,95,7,82,8,64,9,132,10,0,11,37,12,95,13,0,14,95,15,82,16,64,17,85</FixtureVal>
+  </Function>
+  <Function ID="80" Type="Scene" Name="electric_blue M45 L0100 UV43 F300">
+   <Speed FadeIn="300" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,180,3,0,4,0,5,45,6,0,7,30,8,76,9,0,10,76,11,66,12,51,13,0,14,0,15,30,16,76,17,43</FixtureVal>
+  </Function>
+  <Function ID="81" Type="Scene" Name="lavender M95 L0101 UV89 W147 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,95,6,70,7,50,8,99,9,147,10,49,11,0,12,99,13,0,14,70,15,50,16,99,17,89</FixtureVal>
+  </Function>
+  <Function ID="82" Type="Scene" Name="purple M88 L1100 UV83 W76 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,88,6,46,7,0,8,92,9,76,10,65,11,47,12,92,13,0,14,46,15,0,16,92,17,83</FixtureVal>
+  </Function>
+  <Function ID="83" Type="Scene" Name="purple M64 L0011 UV60 W158 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,64,6,38,7,0,8,76,9,158,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,60</FixtureVal>
+  </Function>
+  <Function ID="84" Type="Scene" Name="lavender M81 L0101 UV76 W158 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,81,6,59,7,43,8,84,9,158,10,42,11,0,12,84,13,0,14,59,15,43,16,84,17,76</FixtureVal>
+  </Function>
+  <Function ID="85" Type="Scene" Name="purple M89 L1100 UV84 W77 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,89,6,46,7,0,8,93,9,77,10,65,11,47,12,93,13,0,14,46,15,0,16,93,17,84</FixtureVal>
+  </Function>
+  <Function ID="86" Type="Scene" Name="purple M65 L0011 UV61 W158 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,65,6,38,7,0,8,76,9,158,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,61</FixtureVal>
+  </Function>
+  <Function ID="87" Type="Scene" Name="lavender M77 L1010 UV73 W112 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,0,3,200,4,0,5,77,6,57,7,41,8,80,9,112,10,40,11,0,12,80,13,0,14,57,15,41,16,80,17,73</FixtureVal>
+  </Function>
+  <Function ID="88" Type="Scene" Name="lavender M93 L0101 UV87 W170 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,93,6,68,7,49,8,97,9,170,10,48,11,0,12,97,13,0,14,68,15,49,16,97,17,87</FixtureVal>
+  </Function>
+  <Function ID="89" Type="Scene" Name="purple M79 L1100 UV74 W94 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,79,6,41,7,0,8,82,9,94,10,58,11,42,12,82,13,0,14,41,15,0,16,82,17,74</FixtureVal>
+  </Function>
+  <Function ID="90" Type="Scene" Name="electric_blue M72 L1100 UV67 W220 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,72,6,0,7,30,8,76,9,220,10,76,11,66,12,51,13,0,14,0,15,30,16,76,17,67</FixtureVal>
+  </Function>
+  <Function ID="91" Type="Scene" Name="lavender M80 L0101 UV75 W154 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,80,6,59,7,42,8,83,9,154,10,42,11,0,12,83,13,0,14,59,15,42,16,83,17,75</FixtureVal>
+  </Function>
+  <Function ID="92" Type="Scene" Name="purple M94 L1100 UV88 W87 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,94,6,49,7,0,8,98,9,87,10,69,11,50,12,98,13,0,14,49,15,0,16,98,17,88</FixtureVal>
+  </Function>
+  <Function ID="93" Type="Scene" Name="purple M88 L0011 UV83 W147 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,88,6,46,7,0,8,92,9,147,10,65,11,47,12,92,13,0,14,46,15,0,16,92,17,83</FixtureVal>
+  </Function>
+  <Function ID="94" Type="Scene" Name="lavender M51 L0100 UV48 F300">
+   <Speed FadeIn="300" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,180,3,0,4,0,5,51,6,54,7,39,8,76,9,0,10,38,11,0,12,76,13,0,14,54,15,39,16,76,17,48</FixtureVal>
+  </Function>
+  <Function ID="95" Type="Scene" Name="electric_blue M93 L0101 UV88 W141 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,93,6,0,7,38,8,97,9,141,10,97,11,85,12,66,13,0,14,0,15,38,16,97,17,88</FixtureVal>
+  </Function>
+  <Function ID="96" Type="Scene" Name="champagne M91 L1100 UV86 W68 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,91,6,95,7,83,8,64,9,68,10,0,11,37,12,95,13,0,14,95,15,83,16,64,17,86</FixtureVal>
+  </Function>
+  <Function ID="97" Type="Scene" Name="purple M70 L0011 UV65 W168 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,70,6,38,7,0,8,76,9,168,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,65</FixtureVal>
+  </Function>
+  <Function ID="98" Type="Scene" Name="champagne M68 L0100 UV64 F300">
+   <Speed FadeIn="300" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,180,3,0,4,0,5,68,6,76,7,66,8,51,9,0,10,0,11,30,12,76,13,0,14,76,15,66,16,51,17,64</FixtureVal>
+  </Function>
+  <Function ID="99" Type="Scene" Name="lavender M112 L1110 UV105 W152">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,220,3,220,4,0,5,112,6,82,7,59,8,117,9,152,10,58,11,0,12,117,13,0,14,82,15,59,16,117,17,105</FixtureVal>
+  </Function>
+  <Function ID="100" Type="Scene" Name="purple M124 L1101 UV116 W82">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,220,3,0,4,220,5,124,6,65,7,0,8,129,9,82,10,91,11,66,12,129,13,0,14,65,15,0,16,129,17,116</FixtureVal>
+  </Function>
+  <Function ID="101" Type="Scene" Name="champagne M109 L1011 UV103 W77">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,0,3,220,4,220,5,109,6,114,7,99,8,77,9,77,10,0,11,44,12,114,13,0,14,114,15,99,16,77,17,103</FixtureVal>
+  </Function>
+  <Function ID="102" Type="Scene" Name="lavender M130 L1111 UV122 W117">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,130,6,96,7,69,8,136,9,117,10,68,11,0,12,136,13,0,14,96,15,69,16,136,17,122</FixtureVal>
+  </Function>
+  <Function ID="103" Type="Scene" Name="white M195 L1101 UV183 W136">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,220,3,0,4,220,5,195,6,203,7,203,8,203,9,136,10,203,11,0,12,203,13,0,14,203,15,203,16,203,17,183</FixtureVal>
+  </Function>
+  <Function ID="104" Type="Scene" Name="hot_pink M188 L1111 UV176 S150 W134">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,188,6,195,7,15,8,112,9,134,10,195,11,165,12,0,13,150,14,195,15,15,16,112,17,176</FixtureVal>
+  </Function>
+  <Function ID="105" Type="Scene" Name="white M193 L1111 UV181 W110">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,193,6,201,7,201,8,201,9,110,10,201,11,0,12,201,13,0,14,201,15,201,16,201,17,181</FixtureVal>
+  </Function>
+  <Function ID="106" Type="Scene" Name="gold M206 L1111 UV193 W115">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,206,6,214,7,180,8,0,9,115,10,214,11,16,12,123,13,0,14,214,15,180,16,0,17,193</FixtureVal>
+  </Function>
+  <Function ID="107" Type="Scene" Name="magenta M192 L1111 UV180 W77">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,192,6,200,7,0,8,200,9,77,10,200,11,200,12,200,13,0,14,200,15,0,16,200,17,180</FixtureVal>
+  </Function>
+  <Function ID="108" Type="Scene" Name="hot_pink M217 L1111 UV203 W117">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,217,6,225,7,17,8,130,9,117,10,225,11,190,12,0,13,0,14,225,15,17,16,130,17,203</FixtureVal>
+  </Function>
+  <Function ID="109" Type="Scene" Name="white M189 L1111 UV178 W95">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,189,6,197,7,197,8,197,9,95,10,197,11,0,12,197,13,0,14,197,15,197,16,197,17,178</FixtureVal>
+  </Function>
+  <Function ID="110" Type="Scene" Name="gold M195 L1111 UV183 W113">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,195,6,203,7,171,8,0,9,113,10,203,11,15,12,117,13,0,14,203,15,171,16,0,17,183</FixtureVal>
+  </Function>
+  <Function ID="111" Type="Scene" Name="magenta M181 L1111 UV170 S150 W102">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,181,6,189,7,0,8,189,9,102,10,189,11,189,12,189,13,150,14,189,15,0,16,189,17,170</FixtureVal>
+  </Function>
+  <Function ID="112" Type="Scene" Name="hot_pink M194 L1111 UV182 S150 W129">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,194,6,202,7,15,8,116,9,129,10,202,11,170,12,0,13,150,14,202,15,15,16,116,17,182</FixtureVal>
+  </Function>
+  <Function ID="113" Type="Scene" Name="white M185 L1111 UV174 W100">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,185,6,193,7,193,8,193,9,100,10,193,11,0,12,193,13,0,14,193,15,193,16,193,17,174</FixtureVal>
+  </Function>
+  <Function ID="114" Type="Scene" Name="gold M176 L1111 UV165 W136">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,176,6,183,7,155,8,0,9,136,10,183,11,14,12,105,13,0,14,183,15,155,16,0,17,165</FixtureVal>
+  </Function>
+  <Function ID="115" Type="Scene" Name="hot_pink M184 L1111 UV173 W62">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,184,6,192,7,15,8,110,9,62,10,192,11,162,12,0,13,0,14,192,15,15,16,110,17,173</FixtureVal>
+  </Function>
+  <Function ID="116" Type="Scene" Name="hot_pink M212 L1111 UV199 W115">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,212,6,221,7,17,8,127,9,115,10,221,11,186,12,0,13,0,14,221,15,17,16,127,17,199</FixtureVal>
+  </Function>
+  <Function ID="117" Type="Scene" Name="white M180 L1111 UV169 W103">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,180,6,188,7,188,8,188,9,103,10,188,11,0,12,188,13,0,14,188,15,188,16,188,17,169</FixtureVal>
+  </Function>
+  <Function ID="118" Type="Scene" Name="gold M194 L1111 UV182 W121">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,194,6,202,7,170,8,0,9,121,10,202,11,15,12,116,13,0,14,202,15,170,16,0,17,182</FixtureVal>
+  </Function>
+  <Function ID="119" Type="Scene" Name="magenta M174 L1111 UV163 S150 W103">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,174,6,181,7,0,8,181,9,103,10,181,11,181,12,181,13,150,14,181,15,0,16,181,17,163</FixtureVal>
+  </Function>
+  <Function ID="120" Type="Scene" Name="hot_pink M189 L1111 UV177 S150 W134">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,189,6,196,7,15,8,113,9,134,10,196,11,165,12,0,13,150,14,196,15,15,16,113,17,177</FixtureVal>
+  </Function>
+  <Function ID="121" Type="Scene" Name="white M176 L1111 UV165 W101">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,176,6,183,7,183,8,183,9,101,10,183,11,0,12,183,13,0,14,183,15,183,16,183,17,165</FixtureVal>
+  </Function>
+  <Function ID="122" Type="Scene" Name="gold M198 L1111 UV186 W122">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,198,6,206,7,174,8,0,9,122,10,206,11,16,12,119,13,0,14,206,15,174,16,0,17,186</FixtureVal>
+  </Function>
+  <Function ID="123" Type="Scene" Name="magenta M196 L1111 UV184 W78">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,196,6,204,7,0,8,204,9,78,10,204,11,204,12,204,13,0,14,204,15,0,16,204,17,184</FixtureVal>
+  </Function>
+  <Function ID="124" Type="Scene" Name="hot_pink M211 L1111 UV198 W123">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,211,6,220,7,17,8,126,9,123,10,220,11,185,12,0,13,0,14,220,15,17,16,126,17,198</FixtureVal>
+  </Function>
+  <Function ID="125" Type="Scene" Name="gold M198 L1111 UV186 W72">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,198,6,206,7,174,8,0,9,72,10,206,11,16,12,119,13,0,14,206,15,174,16,0,17,186</FixtureVal>
+  </Function>
+  <Function ID="126" Type="Scene" Name="gold M191 L1111 UV179 W130">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,191,6,199,7,167,8,0,9,130,10,199,11,15,12,114,13,0,14,199,15,167,16,0,17,179</FixtureVal>
+  </Function>
+  <Function ID="127" Type="Scene" Name="magenta M200 L1111 UV188 S150 W86">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,200,6,208,7,0,8,208,9,86,10,208,11,208,12,208,13,150,14,208,15,0,16,208,17,188</FixtureVal>
+  </Function>
+  <Function ID="128" Type="Scene" Name="hot_pink M190 L1111 UV179 S150 W121">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,190,6,198,7,15,8,114,9,121,10,198,11,167,12,0,13,150,14,198,15,15,16,114,17,179</FixtureVal>
+  </Function>
+  <Function ID="129" Type="Scene" Name="white M190 L1111 UV179 W74">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,190,6,198,7,198,8,198,9,74,10,198,11,0,12,198,13,0,14,198,15,198,16,198,17,179</FixtureVal>
+  </Function>
+  <Function ID="130" Type="Scene" Name="gold M186 L1111 UV174 W130">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,186,6,193,7,163,8,0,9,130,10,193,11,15,12,111,13,0,14,193,15,163,16,0,17,174</FixtureVal>
+  </Function>
+  <Function ID="131" Type="Scene" Name="magenta M197 L1111 UV185 W82">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,197,6,206,7,0,8,206,9,82,10,206,11,206,12,206,13,0,14,206,15,0,16,206,17,185</FixtureVal>
+  </Function>
+  <Function ID="132" Type="Scene" Name="hot_pink M205 L1111 UV193 W116">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,205,6,214,7,16,8,123,9,116,10,214,11,180,12,0,13,0,14,214,15,16,16,123,17,193</FixtureVal>
+  </Function>
+  <Function ID="133" Type="Scene" Name="white M190 L1111 UV178 W75">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,190,6,198,7,198,8,198,9,75,10,198,11,0,12,198,13,0,14,198,15,198,16,198,17,178</FixtureVal>
+  </Function>
+  <Function ID="134" Type="Scene" Name="gold M182 L1111 UV171 W127">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,182,6,189,7,160,8,0,9,127,10,189,11,14,12,109,13,0,14,189,15,160,16,0,17,171</FixtureVal>
+  </Function>
+  <Function ID="135" Type="Scene" Name="hot_pink M192 L1111 UV181 S150 W132">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,192,6,200,7,15,8,115,9,132,10,200,11,169,12,0,13,150,14,200,15,15,16,115,17,181</FixtureVal>
+  </Function>
+  <Function ID="136" Type="Scene" Name="white M190 L1111 UV178 W89">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,190,6,198,7,198,8,198,9,89,10,198,11,0,12,198,13,0,14,198,15,198,16,198,17,178</FixtureVal>
+  </Function>
+  <Function ID="137" Type="Scene" Name="gold M199 L1111 UV187 W116">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,199,6,207,7,174,8,0,9,116,10,207,11,16,12,119,13,0,14,207,15,174,16,0,17,187</FixtureVal>
+  </Function>
+  <Function ID="138" Type="Scene" Name="magenta M191 L1111 UV179 W113">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,191,6,199,7,0,8,199,9,113,10,199,11,199,12,199,13,0,14,199,15,0,16,199,17,179</FixtureVal>
+  </Function>
+  <Function ID="139" Type="Scene" Name="hot_pink M217 L1111 UV204 W117">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,217,6,226,7,17,8,130,9,117,10,226,11,191,12,0,13,0,14,226,15,17,16,130,17,204</FixtureVal>
+  </Function>
+  <Function ID="140" Type="Scene" Name="white M184 L1111 UV173 W96">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,184,6,192,7,192,8,192,9,96,10,192,11,0,12,192,13,0,14,192,15,192,16,192,17,173</FixtureVal>
+  </Function>
+  <Function ID="141" Type="Scene" Name="gold M199 L1111 UV187 W123">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,199,6,207,7,175,8,0,9,123,10,207,11,16,12,119,13,0,14,207,15,175,16,0,17,187</FixtureVal>
+  </Function>
+  <Function ID="142" Type="Scene" Name="magenta M178 L1111 UV167 S150 W95">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,178,6,185,7,0,8,185,9,95,10,185,11,185,12,185,13,150,14,185,15,0,16,185,17,167</FixtureVal>
+  </Function>
+  <Function ID="143" Type="Scene" Name="hot_pink M190 L1111 UV179 S150 W131">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,190,6,198,7,15,8,114,9,131,10,198,11,167,12,0,13,150,14,198,15,15,16,114,17,179</FixtureVal>
+  </Function>
+  <Function ID="144" Type="Scene" Name="white M184 L1111 UV172 W97">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,184,6,191,7,191,8,191,9,97,10,191,11,0,12,191,13,0,14,191,15,191,16,191,17,172</FixtureVal>
+  </Function>
+  <Function ID="145" Type="Scene" Name="gold M195 L1111 UV183 W119">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,195,6,203,7,171,8,0,9,119,10,203,11,15,12,117,13,0,14,203,15,171,16,0,17,183</FixtureVal>
+  </Function>
+  <Function ID="146" Type="Scene" Name="magenta M191 L1111 UV180 W74">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,191,6,199,7,0,8,199,9,74,10,199,11,199,12,199,13,0,14,199,15,0,16,199,17,180</FixtureVal>
+  </Function>
+  <Function ID="147" Type="Scene" Name="hot_pink M213 L1111 UV200 W123">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,213,6,221,7,17,8,127,9,123,10,221,11,187,12,0,13,0,14,221,15,17,16,127,17,200</FixtureVal>
+  </Function>
+  <Function ID="148" Type="Scene" Name="white M186 L1111 UV174 W102">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,186,6,193,7,193,8,193,9,102,10,193,11,0,12,193,13,0,14,193,15,193,16,193,17,174</FixtureVal>
+  </Function>
+  <Function ID="149" Type="Scene" Name="gold M195 L1111 UV183 W126">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,195,6,203,7,171,8,0,9,126,10,203,11,15,12,117,13,0,14,203,15,171,16,0,17,183</FixtureVal>
+  </Function>
+  <Function ID="150" Type="Scene" Name="magenta M197 L1111 UV185 S150 W93">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,197,6,205,7,0,8,205,9,93,10,205,11,205,12,205,13,150,14,205,15,0,16,205,17,185</FixtureVal>
+  </Function>
+  <Function ID="151" Type="Scene" Name="hot_pink M198 L1111 UV186 S150 W134">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,198,6,206,7,16,8,119,9,134,10,206,11,174,12,0,13,150,14,206,15,16,16,119,17,186</FixtureVal>
+  </Function>
+  <Function ID="152" Type="Scene" Name="white M194 L1111 UV182 W146">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,194,6,201,7,201,8,201,9,146,10,201,11,0,12,201,13,0,14,201,15,201,16,201,17,182</FixtureVal>
+  </Function>
+  <Function ID="153" Type="Scene" Name="gold M201 L1111 UV189 W118">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,201,6,209,7,176,8,0,9,118,10,209,11,16,12,120,13,0,14,209,15,176,16,0,17,189</FixtureVal>
+  </Function>
+  <Function ID="154" Type="Scene" Name="magenta M192 L1111 UV180 W122">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,192,6,200,7,0,8,200,9,122,10,200,11,200,12,200,13,0,14,200,15,0,16,200,17,180</FixtureVal>
+  </Function>
+  <Function ID="155" Type="Scene" Name="hot_pink M205 L1111 UV192 W131">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,205,6,213,7,16,8,123,9,131,10,213,11,179,12,0,13,0,14,213,15,16,16,123,17,192</FixtureVal>
+  </Function>
+  <Function ID="156" Type="Scene" Name="white M193 L1111 UV181 W89">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,193,6,200,7,200,8,200,9,89,10,200,11,0,12,200,13,0,14,200,15,200,16,200,17,181</FixtureVal>
+  </Function>
+  <Function ID="157" Type="Scene" Name="gold M187 L1111 UV176 W133">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,187,6,195,7,164,8,0,9,133,10,195,11,15,12,112,13,0,14,195,15,164,16,0,17,176</FixtureVal>
+  </Function>
+  <Function ID="158" Type="Scene" Name="magenta M188 L1111 UV177 S150 W97">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,188,6,196,7,0,8,196,9,97,10,196,11,196,12,196,13,150,14,196,15,0,16,196,17,177</FixtureVal>
+  </Function>
+  <Function ID="159" Type="Scene" Name="hot_pink M192 L1111 UV180 S150 W122">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,192,6,199,7,15,8,115,9,122,10,199,11,168,12,0,13,150,14,199,15,15,16,115,17,180</FixtureVal>
+  </Function>
+  <Function ID="160" Type="Scene" Name="white M185 L1111 UV174 W86">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,185,6,193,7,193,8,193,9,86,10,193,11,0,12,193,13,0,14,193,15,193,16,193,17,174</FixtureVal>
+  </Function>
+  <Function ID="161" Type="Scene" Name="gold M178 L1111 UV167 W136">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,178,6,186,7,156,8,0,9,136,10,186,11,14,12,107,13,0,14,186,15,156,16,0,17,167</FixtureVal>
+  </Function>
+  <Function ID="162" Type="Scene" Name="magenta M189 L1111 UV178 W96">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,189,6,197,7,0,8,197,9,96,10,197,11,197,12,197,13,0,14,197,15,0,16,197,17,178</FixtureVal>
+  </Function>
+  <Function ID="163" Type="Scene" Name="white M186 L1111 UV175 W87">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,186,6,194,7,194,8,194,9,87,10,194,11,0,12,194,13,0,14,194,15,194,16,194,17,175</FixtureVal>
+  </Function>
+  <Function ID="164" Type="Scene" Name="gold M194 L1111 UV182 W120">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,194,6,202,7,170,8,0,9,120,10,202,11,15,12,116,13,0,14,202,15,170,16,0,17,182</FixtureVal>
+  </Function>
+  <Function ID="165" Type="Scene" Name="hot_pink M143 L1011 UV134 W140">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,0,3,220,4,220,5,143,6,149,7,11,8,86,9,140,10,149,11,74,12,46,13,0,14,149,15,11,16,86,17,134</FixtureVal>
+  </Function>
+  <Function ID="166" Type="Scene" Name="rose M139 L0111 UV131 W91">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,220,3,220,4,220,5,139,6,145,7,46,8,74,9,91,10,145,11,145,12,145,13,0,14,145,15,46,16,74,17,131</FixtureVal>
+  </Function>
+  <Function ID="167" Type="Scene" Name="coral M177 L1111 UV166 W129">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,177,6,184,7,91,8,57,9,129,10,184,11,14,12,106,13,0,14,184,15,91,16,57,17,166</FixtureVal>
+  </Function>
+  <Function ID="168" Type="Scene" Name="white M143 L1101 UV134 W87">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,220,3,0,4,220,5,143,6,149,7,149,8,149,9,87,10,149,11,47,12,76,13,0,14,149,15,149,16,149,17,134</FixtureVal>
+  </Function>
+  <Function ID="169" Type="Scene" Name="hot_pink M155 L1111 UV146 W122">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,155,6,162,7,12,8,93,9,122,10,162,11,80,12,50,13,0,14,162,15,12,16,93,17,146</FixtureVal>
+  </Function>
+  <Function ID="170" Type="Scene" Name="rose M140 L0111 UV131 W81">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,220,3,220,4,220,5,140,6,145,7,46,8,74,9,81,10,145,11,145,12,145,13,0,14,145,15,46,16,74,17,131</FixtureVal>
+  </Function>
+  <Function ID="171" Type="Scene" Name="coral M171 L1111 UV160 W126">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,171,6,178,7,88,8,55,9,126,10,178,11,13,12,102,13,0,14,178,15,88,16,55,17,160</FixtureVal>
+  </Function>
+  <Function ID="172" Type="Scene" Name="hot_pink M146 L1101 UV137 W69">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,220,3,0,4,220,5,146,6,152,7,11,8,87,9,69,10,152,11,75,12,47,13,0,14,152,15,11,16,87,17,137</FixtureVal>
+  </Function>
+  <Function ID="173" Type="Scene" Name="hot_pink M145 L1011 UV136 W127">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,0,3,220,4,220,5,145,6,151,7,11,8,87,9,127,10,151,11,75,12,47,13,0,14,151,15,11,16,87,17,136</FixtureVal>
+  </Function>
+  <Function ID="174" Type="Scene" Name="rose M135 L0111 UV127 W112">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,220,3,220,4,220,5,135,6,141,7,45,8,72,9,112,10,141,11,141,12,141,13,0,14,141,15,45,16,72,17,127</FixtureVal>
+  </Function>
+  <Function ID="175" Type="Scene" Name="coral M171 L1111 UV161 W132">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,171,6,178,7,89,8,56,9,132,10,178,11,14,12,103,13,0,14,178,15,89,16,56,17,161</FixtureVal>
+  </Function>
+  <Function ID="176" Type="Scene" Name="white M140 L1101 UV131 W98">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,220,3,0,4,220,5,140,6,146,7,146,8,146,9,98,10,146,11,46,12,75,13,0,14,146,15,146,16,146,17,131</FixtureVal>
+  </Function>
+  <Function ID="177" Type="Scene" Name="hot_pink M157 L1111 UV147 W124">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,157,6,163,7,12,8,94,9,124,10,163,11,81,12,51,13,0,14,163,15,12,16,94,17,147</FixtureVal>
+  </Function>
+  <Function ID="178" Type="Scene" Name="coral M145 L0111 UV136 W67">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,220,3,220,4,220,5,145,6,151,7,75,8,47,9,67,10,151,11,11,12,87,13,0,14,151,15,75,16,47,17,136</FixtureVal>
+  </Function>
+  <Function ID="179" Type="Scene" Name="coral M173 L1111 UV163 W128">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,173,6,180,7,90,8,56,9,128,10,180,11,14,12,104,13,0,14,180,15,90,16,56,17,163</FixtureVal>
+  </Function>
+  <Function ID="180" Type="Scene" Name="hot_pink M143 L1101 UV134 W64">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,220,3,0,4,220,5,143,6,149,7,11,8,86,9,64,10,149,11,74,12,46,13,0,14,149,15,11,16,86,17,134</FixtureVal>
+  </Function>
+  <Function ID="181" Type="Scene" Name="hot_pink M137 L1011 UV129 W131">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,0,3,220,4,220,5,137,6,143,7,11,8,82,9,131,10,143,11,71,12,44,13,0,14,143,15,11,16,82,17,129</FixtureVal>
+  </Function>
+  <Function ID="182" Type="Scene" Name="coral M141 L0111 UV133 W60">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,220,3,220,4,220,5,141,6,147,7,73,8,46,9,60,10,147,11,11,12,85,13,0,14,147,15,73,16,46,17,133</FixtureVal>
+  </Function>
+  <Function ID="183" Type="Scene" Name="coral M178 L1111 UV167 W130">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,178,6,185,7,92,8,58,9,130,10,185,11,14,12,107,13,0,14,185,15,92,16,58,17,167</FixtureVal>
+  </Function>
+  <Function ID="184" Type="Scene" Name="hot_pink M146 L1101 UV137 W67">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,220,3,0,4,220,5,146,6,152,7,11,8,87,9,67,10,152,11,75,12,47,13,0,14,152,15,11,16,87,17,137</FixtureVal>
+  </Function>
+  <Function ID="185" Type="Scene" Name="hot_pink M150 L1111 UV141 W128">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,150,6,157,7,12,8,90,9,128,10,157,11,78,12,49,13,0,14,157,15,12,16,90,17,141</FixtureVal>
+  </Function>
+  <Function ID="186" Type="Scene" Name="coral M144 L0111 UV135 W67">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,220,3,220,4,220,5,144,6,150,7,74,8,47,9,67,10,150,11,11,12,86,13,0,14,150,15,74,16,47,17,135</FixtureVal>
+  </Function>
+  <Function ID="187" Type="Scene" Name="coral M170 L1111 UV160 W131">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,170,6,177,7,88,8,55,9,131,10,177,11,13,12,102,13,0,14,177,15,88,16,55,17,160</FixtureVal>
+  </Function>
+  <Function ID="188" Type="Scene" Name="hot_pink M145 L1101 UV136 W65">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,220,3,0,4,220,5,145,6,151,7,11,8,87,9,65,10,151,11,75,12,47,13,0,14,151,15,11,16,87,17,136</FixtureVal>
+  </Function>
+  <Function ID="189" Type="Scene" Name="hot_pink M135 L1011 UV127 W125">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,0,3,220,4,220,5,135,6,140,7,11,8,81,9,125,10,140,11,70,12,44,13,0,14,140,15,11,16,81,17,127</FixtureVal>
+  </Function>
+  <Function ID="190" Type="Scene" Name="rose M140 L0111 UV131 W106">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,220,3,220,4,220,5,140,6,146,7,46,8,75,9,106,10,146,11,146,12,146,13,0,14,146,15,46,16,75,17,131</FixtureVal>
+  </Function>
+  <Function ID="191" Type="Scene" Name="coral M171 L1111 UV160 W134">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,171,6,178,7,88,8,55,9,134,10,178,11,13,12,102,13,0,14,178,15,88,16,55,17,160</FixtureVal>
+  </Function>
+  <Function ID="192" Type="Scene" Name="white M151 L1111 UV142 W78">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,151,6,158,7,158,8,158,9,78,10,158,11,50,12,81,13,0,14,158,15,158,16,158,17,142</FixtureVal>
+  </Function>
+  <Function ID="193" Type="Scene" Name="hot_pink M145 L1011 UV137 W134">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,0,3,220,4,220,5,145,6,151,7,11,8,87,9,134,10,151,11,75,12,47,13,0,14,151,15,11,16,87,17,137</FixtureVal>
+  </Function>
+  <Function ID="194" Type="Scene" Name="rose M125 L0111 UV117 W125">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,220,3,220,4,220,5,125,6,130,7,41,8,67,9,125,10,130,11,130,12,130,13,0,14,130,15,41,16,67,17,117</FixtureVal>
+  </Function>
+  <Function ID="195" Type="Scene" Name="coral M165 L1111 UV155 W121">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,165,6,171,7,85,8,53,9,121,10,171,11,13,12,99,13,0,14,171,15,85,16,53,17,155</FixtureVal>
+  </Function>
+  <Function ID="196" Type="Scene" Name="white M165 L1111 UV155 S150 W73">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,165,6,172,7,172,8,172,9,73,10,172,11,55,12,88,13,150,14,172,15,172,16,172,17,155</FixtureVal>
+  </Function>
+  <Function ID="197" Type="Scene" Name="rose M158 L1111 UV148 W76">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,158,6,165,7,53,8,84,9,76,10,165,11,165,12,165,13,0,14,165,15,53,16,84,17,148</FixtureVal>
+  </Function>
+  <Function ID="198" Type="Scene" Name="coral M180 L1111 UV169 W130">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,180,6,187,7,93,8,58,9,130,10,187,11,14,12,108,13,0,14,187,15,93,16,58,17,169</FixtureVal>
+  </Function>
+  <Function ID="199" Type="Scene" Name="white M163 L1111 UV153 W90">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,163,6,170,7,170,8,170,9,90,10,170,11,54,12,87,13,0,14,170,15,170,16,170,17,153</FixtureVal>
+  </Function>
+  <Function ID="200" Type="Scene" Name="hot_pink M170 L1111 UV159 W123">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,170,6,177,7,13,8,102,9,123,10,177,11,88,12,55,13,0,14,177,15,13,16,102,17,159</FixtureVal>
+  </Function>
+  <Function ID="201" Type="Scene" Name="coral M156 L1111 UV146 W58">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,156,6,162,7,81,8,51,9,58,10,162,11,12,12,93,13,0,14,162,15,81,16,51,17,146</FixtureVal>
+  </Function>
+  <Function ID="202" Type="Scene" Name="coral M185 L1111 UV174 W121">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,185,6,192,7,96,8,60,9,121,10,192,11,15,12,111,13,0,14,192,15,96,16,60,17,174</FixtureVal>
+  </Function>
+  <Function ID="203" Type="Scene" Name="hot_pink M162 L1111 UV152 S150 W65">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,162,6,169,7,13,8,97,9,65,10,169,11,84,12,53,13,150,14,169,15,13,16,97,17,152</FixtureVal>
+  </Function>
+  <Function ID="204" Type="Scene" Name="hot_pink M151 L1111 UV142 S150 W132">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,151,6,157,7,12,8,91,9,132,10,157,11,78,12,49,13,150,14,157,15,12,16,91,17,142</FixtureVal>
+  </Function>
+  <Function ID="205" Type="Scene" Name="rose M155 L1111 UV146 W85">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,155,6,162,7,52,8,83,9,85,10,162,11,162,12,162,13,0,14,162,15,52,16,83,17,146</FixtureVal>
+  </Function>
+  <Function ID="206" Type="Scene" Name="coral M187 L1111 UV175 W119">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,187,6,194,7,97,8,61,9,119,10,194,11,15,12,112,13,0,14,194,15,97,16,61,17,175</FixtureVal>
+  </Function>
+  <Function ID="207" Type="Scene" Name="hot_pink M168 L1111 UV158 W60">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,168,6,175,7,13,8,101,9,60,10,175,11,87,12,55,13,0,14,175,15,13,16,101,17,158</FixtureVal>
+  </Function>
+  <Function ID="208" Type="Scene" Name="hot_pink M162 L1111 UV152 W128">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,162,6,168,7,13,8,97,9,128,10,168,11,84,12,52,13,0,14,168,15,13,16,97,17,152</FixtureVal>
+  </Function>
+  <Function ID="209" Type="Scene" Name="rose M165 L1111 UV155 W94">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,165,6,172,7,55,8,88,9,94,10,172,11,172,12,172,13,0,14,172,15,55,16,88,17,155</FixtureVal>
+  </Function>
+  <Function ID="210" Type="Scene" Name="coral M184 L1111 UV173 W129">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,184,6,192,7,95,8,60,9,129,10,192,11,15,12,110,13,0,14,192,15,95,16,60,17,173</FixtureVal>
+  </Function>
+  <Function ID="211" Type="Scene" Name="white M159 L1111 UV149 S150 W96">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,159,6,165,7,165,8,165,9,96,10,165,11,53,12,85,13,150,14,165,15,165,16,165,17,149</FixtureVal>
+  </Function>
+  <Function ID="212" Type="Scene" Name="hot_pink M150 L1111 UV141 S150 W131">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,150,6,156,7,12,8,90,9,131,10,156,11,78,12,49,13,150,14,156,15,12,16,90,17,141</FixtureVal>
+  </Function>
+  <Function ID="213" Type="Scene" Name="coral M161 L1111 UV152 W59">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,161,6,168,7,83,8,52,9,59,10,168,11,13,12,97,13,0,14,168,15,83,16,52,17,152</FixtureVal>
+  </Function>
+  <Function ID="214" Type="Scene" Name="coral M190 L1111 UV178 W120">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,190,6,197,7,98,8,62,9,120,10,197,11,15,12,114,13,0,14,197,15,98,16,62,17,178</FixtureVal>
+  </Function>
+  <Function ID="215" Type="Scene" Name="white M165 L1111 UV155 W78">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,165,6,172,7,172,8,172,9,78,10,172,11,55,12,88,13,0,14,172,15,172,16,172,17,155</FixtureVal>
+  </Function>
+  <Function ID="216" Type="Scene" Name="hot_pink M159 L1111 UV149 W134">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,159,6,165,7,13,8,95,9,134,10,165,11,82,12,52,13,0,14,165,15,13,16,95,17,149</FixtureVal>
+  </Function>
+  <Function ID="217" Type="Scene" Name="rose M161 L1111 UV151 W74">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,161,6,167,7,53,8,86,9,74,10,167,11,167,12,167,13,0,14,167,15,53,16,86,17,151</FixtureVal>
+  </Function>
+  <Function ID="218" Type="Scene" Name="coral M183 L1111 UV171 W125">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,183,6,190,7,94,8,59,9,125,10,190,11,14,12,109,13,0,14,190,15,94,16,59,17,171</FixtureVal>
+  </Function>
+  <Function ID="219" Type="Scene" Name="hot_pink M168 L1111 UV158 S150 W70">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,168,6,175,7,13,8,101,9,70,10,175,11,87,12,54,13,150,14,175,15,13,16,101,17,158</FixtureVal>
+  </Function>
+  <Function ID="220" Type="Scene" Name="hot_pink M161 L1111 UV151 S150 W126">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,161,6,167,7,13,8,96,9,126,10,167,11,83,12,52,13,150,14,167,15,13,16,96,17,151</FixtureVal>
+  </Function>
+  <Function ID="221" Type="Scene" Name="rose M181 L1111 UV170 W109">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,181,6,188,7,60,8,97,9,109,10,188,11,188,12,188,13,0,14,188,15,60,16,97,17,170</FixtureVal>
+  </Function>
+  <Function ID="222" Type="Scene" Name="coral M218 L1111 UV204 W122">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,218,6,227,7,113,8,71,9,122,10,227,11,17,12,130,13,0,14,227,15,113,16,71,17,204</FixtureVal>
+  </Function>
+  <Function ID="223" Type="Scene" Name="white M114 L1101 UV107 W76">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,220,3,0,4,220,5,114,6,119,7,119,8,119,9,76,10,119,11,38,12,61,13,0,14,119,15,119,16,119,17,107</FixtureVal>
+  </Function>
+  <Function ID="224" Type="Scene" Name="rose M97 L1011 UV91 W67">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,0,3,220,4,220,5,97,6,101,7,32,8,52,9,67,10,101,11,101,12,101,13,0,14,101,15,32,16,52,17,91</FixtureVal>
+  </Function>
+  <Function ID="225" Type="Scene" Name="rose M144 L1110 UV135 W115">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,220,3,220,4,0,5,144,6,150,7,48,8,77,9,115,10,150,11,150,12,150,13,0,14,150,15,48,16,77,17,135</FixtureVal>
+  </Function>
+  <Function ID="226" Type="Scene" Name="white M212 L1111 UV199 S150 W133">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,212,6,220,7,220,8,220,9,133,10,220,11,0,12,220,13,150,14,220,15,220,16,220,17,199</FixtureVal>
+  </Function>
+  <Function ID="227" Type="Scene" Name="hot_pink M209 L1111 UV196 S150 W138">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,209,6,217,7,17,8,125,9,138,10,217,11,183,12,0,13,150,14,217,15,17,16,125,17,196</FixtureVal>
+  </Function>
+  <Function ID="228" Type="Scene" Name="white M204 L1111 UV192 W119">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,204,6,212,7,212,8,212,9,119,10,212,11,0,12,212,13,0,14,212,15,212,16,212,17,192</FixtureVal>
+  </Function>
+  <Function ID="229" Type="Scene" Name="gold M235 L1111 UV220 W120">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,235,6,244,7,206,8,0,9,120,10,244,11,19,12,141,13,0,14,244,15,206,16,0,17,220</FixtureVal>
+  </Function>
+  <Function ID="230" Type="Scene" Name="magenta M208 L1111 UV196 W103">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,208,6,217,7,0,8,217,9,103,10,217,11,217,12,217,13,0,14,217,15,0,16,217,17,196</FixtureVal>
+  </Function>
+  <Function ID="231" Type="Scene" Name="hot_pink M214 L1111 UV200 W130">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,214,6,222,7,17,8,128,9,130,10,222,11,187,12,0,13,0,14,222,15,17,16,128,17,200</FixtureVal>
+  </Function>
+  <Function ID="232" Type="Scene" Name="white M201 L1111 UV189 W111">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,201,6,209,7,209,8,209,9,111,10,209,11,0,12,209,13,0,14,209,15,209,16,209,17,189</FixtureVal>
+  </Function>
+  <Function ID="233" Type="Scene" Name="gold M228 L1111 UV214 W124">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,228,6,237,7,200,8,0,9,124,10,237,11,18,12,137,13,0,14,237,15,200,16,0,17,214</FixtureVal>
+  </Function>
+  <Function ID="234" Type="Scene" Name="magenta M193 L1111 UV181 S150 W119">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,193,6,201,7,0,8,201,9,119,10,201,11,201,12,201,13,150,14,201,15,0,16,201,17,181</FixtureVal>
+  </Function>
+  <Function ID="235" Type="Scene" Name="hot_pink M212 L1111 UV199 S150 W137">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,212,6,221,7,17,8,127,9,137,10,221,11,186,12,0,13,150,14,221,15,17,16,127,17,199</FixtureVal>
+  </Function>
+  <Function ID="236" Type="Scene" Name="white M209 L1111 UV196 W100">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,209,6,217,7,217,8,217,9,100,10,217,11,0,12,217,13,0,14,217,15,217,16,217,17,196</FixtureVal>
+  </Function>
+  <Function ID="237" Type="Scene" Name="gold M225 L1111 UV211 W123">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,225,6,234,7,197,8,0,9,123,10,234,11,18,12,135,13,0,14,234,15,197,16,0,17,211</FixtureVal>
+  </Function>
+  <Function ID="238" Type="Scene" Name="magenta M211 L1111 UV198 W77">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,211,6,219,7,0,8,219,9,77,10,219,11,219,12,219,13,0,14,219,15,0,16,219,17,198</FixtureVal>
+  </Function>
+  <Function ID="239" Type="Scene" Name="hot_pink M206 L1111 UV193 W128">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,206,6,214,7,16,8,123,9,128,10,214,11,180,12,0,13,0,14,214,15,16,16,123,17,193</FixtureVal>
+  </Function>
+  <Function ID="240" Type="Scene" Name="white M218 L1111 UV205 W82">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,218,6,227,7,227,8,227,9,82,10,227,11,0,12,227,13,0,14,227,15,227,16,227,17,205</FixtureVal>
+  </Function>
+  <Function ID="241" Type="Scene" Name="gold M219 L1111 UV206 W128">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,219,6,228,7,192,8,0,9,128,10,228,11,17,12,131,13,0,14,228,15,192,16,0,17,206</FixtureVal>
+  </Function>
+  <Function ID="242" Type="Scene" Name="magenta M211 L1111 UV198 S150 W91">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,211,6,219,7,0,8,219,9,91,10,219,11,219,12,219,13,150,14,219,15,0,16,219,17,198</FixtureVal>
+  </Function>
+  <Function ID="243" Type="Scene" Name="hot_pink M205 L1111 UV192 S150 W137">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,205,6,213,7,16,8,123,9,137,10,213,11,180,12,0,13,150,14,213,15,16,16,123,17,192</FixtureVal>
+  </Function>
+  <Function ID="244" Type="Scene" Name="white M211 L1111 UV198 W94">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,211,6,220,7,220,8,220,9,94,10,220,11,0,12,220,13,0,14,220,15,220,16,220,17,198</FixtureVal>
+  </Function>
+  <Function ID="245" Type="Scene" Name="gold M222 L1111 UV209 W127">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,222,6,231,7,195,8,0,9,127,10,231,11,18,12,133,13,0,14,231,15,195,16,0,17,209</FixtureVal>
+  </Function>
+  <Function ID="246" Type="Scene" Name="magenta M209 L1111 UV196 W92">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,209,6,217,7,0,8,217,9,92,10,217,11,217,12,217,13,0,14,217,15,0,16,217,17,196</FixtureVal>
+  </Function>
+  <Function ID="247" Type="Scene" Name="hot_pink M214 L1111 UV201 W120">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,214,6,223,7,17,8,128,9,120,10,223,11,188,12,0,13,0,14,223,15,17,16,128,17,201</FixtureVal>
+  </Function>
+  <Function ID="248" Type="Scene" Name="white M216 L1111 UV203 W89">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,216,6,225,7,225,8,225,9,89,10,225,11,0,12,225,13,0,14,225,15,225,16,225,17,203</FixtureVal>
+  </Function>
+  <Function ID="249" Type="Scene" Name="gold M213 L1111 UV200 W130">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,213,6,222,7,187,8,0,9,130,10,222,11,17,12,128,13,0,14,222,15,187,16,0,17,200</FixtureVal>
+  </Function>
+  <Function ID="250" Type="Scene" Name="magenta M202 L1111 UV190 S150 W95">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,202,6,210,7,0,8,210,9,95,10,210,11,210,12,210,13,150,14,210,15,0,16,210,17,190</FixtureVal>
+  </Function>
+  <Function ID="251" Type="Scene" Name="hot_pink M213 L1111 UV200 S150 W127">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,213,6,222,7,17,8,128,9,127,10,222,11,187,12,0,13,150,14,222,15,17,16,128,17,200</FixtureVal>
+  </Function>
+  <Function ID="252" Type="Scene" Name="white M205 L1111 UV193 W95">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,205,6,214,7,214,8,214,9,95,10,214,11,0,12,214,13,0,14,214,15,214,16,214,17,193</FixtureVal>
+  </Function>
+  <Function ID="253" Type="Scene" Name="gold M208 L1111 UV195 W133">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,208,6,217,7,183,8,0,9,133,10,217,11,17,12,125,13,0,14,217,15,183,16,0,17,195</FixtureVal>
+  </Function>
+  <Function ID="254" Type="Scene" Name="magenta M206 L1111 UV194 W98">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,206,6,215,7,0,8,215,9,98,10,215,11,215,12,215,13,0,14,215,15,0,16,215,17,194</FixtureVal>
+  </Function>
+  <Function ID="255" Type="Scene" Name="hot_pink M212 L1111 UV199 W125">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,212,6,221,7,17,8,127,9,125,10,221,11,186,12,0,13,0,14,221,15,17,16,127,17,199</FixtureVal>
+  </Function>
+  <Function ID="256" Type="Scene" Name="white M195 L1111 UV183 W109">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,195,6,203,7,203,8,203,9,109,10,203,11,0,12,203,13,0,14,203,15,203,16,203,17,183</FixtureVal>
+  </Function>
+  <Function ID="257" Type="Scene" Name="gold M232 L1111 UV218 W132">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,232,6,242,7,204,8,0,9,132,10,242,11,19,12,139,13,0,14,242,15,204,16,0,17,218</FixtureVal>
+  </Function>
+  <Function ID="258" Type="Scene" Name="hot_pink M213 L1111 UV200 S150 W135">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,213,6,222,7,17,8,128,9,135,10,222,11,187,12,0,13,150,14,222,15,17,16,128,17,200</FixtureVal>
+  </Function>
+  <Function ID="259" Type="Scene" Name="white M203 L1111 UV191 W113">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,203,6,212,7,212,8,212,9,113,10,212,11,0,12,212,13,0,14,212,15,212,16,212,17,191</FixtureVal>
+  </Function>
+  <Function ID="260" Type="Scene" Name="gold M222 L1111 UV208 W126">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,222,6,231,7,195,8,0,9,126,10,231,11,18,12,133,13,0,14,231,15,195,16,0,17,208</FixtureVal>
+  </Function>
+  <Function ID="261" Type="Scene" Name="hot_pink M212 L1111 UV199 W123">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,212,6,221,7,17,8,127,9,123,10,221,11,186,12,0,13,0,14,221,15,17,16,127,17,199</FixtureVal>
+  </Function>
+  <Function ID="262" Type="Scene" Name="white M211 L1111 UV198 W99">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,211,6,220,7,220,8,220,9,99,10,220,11,0,12,220,13,0,14,220,15,220,16,220,17,198</FixtureVal>
+  </Function>
+  <Function ID="263" Type="Scene" Name="gold M230 L1111 UV216 W129">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,230,6,239,7,202,8,0,9,129,10,239,11,18,12,138,13,0,14,239,15,202,16,0,17,216</FixtureVal>
+  </Function>
+  <Function ID="264" Type="Scene" Name="magenta M189 L1111 UV177 S150 W113">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,189,6,197,7,0,8,197,9,113,10,197,11,197,12,197,13,150,14,197,15,0,16,197,17,177</FixtureVal>
+  </Function>
+  <Function ID="265" Type="Scene" Name="hot_pink M215 L1111 UV202 S150 W138">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,215,6,224,7,17,8,129,9,138,10,224,11,189,12,0,13,150,14,224,15,17,16,129,17,202</FixtureVal>
+  </Function>
+  <Function ID="266" Type="Scene" Name="white M207 L1111 UV195 W101">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,207,6,216,7,216,8,216,9,101,10,216,11,0,12,216,13,0,14,216,15,216,16,216,17,195</FixtureVal>
+  </Function>
+  <Function ID="267" Type="Scene" Name="gold M220 L1111 UV206 W129">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,220,6,229,7,193,8,0,9,129,10,229,11,17,12,132,13,0,14,229,15,193,16,0,17,206</FixtureVal>
+  </Function>
+  <Function ID="268" Type="Scene" Name="magenta M207 L1111 UV194 W124">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,207,6,215,7,0,8,215,9,124,10,215,11,215,12,215,13,0,14,215,15,0,16,215,17,194</FixtureVal>
+  </Function>
+  <Function ID="269" Type="Scene" Name="hot_pink M209 L1111 UV196 W132">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,209,6,218,7,17,8,125,9,132,10,218,11,184,12,0,13,0,14,218,15,17,16,125,17,196</FixtureVal>
+  </Function>
+  <Function ID="270" Type="Scene" Name="white M202 L1111 UV189 W115">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,202,6,210,7,210,8,210,9,115,10,210,11,0,12,210,13,0,14,210,15,210,16,210,17,189</FixtureVal>
+  </Function>
+  <Function ID="271" Type="Scene" Name="gold M224 L1111 UV211 W128">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,224,6,234,7,197,8,0,9,128,10,234,11,18,12,134,13,0,14,234,15,197,16,0,17,211</FixtureVal>
+  </Function>
+  <Function ID="272" Type="Scene" Name="magenta M208 L1111 UV195 S150 W105">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,208,6,216,7,0,8,216,9,105,10,216,11,216,12,216,13,150,14,216,15,0,16,216,17,195</FixtureVal>
+  </Function>
+  <Function ID="273" Type="Scene" Name="hot_pink M203 L1111 UV191 S150 W130">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,203,6,212,7,16,8,122,9,130,10,212,11,178,12,0,13,150,14,212,15,16,16,122,17,191</FixtureVal>
+  </Function>
+  <Function ID="274" Type="Scene" Name="white M207 L1111 UV195 W143">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,207,6,216,7,216,8,216,9,143,10,216,11,0,12,216,13,0,14,216,15,216,16,216,17,195</FixtureVal>
+  </Function>
+  <Function ID="275" Type="Scene" Name="gold M224 L1111 UV211 W125">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,224,6,234,7,197,8,0,9,125,10,234,11,18,12,134,13,0,14,234,15,197,16,0,17,211</FixtureVal>
+  </Function>
+  <Function ID="276" Type="Scene" Name="magenta M205 L1111 UV193 W128">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,205,6,214,7,0,8,214,9,128,10,214,11,214,12,214,13,0,14,214,15,0,16,214,17,193</FixtureVal>
+  </Function>
+  <Function ID="277" Type="Scene" Name="hot_pink M214 L1111 UV201 W112">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,214,6,223,7,17,8,128,9,112,10,223,11,188,12,0,13,0,14,223,15,17,16,128,17,201</FixtureVal>
+  </Function>
+  <Function ID="278" Type="Scene" Name="white M204 L1111 UV191 W108">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,204,6,212,7,212,8,212,9,108,10,212,11,0,12,212,13,0,14,212,15,212,16,212,17,191</FixtureVal>
+  </Function>
+  <Function ID="279" Type="Scene" Name="gold M232 L1111 UV217 W127">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,232,6,241,7,203,8,0,9,127,10,241,11,18,12,139,13,0,14,241,15,203,16,0,17,217</FixtureVal>
+  </Function>
+  <Function ID="280" Type="Scene" Name="magenta M200 L1111 UV188 S150 W114">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,200,6,209,7,0,8,209,9,114,10,209,11,209,12,209,13,150,14,209,15,0,16,209,17,188</FixtureVal>
+  </Function>
+  <Function ID="281" Type="Scene" Name="hot_pink M210 L1111 UV197 S150 W131">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,210,6,219,7,17,8,126,9,131,10,219,11,184,12,0,13,150,14,219,15,17,16,126,17,197</FixtureVal>
+  </Function>
+  <Function ID="282" Type="Scene" Name="white M204 L1111 UV192 W101">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,204,6,213,7,213,8,213,9,101,10,213,11,0,12,213,13,0,14,213,15,213,16,213,17,192</FixtureVal>
+  </Function>
+  <Function ID="283" Type="Scene" Name="gold M233 L1111 UV219 W128">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,233,6,243,7,205,8,0,9,128,10,243,11,19,12,140,13,0,14,243,15,205,16,0,17,219</FixtureVal>
+  </Function>
+  <Function ID="284" Type="Scene" Name="magenta M202 L1111 UV189 W112">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,202,6,210,7,0,8,210,9,112,10,210,11,210,12,210,13,0,14,210,15,0,16,210,17,189</FixtureVal>
+  </Function>
+  <Function ID="285" Type="Scene" Name="hot_pink M215 L1111 UV202 W124">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,215,6,224,7,17,8,129,9,124,10,224,11,189,12,0,13,0,14,224,15,17,16,129,17,202</FixtureVal>
+  </Function>
+  <Function ID="286" Type="Scene" Name="white M202 L1111 UV190 W109">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,202,6,210,7,210,8,210,9,109,10,210,11,0,12,210,13,0,14,210,15,210,16,210,17,190</FixtureVal>
+  </Function>
+  <Function ID="287" Type="Scene" Name="gold M230 L1111 UV216 W134">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,230,6,239,7,202,8,0,9,134,10,239,11,18,12,138,13,0,14,239,15,202,16,0,17,216</FixtureVal>
+  </Function>
+  <Function ID="288" Type="Scene" Name="hot_pink M207 L1111 UV195 S150 W128">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,207,6,216,7,16,8,124,9,128,10,216,11,182,12,0,13,150,14,216,15,16,16,124,17,195</FixtureVal>
+  </Function>
+  <Function ID="289" Type="Scene" Name="white M192 L1111 UV180 W144">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,192,6,200,7,200,8,200,9,144,10,200,11,0,12,200,13,0,14,200,15,200,16,200,17,180</FixtureVal>
+  </Function>
+  <Function ID="290" Type="Scene" Name="gold M218 L1111 UV204 W129">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,218,6,226,7,191,8,0,9,129,10,226,11,17,12,130,13,0,14,226,15,191,16,0,17,204</FixtureVal>
+  </Function>
+  <Function ID="291" Type="Scene" Name="magenta M197 L1111 UV185 W114">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,197,6,205,7,0,8,205,9,114,10,205,11,205,12,205,13,0,14,205,15,0,16,205,17,185</FixtureVal>
+  </Function>
+  <Function ID="292" Type="Scene" Name="hot_pink M206 L1111 UV193 W126">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,206,6,214,7,16,8,123,9,126,10,214,11,181,12,0,13,0,14,214,15,16,16,123,17,193</FixtureVal>
+  </Function>
+  <Function ID="293" Type="Scene" Name="white M191 L1111 UV179 W129">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,191,6,199,7,199,8,199,9,129,10,199,11,0,12,199,13,0,14,199,15,199,16,199,17,179</FixtureVal>
+  </Function>
+  <Function ID="294" Type="Scene" Name="gold M217 L1111 UV204 W127">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,217,6,226,7,190,8,0,9,127,10,226,11,17,12,130,13,0,14,226,15,190,16,0,17,204</FixtureVal>
+  </Function>
+  <Function ID="295" Type="Scene" Name="gold M171 L1111 UV161 S150 W151">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,171,6,178,7,150,8,0,9,151,10,178,11,14,12,102,13,150,14,178,15,150,16,0,17,161</FixtureVal>
+  </Function>
+  <Function ID="296" Type="Scene" Name="hot_pink M206 L1111 UV194 S150 W133">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,206,6,215,7,16,8,124,9,133,10,215,11,181,12,0,13,150,14,215,15,16,16,124,17,194</FixtureVal>
+  </Function>
+  <Function ID="297" Type="Scene" Name="white M203 L1111 UV190 W124">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,203,6,211,7,211,8,211,9,124,10,211,11,0,12,211,13,0,14,211,15,211,16,211,17,190</FixtureVal>
+  </Function>
+  <Function ID="298" Type="Scene" Name="gold M207 L1111 UV194 W146">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,207,6,215,7,182,8,0,9,146,10,215,11,16,12,124,13,0,14,215,15,182,16,0,17,194</FixtureVal>
+  </Function>
+  <Function ID="299" Type="Scene" Name="magenta M200 L1111 UV187 W97">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,200,6,208,7,0,8,208,9,97,10,208,11,208,12,208,13,0,14,208,15,0,16,208,17,187</FixtureVal>
+  </Function>
+  <Function ID="300" Type="Scene" Name="hot_pink M192 L1111 UV180 W137">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,192,6,200,7,15,8,115,9,137,10,200,11,168,12,0,13,0,14,200,15,15,16,115,17,180</FixtureVal>
+  </Function>
+  <Function ID="301" Type="Scene" Name="white M185 L1111 UV174 W119">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,185,6,193,7,193,8,193,9,119,10,193,11,0,12,193,13,0,14,193,15,193,16,193,17,174</FixtureVal>
+  </Function>
+  <Function ID="302" Type="Scene" Name="gold M210 L1111 UV197 W129">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,210,6,219,7,184,8,0,9,129,10,219,11,17,12,126,13,0,14,219,15,184,16,0,17,197</FixtureVal>
+  </Function>
+  <Function ID="303" Type="Scene" Name="magenta M200 L1111 UV187 S150 W101">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,200,6,208,7,0,8,208,9,101,10,208,11,208,12,208,13,150,14,208,15,0,16,208,17,187</FixtureVal>
+  </Function>
+  <Function ID="304" Type="Scene" Name="hot_pink M202 L1111 UV190 S150 W120">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,202,6,210,7,16,8,121,9,120,10,210,11,177,12,0,13,150,14,210,15,16,16,121,17,190</FixtureVal>
+  </Function>
+  <Function ID="305" Type="Scene" Name="white M199 L1111 UV186 W110">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,199,6,207,7,207,8,207,9,110,10,207,11,0,12,207,13,0,14,207,15,207,16,207,17,186</FixtureVal>
+  </Function>
+  <Function ID="306" Type="Scene" Name="gold M209 L1111 UV196 W124">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,209,6,217,7,183,8,0,9,124,10,217,11,17,12,125,13,0,14,217,15,183,16,0,17,196</FixtureVal>
+  </Function>
+  <Function ID="307" Type="Scene" Name="magenta M194 L1111 UV182 W128">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,194,6,202,7,0,8,202,9,128,10,202,11,202,12,202,13,0,14,202,15,0,16,202,17,182</FixtureVal>
+  </Function>
+  <Function ID="308" Type="Scene" Name="hot_pink M208 L1111 UV195 W119">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,208,6,217,7,17,8,125,9,119,10,217,11,182,12,0,13,0,14,217,15,17,16,125,17,195</FixtureVal>
+  </Function>
+  <Function ID="309" Type="Scene" Name="white M202 L1111 UV189 W122">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,202,6,210,7,210,8,210,9,122,10,210,11,0,12,210,13,0,14,210,15,210,16,210,17,189</FixtureVal>
+  </Function>
+  <Function ID="310" Type="Scene" Name="gold M221 L1111 UV207 W128">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,221,6,230,7,194,8,0,9,128,10,230,11,18,12,132,13,0,14,230,15,194,16,0,17,207</FixtureVal>
+  </Function>
+  <Function ID="311" Type="Scene" Name="magenta M183 L1111 UV172 S150 W145">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,183,6,191,7,0,8,191,9,145,10,191,11,191,12,191,13,150,14,191,15,0,16,191,17,172</FixtureVal>
+  </Function>
+  <Function ID="312" Type="Scene" Name="hot_pink M205 L1111 UV192 S150 W129">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,205,6,213,7,16,8,123,9,129,10,213,11,180,12,0,13,150,14,213,15,16,16,123,17,192</FixtureVal>
+  </Function>
+  <Function ID="313" Type="Scene" Name="white M198 L1111 UV186 W131">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,198,6,206,7,206,8,206,9,131,10,206,11,0,12,206,13,0,14,206,15,206,16,206,17,186</FixtureVal>
+  </Function>
+  <Function ID="314" Type="Scene" Name="gold M223 L1111 UV209 W128">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,223,6,232,7,196,8,0,9,128,10,232,11,18,12,134,13,0,14,232,15,196,16,0,17,209</FixtureVal>
+  </Function>
+  <Function ID="315" Type="Scene" Name="magenta M192 L1111 UV180 W109">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,192,6,200,7,0,8,200,9,109,10,200,11,200,12,200,13,0,14,200,15,0,16,200,17,180</FixtureVal>
+  </Function>
+  <Function ID="316" Type="Scene" Name="hot_pink M197 L1111 UV185 W131">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,197,6,206,7,16,8,118,9,131,10,206,11,173,12,0,13,0,14,206,15,16,16,118,17,185</FixtureVal>
+  </Function>
+  <Function ID="317" Type="Scene" Name="white M192 L1111 UV180 W114">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,192,6,200,7,200,8,200,9,114,10,200,11,0,12,200,13,0,14,200,15,200,16,200,17,180</FixtureVal>
+  </Function>
+  <Function ID="318" Type="Scene" Name="gold M216 L1111 UV203 W136">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,216,6,225,7,189,8,0,9,136,10,225,11,17,12,129,13,0,14,225,15,189,16,0,17,203</FixtureVal>
+  </Function>
+  <Function ID="319" Type="Scene" Name="electric_blue M39 L0000 UV37 F400">
+   <Speed FadeIn="400" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,39,6,0,7,30,8,76,9,0,10,76,11,66,12,51,13,0,14,0,15,30,16,76,17,37</FixtureVal>
+  </Function>
+  <Function ID="320" Type="Scene" Name="purple M43 L0000 UV40 F400">
+   <Speed FadeIn="400" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,43,6,38,7,0,8,76,9,0,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,40</FixtureVal>
+  </Function>
+  <Function ID="321" Type="Scene" Name="champagne M44 L0000 UV41 F400">
+   <Speed FadeIn="400" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,44,6,76,7,66,8,51,9,0,10,0,11,30,12,76,13,0,14,76,15,66,16,51,17,41</FixtureVal>
+  </Function>
+  <Function ID="322" Type="Scene" Name="lavender M64 L0100 UV60 F300">
+   <Speed FadeIn="300" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,180,3,0,4,0,5,64,6,54,7,39,8,76,9,0,10,38,11,0,12,76,13,0,14,54,15,39,16,76,17,60</FixtureVal>
+  </Function>
+  <Function ID="323" Type="Scene" Name="electric_blue M47 L0000 UV44 F400">
+   <Speed FadeIn="400" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,47,6,0,7,30,8,76,9,0,10,76,11,66,12,51,13,0,14,0,15,30,16,76,17,44</FixtureVal>
+  </Function>
+  <Function ID="324" Type="Scene" Name="purple M54 L0000 UV51 F400">
+   <Speed FadeIn="400" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,54,6,38,7,0,8,76,9,0,10,54,11,39,12,76,13,0,14,38,15,0,16,76,17,51</FixtureVal>
+  </Function>
+  <Function ID="325" Type="Scene" Name="champagne M82 L1100 UV77 W29 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,82,6,85,7,74,8,58,9,29,10,0,11,33,12,85,13,0,14,85,15,74,16,58,17,77</FixtureVal>
+  </Function>
+  <Function ID="326" Type="Scene" Name="lavender M76 L1000 UV71 F300">
+   <Speed FadeIn="300" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,180,2,0,3,0,4,0,5,76,6,56,7,40,8,79,9,0,10,39,11,0,12,79,13,0,14,56,15,40,16,79,17,71</FixtureVal>
+  </Function>
+  <Function ID="327" Type="Scene" Name="electric_blue M76 L0010 UV71 F300">
+   <Speed FadeIn="300" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,180,4,0,5,76,6,0,7,31,8,79,9,0,10,79,11,69,12,54,13,0,14,0,15,31,16,79,17,71</FixtureVal>
+  </Function>
+  <Function ID="328" Type="Scene" Name="purple M89 L0011 UV84 W56 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,89,6,46,7,0,8,93,9,56,10,65,11,47,12,93,13,0,14,46,15,0,16,93,17,84</FixtureVal>
+  </Function>
+  <Function ID="329" Type="Scene" Name="lavender M55 L0100 UV51 F300">
+   <Speed FadeIn="300" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,180,3,0,4,0,5,55,6,54,7,39,8,76,9,0,10,38,11,0,12,76,13,0,14,54,15,39,16,76,17,51</FixtureVal>
+  </Function>
+  <Function ID="330" Type="Scene" Name="gold M64 L0101 UV60 W162 F150">
+   <Speed FadeIn="150" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,64,6,76,7,64,8,0,9,162,10,76,11,6,12,44,13,0,14,76,15,64,16,0,17,60</FixtureVal>
+  </Function>
+  <Function ID="331" Type="Scene" Name="magenta M73 L0001 UV68 F300">
+   <Speed FadeIn="300" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,180,5,73,6,76,7,0,8,76,9,0,10,76,11,76,12,76,13,0,14,76,15,0,16,76,17,68</FixtureVal>
+  </Function>
+  <Function ID="332" Type="Scene" Name="gold M205 L1111 UV192 S150 W151">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,205,6,213,7,179,8,0,9,151,10,213,11,16,12,123,13,150,14,213,15,179,16,0,17,192</FixtureVal>
+  </Function>
+  <Function ID="333" Type="Scene" Name="white M201 L1111 UV188 S150 W149">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,201,6,209,7,209,8,209,9,149,10,209,11,0,12,209,13,150,14,209,15,209,16,209,17,188</FixtureVal>
+  </Function>
+  <Function ID="334" Type="Scene" Name="magenta M202 L1111 UV190 W124">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,202,6,210,7,0,8,210,9,124,10,210,11,210,12,210,13,0,14,210,15,0,16,210,17,190</FixtureVal>
+  </Function>
+  <Function ID="335" Type="Scene" Name="hot_pink M225 L1111 UV211 W126">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,225,6,234,7,18,8,135,9,126,10,234,11,197,12,0,13,0,14,234,15,18,16,135,17,211</FixtureVal>
+  </Function>
+  <Function ID="336" Type="Scene" Name="white M199 L1111 UV187 W114">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,199,6,207,7,207,8,207,9,114,10,207,11,0,12,207,13,0,14,207,15,207,16,207,17,187</FixtureVal>
+  </Function>
+  <Function ID="337" Type="Scene" Name="gold M216 L1111 UV203 W124">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,216,6,225,7,189,8,0,9,124,10,225,11,17,12,129,13,0,14,225,15,189,16,0,17,203</FixtureVal>
+  </Function>
+  <Function ID="338" Type="Scene" Name="magenta M201 L1111 UV189 W117">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,201,6,209,7,0,8,209,9,117,10,209,11,209,12,209,13,0,14,209,15,0,16,209,17,189</FixtureVal>
+  </Function>
+  <Function ID="339" Type="Scene" Name="hot_pink M232 L1111 UV218 W130">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,232,6,242,7,19,8,139,9,130,10,242,11,204,12,0,13,0,14,242,15,19,16,139,17,218</FixtureVal>
+  </Function>
+  <Function ID="340" Type="Scene" Name="white M197 L1111 UV185 S150 W113">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,197,6,205,7,205,8,205,9,113,10,205,11,0,12,205,13,150,14,205,15,205,16,205,17,185</FixtureVal>
+  </Function>
+  <Function ID="341" Type="Scene" Name="gold M212 L1111 UV199 S150 W137">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,212,6,221,7,186,8,0,9,137,10,221,11,17,12,127,13,150,14,221,15,186,16,0,17,199</FixtureVal>
+  </Function>
+  <Function ID="342" Type="Scene" Name="magenta M199 L1111 UV187 W115">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,199,6,207,7,0,8,207,9,115,10,207,11,207,12,207,13,0,14,207,15,0,16,207,17,187</FixtureVal>
+  </Function>
+  <Function ID="343" Type="Scene" Name="hot_pink M224 L1111 UV211 W126">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,224,6,234,7,18,8,134,9,126,10,234,11,197,12,0,13,0,14,234,15,18,16,134,17,211</FixtureVal>
+  </Function>
+  <Function ID="344" Type="Scene" Name="white M206 L1111 UV193 W92">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,206,6,214,7,214,8,214,9,92,10,214,11,0,12,214,13,0,14,214,15,214,16,214,17,193</FixtureVal>
+  </Function>
+  <Function ID="345" Type="Scene" Name="gold M216 L1111 UV203 W128">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,216,6,225,7,190,8,0,9,128,10,225,11,17,12,129,13,0,14,225,15,190,16,0,17,203</FixtureVal>
+  </Function>
+  <Function ID="346" Type="Scene" Name="magenta M202 L1111 UV189 W117">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,202,6,210,7,0,8,210,9,117,10,210,11,210,12,210,13,0,14,210,15,0,16,210,17,189</FixtureVal>
+  </Function>
+  <Function ID="347" Type="Scene" Name="hot_pink M229 L1111 UV215 W132">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,229,6,239,7,18,8,137,9,132,10,239,11,201,12,0,13,0,14,239,15,18,16,137,17,215</FixtureVal>
+  </Function>
+  <Function ID="348" Type="Scene" Name="white M193 L1111 UV181 S150 W112">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,193,6,201,7,201,8,201,9,112,10,201,11,0,12,201,13,150,14,201,15,201,16,201,17,181</FixtureVal>
+  </Function>
+  <Function ID="349" Type="Scene" Name="gold M211 L1111 UV198 S150 W137">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,211,6,219,7,185,8,0,9,137,10,219,11,17,12,126,13,150,14,219,15,185,16,0,17,198</FixtureVal>
+  </Function>
+  <Function ID="350" Type="Scene" Name="magenta M205 L1111 UV192 W102">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,205,6,213,7,0,8,213,9,102,10,213,11,213,12,213,13,0,14,213,15,0,16,213,17,192</FixtureVal>
+  </Function>
+  <Function ID="351" Type="Scene" Name="hot_pink M226 L1111 UV212 W129">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,226,6,235,7,18,8,136,9,129,10,235,11,198,12,0,13,0,14,235,15,18,16,136,17,212</FixtureVal>
+  </Function>
+  <Function ID="352" Type="Scene" Name="white M206 L1111 UV194 W101">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,206,6,215,7,215,8,215,9,101,10,215,11,0,12,215,13,0,14,215,15,215,16,215,17,194</FixtureVal>
+  </Function>
+  <Function ID="353" Type="Scene" Name="gold M214 L1111 UV201 W127">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,214,6,223,7,188,8,0,9,127,10,223,11,17,12,128,13,0,14,223,15,188,16,0,17,201</FixtureVal>
+  </Function>
+  <Function ID="354" Type="Scene" Name="magenta M214 L1111 UV200 W98">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,214,6,222,7,0,8,222,9,98,10,222,11,222,12,222,13,0,14,222,15,0,16,222,17,200</FixtureVal>
+  </Function>
+  <Function ID="355" Type="Scene" Name="hot_pink M219 L1111 UV205 W131">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,219,6,228,7,17,8,131,9,131,10,228,11,192,12,0,13,0,14,228,15,17,16,131,17,205</FixtureVal>
+  </Function>
+  <Function ID="356" Type="Scene" Name="white M215 L1111 UV201 S150 W105">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,215,6,223,7,223,8,223,9,105,10,223,11,0,12,223,13,150,14,223,15,223,16,223,17,201</FixtureVal>
+  </Function>
+  <Function ID="357" Type="Scene" Name="gold M209 L1111 UV196 S150 W129">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,209,6,217,7,183,8,0,9,129,10,217,11,17,12,125,13,150,14,217,15,183,16,0,17,196</FixtureVal>
+  </Function>
+  <Function ID="358" Type="Scene" Name="magenta M207 L1111 UV194 W101">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,207,6,215,7,0,8,215,9,101,10,215,11,215,12,215,13,0,14,215,15,0,16,215,17,194</FixtureVal>
+  </Function>
+  <Function ID="359" Type="Scene" Name="hot_pink M215 L1111 UV202 W135">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,215,6,224,7,17,8,129,9,135,10,224,11,189,12,0,13,0,14,224,15,17,16,129,17,202</FixtureVal>
+  </Function>
+  <Function ID="360" Type="Scene" Name="white M198 L1111 UV186 W107">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,198,6,207,7,207,8,207,9,107,10,207,11,0,12,207,13,0,14,207,15,207,16,207,17,186</FixtureVal>
+  </Function>
+  <Function ID="361" Type="Scene" Name="gold M208 L1111 UV196 W124">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,208,6,217,7,183,8,0,9,124,10,217,11,17,12,125,13,0,14,217,15,183,16,0,17,196</FixtureVal>
+  </Function>
+  <Function ID="362" Type="Scene" Name="hot_pink M237 L1111 UV222 W132">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,237,6,247,7,19,8,142,9,132,10,247,11,208,12,0,13,0,14,247,15,19,16,142,17,222</FixtureVal>
+  </Function>
+  <Function ID="363" Type="Scene" Name="white M213 L1111 UV200 S150 W131">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,213,6,222,7,222,8,222,9,131,10,222,11,0,12,222,13,150,14,222,15,222,16,222,17,200</FixtureVal>
+  </Function>
+  <Function ID="364" Type="Scene" Name="gold M220 L1111 UV206 S150 W127">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,220,6,229,7,193,8,0,9,127,10,229,11,17,12,132,13,150,14,229,15,193,16,0,17,206</FixtureVal>
+  </Function>
+  <Function ID="365" Type="Scene" Name="magenta M221 L1111 UV208 W103">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,221,6,230,7,0,8,230,9,103,10,230,11,230,12,230,13,0,14,230,15,0,16,230,17,208</FixtureVal>
+  </Function>
+  <Function ID="366" Type="Scene" Name="hot_pink M236 L1111 UV222 W119">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,236,6,246,7,19,8,142,9,119,10,246,11,207,12,0,13,0,14,246,15,19,16,142,17,222</FixtureVal>
+  </Function>
+  <Function ID="367" Type="Scene" Name="white M214 L1111 UV201 W114">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,214,6,223,7,223,8,223,9,114,10,223,11,0,12,223,13,0,14,223,15,223,16,223,17,201</FixtureVal>
+  </Function>
+  <Function ID="368" Type="Scene" Name="gold M225 L1111 UV211 W126">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,225,6,234,7,197,8,0,9,126,10,234,11,18,12,135,13,0,14,234,15,197,16,0,17,211</FixtureVal>
+  </Function>
+  <Function ID="369" Type="Scene" Name="magenta M211 L1111 UV199 W111">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,211,6,220,7,0,8,220,9,111,10,220,11,220,12,220,13,0,14,220,15,0,16,220,17,199</FixtureVal>
+  </Function>
+  <Function ID="370" Type="Scene" Name="hot_pink M244 L1111 UV229 W132">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,244,6,254,7,19,8,146,9,132,10,254,11,214,12,0,13,0,14,254,15,19,16,146,17,229</FixtureVal>
+  </Function>
+  <Function ID="371" Type="Scene" Name="white M206 L1111 UV193 S150 W112">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,206,6,214,7,214,8,214,9,112,10,214,11,0,12,214,13,150,14,214,15,214,16,214,17,193</FixtureVal>
+  </Function>
+  <Function ID="372" Type="Scene" Name="gold M232 L1111 UV217 S150 W131">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,232,6,241,7,203,8,0,9,131,10,241,11,18,12,139,13,150,14,241,15,203,16,0,17,217</FixtureVal>
+  </Function>
+  <Function ID="373" Type="Scene" Name="magenta M214 L1111 UV201 W108">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,214,6,223,7,0,8,223,9,108,10,223,11,223,12,223,13,0,14,223,15,0,16,223,17,201</FixtureVal>
+  </Function>
+  <Function ID="374" Type="Scene" Name="hot_pink M238 L1111 UV224 W126">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,238,6,248,7,19,8,143,9,126,10,248,11,209,12,0,13,0,14,248,15,19,16,143,17,224</FixtureVal>
+  </Function>
+  <Function ID="375" Type="Scene" Name="white M216 L1111 UV203 W95">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,216,6,225,7,225,8,225,9,95,10,225,11,0,12,225,13,0,14,225,15,225,16,225,17,203</FixtureVal>
+  </Function>
+  <Function ID="376" Type="Scene" Name="gold M231 L1111 UV216 W127">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,231,6,240,7,202,8,0,9,127,10,240,11,18,12,138,13,0,14,240,15,202,16,0,17,216</FixtureVal>
+  </Function>
+  <Function ID="377" Type="Scene" Name="magenta M225 L1111 UV211 W111">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,225,6,234,7,0,8,234,9,111,10,234,11,234,12,234,13,0,14,234,15,0,16,234,17,211</FixtureVal>
+  </Function>
+  <Function ID="378" Type="Scene" Name="hot_pink M244 L1111 UV229 W130">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,244,6,253,7,19,8,146,9,130,10,253,11,214,12,0,13,0,14,253,15,19,16,146,17,229</FixtureVal>
+  </Function>
+  <Function ID="379" Type="Scene" Name="white M201 L1111 UV189 S150 W107">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,201,6,209,7,209,8,209,9,107,10,209,11,0,12,209,13,150,14,209,15,209,16,209,17,189</FixtureVal>
+  </Function>
+  <Function ID="380" Type="Scene" Name="gold M230 L1111 UV216 S150 W128">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,230,6,240,7,202,8,0,9,128,10,240,11,18,12,138,13,150,14,240,15,202,16,0,17,216</FixtureVal>
+  </Function>
+  <Function ID="381" Type="Scene" Name="magenta M212 L1111 UV199 W145">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,212,6,221,7,0,8,221,9,145,10,221,11,221,12,221,13,0,14,221,15,0,16,221,17,199</FixtureVal>
+  </Function>
+  <Function ID="382" Type="Scene" Name="hot_pink M234 L1111 UV220 W126">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,234,6,243,7,19,8,140,9,126,10,243,11,205,12,0,13,0,14,243,15,19,16,140,17,220</FixtureVal>
+  </Function>
+  <Function ID="383" Type="Scene" Name="white M212 L1111 UV199 W126">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,212,6,220,7,220,8,220,9,126,10,220,11,0,12,220,13,0,14,220,15,220,16,220,17,199</FixtureVal>
+  </Function>
+  <Function ID="384" Type="Scene" Name="gold M218 L1111 UV205 W126">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,218,6,227,7,191,8,0,9,126,10,227,11,17,12,131,13,0,14,227,15,191,16,0,17,205</FixtureVal>
+  </Function>
+  <Function ID="385" Type="Scene" Name="magenta M217 L1111 UV204 W102">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,217,6,226,7,0,8,226,9,102,10,226,11,226,12,226,13,0,14,226,15,0,16,226,17,204</FixtureVal>
+  </Function>
+  <Function ID="386" Type="Scene" Name="hot_pink M232 L1111 UV218 W137">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,232,6,242,7,19,8,139,9,137,10,242,11,204,12,0,13,0,14,242,15,19,16,139,17,218</FixtureVal>
+  </Function>
+  <Function ID="387" Type="Scene" Name="white M217 L1111 UV203 S150 W108">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,217,6,226,7,226,8,226,9,108,10,226,11,0,12,226,13,150,14,226,15,226,16,226,17,203</FixtureVal>
+  </Function>
+  <Function ID="388" Type="Scene" Name="gold M220 L1111 UV206 S150 W119">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,220,6,229,7,193,8,0,9,119,10,229,11,17,12,132,13,150,14,229,15,193,16,0,17,206</FixtureVal>
+  </Function>
+  <Function ID="389" Type="Scene" Name="magenta M216 L1111 UV203 W101">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,216,6,225,7,0,8,225,9,101,10,225,11,225,12,225,13,0,14,225,15,0,16,225,17,203</FixtureVal>
+  </Function>
+  <Function ID="390" Type="Scene" Name="hot_pink M226 L1111 UV213 W132">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,226,6,236,7,18,8,136,9,132,10,236,11,199,12,0,13,0,14,236,15,18,16,136,17,213</FixtureVal>
+  </Function>
+  <Function ID="391" Type="Scene" Name="white M212 L1111 UV199 W104">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,212,6,220,7,220,8,220,9,104,10,220,11,0,12,220,13,0,14,220,15,220,16,220,17,199</FixtureVal>
+  </Function>
+  <Function ID="392" Type="Scene" Name="gold M219 L1111 UV206 W123">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,219,6,228,7,192,8,0,9,123,10,228,11,17,12,131,13,0,14,228,15,192,16,0,17,206</FixtureVal>
+  </Function>
+  <Function ID="393" Type="Scene" Name="hot_pink M242 L1111 UV227 W133">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,242,6,252,7,19,8,145,9,133,10,252,11,213,12,0,13,0,14,252,15,19,16,145,17,227</FixtureVal>
+  </Function>
+  <Function ID="394" Type="Scene" Name="white M216 L1111 UV203 S150 W128">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,216,6,225,7,225,8,225,9,128,10,225,11,0,12,225,13,150,14,225,15,225,16,225,17,203</FixtureVal>
+  </Function>
+  <Function ID="395" Type="Scene" Name="gold M228 L1111 UV214 S150 W122">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,228,6,238,7,200,8,0,9,122,10,238,11,18,12,137,13,150,14,238,15,200,16,0,17,214</FixtureVal>
+  </Function>
+  <Function ID="396" Type="Scene" Name="magenta M214 L1111 UV200 W136">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,214,6,222,7,0,8,222,9,136,10,222,11,222,12,222,13,0,14,222,15,0,16,222,17,200</FixtureVal>
+  </Function>
+  <Function ID="397" Type="Scene" Name="hot_pink M240 L1111 UV225 W130">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,240,6,249,7,19,8,144,9,130,10,249,11,210,12,0,13,0,14,249,15,19,16,144,17,225</FixtureVal>
+  </Function>
+  <Function ID="398" Type="Scene" Name="white M208 L1111 UV195 W134">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,208,6,217,7,217,8,217,9,134,10,217,11,0,12,217,13,0,14,217,15,217,16,217,17,195</FixtureVal>
+  </Function>
+  <Function ID="399" Type="Scene" Name="gold M229 L1111 UV215 W114">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,229,6,239,7,201,8,0,9,114,10,239,11,18,12,137,13,0,14,239,15,201,16,0,17,215</FixtureVal>
+  </Function>
+  <Function ID="400" Type="Scene" Name="magenta M210 L1111 UV197 W131">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,210,6,219,7,0,8,219,9,131,10,219,11,219,12,219,13,0,14,219,15,0,16,219,17,197</FixtureVal>
+  </Function>
+  <Function ID="401" Type="Scene" Name="hot_pink M245 L1111 UV230 W129">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,245,6,255,7,20,8,147,9,129,10,255,11,215,12,0,13,0,14,255,15,20,16,147,17,230</FixtureVal>
+  </Function>
+  <Function ID="402" Type="Scene" Name="hot_pink M204 L1111 UV192 S150 W147">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,204,6,213,7,16,8,122,9,147,10,213,11,179,12,0,13,150,14,213,15,16,16,122,17,192</FixtureVal>
+  </Function>
+  <Function ID="403" Type="Scene" Name="gold M232 L1111 UV218 S150 W128">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,232,6,242,7,204,8,0,9,128,10,242,11,18,12,139,13,150,14,242,15,204,16,0,17,218</FixtureVal>
+  </Function>
+  <Function ID="404" Type="Scene" Name="magenta M211 L1111 UV198 W128">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,211,6,220,7,0,8,220,9,128,10,220,11,220,12,220,13,0,14,220,15,0,16,220,17,198</FixtureVal>
+  </Function>
+  <Function ID="405" Type="Scene" Name="hot_pink M235 L1111 UV220 W141">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,235,6,244,7,19,8,141,9,141,10,244,11,206,12,0,13,0,14,244,15,19,16,141,17,220</FixtureVal>
+  </Function>
+  <Function ID="406" Type="Scene" Name="white M255 L1111 UV255 S150 W255">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,255,6,255,7,255,8,255,9,255,10,255,11,255,12,255,13,150,14,255,15,255,16,255,17,255</FixtureVal>
+  </Function>
+  <Function ID="407" Type="Scene" Name="white M0 L0000 UV200 W220">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,255,7,255,8,255,9,220,10,255,11,255,12,255,13,0,14,255,15,255,16,255,17,200</FixtureVal>
+  </Function>
+  <Function ID="1" Type="Audio" Name="katy_perry__teenage_dream.wav">
+   <Source>/Users/sarahdorich/lightdrop/audio/katy_perry__teenage_dream.wav</Source>
+  </Function>
+  <Function ID="2" Type="Show" Name="Generated Light Show">
+   <TimeDivision Type="BPM_4_4" BPM="117" />
+   <Track ID="0" Name="Audio" SceneID="4294967295" isMute="0">
+    <ShowFunction ID="1" StartTime="0" Duration="227741" />
+   </Track>
+   <Track ID="1" Name="Main Lights" SceneID="0" isMute="0">
+    <ShowFunction ID="0" StartTime="0" Duration="232" Color="#000000" />
+    <ShowFunction ID="3" StartTime="232" Duration="511" Color="#26004c" />
+    <ShowFunction ID="4" StartTime="743" Duration="510" Color="#4c4233" />
+    <ShowFunction ID="5" StartTime="1253" Duration="511" Color="#36274c" />
+    <ShowFunction ID="6" StartTime="1764" Duration="511" Color="#001e4c" />
+    <ShowFunction ID="7" StartTime="2275" Duration="488" Color="#26004c" />
+    <ShowFunction ID="8" StartTime="2763" Duration="487" Color="#4c4233" />
+    <ShowFunction ID="9" StartTime="3250" Duration="511" Color="#392950" />
+    <ShowFunction ID="0" StartTime="3761" Duration="488" Color="#000000" />
+    <ShowFunction ID="10" StartTime="4249" Duration="487" Color="#26004c" />
+    <ShowFunction ID="11" StartTime="4736" Duration="511" Color="#26004c" />
+    <ShowFunction ID="12" StartTime="5247" Duration="488" Color="#36274c" />
+    <ShowFunction ID="13" StartTime="5735" Duration="511" Color="#36274c" />
+    <ShowFunction ID="14" StartTime="6246" Duration="511" Color="#26004c" />
+    <ShowFunction ID="15" StartTime="6757" Duration="487" Color="#26004c" />
+    <ShowFunction ID="16" StartTime="7244" Duration="511" Color="#36274c" />
+    <ShowFunction ID="17" StartTime="7755" Duration="488" Color="#002052" />
+    <ShowFunction ID="18" StartTime="8243" Duration="487" Color="#26004c" />
+    <ShowFunction ID="19" StartTime="8730" Duration="488" Color="#26004c" />
+    <ShowFunction ID="20" StartTime="9218" Duration="511" Color="#36274c" />
+    <ShowFunction ID="21" StartTime="9729" Duration="511" Color="#36274c" />
+    <ShowFunction ID="22" StartTime="10240" Duration="510" Color="#26004c" />
+    <ShowFunction ID="23" StartTime="10750" Duration="488" Color="#26004c" />
+    <ShowFunction ID="24" StartTime="11238" Duration="511" Color="#001e4c" />
+    <ShowFunction ID="25" StartTime="11749" Duration="487" Color="#3c2b55" />
+    <ShowFunction ID="26" StartTime="12236" Duration="511" Color="#4c4233" />
+    <ShowFunction ID="27" StartTime="12747" Duration="488" Color="#2b0056" />
+    <ShowFunction ID="28" StartTime="13235" Duration="511" Color="#36274c" />
+    <ShowFunction ID="29" StartTime="13746" Duration="511" Color="#36274c" />
+    <ShowFunction ID="30" StartTime="14257" Duration="487" Color="#4c4233" />
+    <ShowFunction ID="31" StartTime="14744" Duration="488" Color="#26004c" />
+    <ShowFunction ID="32" StartTime="15232" Duration="511" Color="#36274c" />
+    <ShowFunction ID="33" StartTime="15743" Duration="510" Color="#382950" />
+    <ShowFunction ID="34" StartTime="16253" Duration="488" Color="#4c4233" />
+    <ShowFunction ID="35" StartTime="16741" Duration="511" Color="#26004c" />
+    <ShowFunction ID="36" StartTime="17252" Duration="488" Color="#36274c" />
+    <ShowFunction ID="37" StartTime="17740" Duration="510" Color="#36274c" />
+    <ShowFunction ID="38" StartTime="18250" Duration="488" Color="#4c4233" />
+    <ShowFunction ID="39" StartTime="18738" Duration="511" Color="#26004c" />
+    <ShowFunction ID="40" StartTime="19249" Duration="511" Color="#001e4c" />
+    <ShowFunction ID="41" StartTime="19760" Duration="487" Color="#26004c" />
+    <ShowFunction ID="42" StartTime="20247" Duration="488" Color="#26004c" />
+    <ShowFunction ID="43" StartTime="20735" Duration="511" Color="#26004c" />
+    <ShowFunction ID="44" StartTime="21246" Duration="487" Color="#36274c" />
+    <ShowFunction ID="45" StartTime="21733" Duration="511" Color="#3b2a53" />
+    <ShowFunction ID="46" StartTime="22244" Duration="511" Color="#26004c" />
+    <ShowFunction ID="47" StartTime="22755" Duration="488" Color="#524737" />
+    <ShowFunction ID="48" StartTime="23243" Duration="511" Color="#36274c" />
+    <ShowFunction ID="49" StartTime="23754" Duration="487" Color="#002560" />
+    <ShowFunction ID="50" StartTime="24241" Duration="488" Color="#26004c" />
+    <ShowFunction ID="51" StartTime="24729" Duration="511" Color="#26004c" />
+    <ShowFunction ID="52" StartTime="25240" Duration="510" Color="#36274c" />
+    <ShowFunction ID="53" StartTime="25750" Duration="488" Color="#3d2c57" />
+    <ShowFunction ID="54" StartTime="26238" Duration="511" Color="#544939" />
+    <ShowFunction ID="55" StartTime="26749" Duration="488" Color="#2a0054" />
+    <ShowFunction ID="56" StartTime="27237" Duration="510" Color="#36274c" />
+    <ShowFunction ID="57" StartTime="27747" Duration="511" Color="#002660" />
+    <ShowFunction ID="58" StartTime="28258" Duration="488" Color="#280051" />
+    <ShowFunction ID="59" StartTime="28746" Duration="511" Color="#26004d" />
+    <ShowFunction ID="60" StartTime="29257" Duration="487" Color="#36274c" />
+    <ShowFunction ID="61" StartTime="29744" Duration="511" Color="#392952" />
+    <ShowFunction ID="62" StartTime="30255" Duration="488" Color="#26004c" />
+    <ShowFunction ID="63" StartTime="30743" Duration="511" Color="#2e005b" />
+    <ShowFunction ID="64" StartTime="31254" Duration="487" Color="#36274c" />
+    <ShowFunction ID="65" StartTime="31741" Duration="511" Color="#002257" />
+    <ShowFunction ID="66" StartTime="32252" Duration="488" Color="#26004c" />
+    <ShowFunction ID="67" StartTime="32740" Duration="487" Color="#26004c" />
+    <ShowFunction ID="68" StartTime="33227" Duration="511" Color="#36274c" />
+    <ShowFunction ID="69" StartTime="33738" Duration="511" Color="#382950" />
+    <ShowFunction ID="70" StartTime="34249" Duration="488" Color="#26004c" />
+    <ShowFunction ID="71" StartTime="34737" Duration="510" Color="#26004c" />
+    <ShowFunction ID="72" StartTime="35247" Duration="488" Color="#36274c" />
+    <ShowFunction ID="73" StartTime="35735" Duration="511" Color="#443160" />
+    <ShowFunction ID="74" StartTime="36246" Duration="511" Color="#5b4f3e" />
+    <ShowFunction ID="75" StartTime="36757" Duration="487" Color="#5d513f" />
+    <ShowFunction ID="76" StartTime="37244" Duration="488" Color="#36274c" />
+    <ShowFunction ID="77" StartTime="37732" Duration="511" Color="#3e2d58" />
+    <ShowFunction ID="78" StartTime="38243" Duration="511" Color="#26004c" />
+    <ShowFunction ID="79" StartTime="38754" Duration="487" Color="#5f5240" />
+    <ShowFunction ID="80" StartTime="39241" Duration="511" Color="#001e4c" />
+    <ShowFunction ID="81" StartTime="39752" Duration="488" Color="#463263" />
+    <ShowFunction ID="82" StartTime="40240" Duration="511" Color="#2e005c" />
+    <ShowFunction ID="83" StartTime="40751" Duration="487" Color="#26004c" />
+    <ShowFunction ID="76" StartTime="41238" Duration="511" Color="#36274c" />
+    <ShowFunction ID="84" StartTime="41749" Duration="511" Color="#3b2b54" />
+    <ShowFunction ID="85" StartTime="42260" Duration="487" Color="#2e005d" />
+    <ShowFunction ID="86" StartTime="42747" Duration="442" Color="#26004c" />
+    <ShowFunction ID="87" StartTime="43189" Duration="510" Color="#392950" />
+    <ShowFunction ID="88" StartTime="43699" Duration="535" Color="#443161" />
+    <ShowFunction ID="89" StartTime="44234" Duration="510" Color="#290052" />
+    <ShowFunction ID="90" StartTime="44744" Duration="488" Color="#001e4c" />
+    <ShowFunction ID="76" StartTime="45232" Duration="488" Color="#36274c" />
+    <ShowFunction ID="91" StartTime="45720" Duration="534" Color="#3b2a53" />
+    <ShowFunction ID="92" StartTime="46254" Duration="487" Color="#310062" />
+    <ShowFunction ID="93" StartTime="46741" Duration="511" Color="#2e005c" />
+    <ShowFunction ID="94" StartTime="47252" Duration="488" Color="#36274c" />
+    <ShowFunction ID="95" StartTime="47740" Duration="511" Color="#002661" />
+    <ShowFunction ID="96" StartTime="48251" Duration="487" Color="#5f5340" />
+    <ShowFunction ID="97" StartTime="48738" Duration="488" Color="#26004c" />
+    <ShowFunction ID="98" StartTime="49226" Duration="511" Color="#4c4233" />
+    <ShowFunction ID="99" StartTime="49737" Duration="510" Color="#523b75" />
+    <ShowFunction ID="100" StartTime="50247" Duration="488" Color="#410081" />
+    <ShowFunction ID="101" StartTime="50735" Duration="511" Color="#72634d" />
+    <ShowFunction ID="102" StartTime="51246" Duration="511" Color="#604588" />
+    <ShowFunction ID="0" StartTime="51757" Duration="487" Color="#000000" />
+    <ShowFunction ID="103" StartTime="52244" Duration="511" Color="#cbcbcb" />
+    <ShowFunction ID="104" StartTime="52755" Duration="488" Color="#c30f70" />
+    <ShowFunction ID="105" StartTime="53243" Duration="511" Color="#c9c9c9" />
+    <ShowFunction ID="106" StartTime="53754" Duration="487" Color="#d6b400" />
+    <ShowFunction ID="107" StartTime="54241" Duration="511" Color="#c800c8" />
+    <ShowFunction ID="108" StartTime="54752" Duration="488" Color="#e11182" />
+    <ShowFunction ID="109" StartTime="55240" Duration="511" Color="#c5c5c5" />
+    <ShowFunction ID="110" StartTime="55751" Duration="487" Color="#cbab00" />
+    <ShowFunction ID="111" StartTime="56238" Duration="511" Color="#bd00bd" />
+    <ShowFunction ID="112" StartTime="56749" Duration="488" Color="#ca0f74" />
+    <ShowFunction ID="113" StartTime="57237" Duration="487" Color="#c1c1c1" />
+    <ShowFunction ID="114" StartTime="57724" Duration="534" Color="#b79b00" />
+    <ShowFunction ID="115" StartTime="58258" Duration="488" Color="#c00f6e" />
+    <ShowFunction ID="116" StartTime="58746" Duration="488" Color="#dd117f" />
+    <ShowFunction ID="117" StartTime="59234" Duration="510" Color="#bcbcbc" />
+    <ShowFunction ID="118" StartTime="59744" Duration="488" Color="#caaa00" />
+    <ShowFunction ID="119" StartTime="60232" Duration="511" Color="#b500b5" />
+    <ShowFunction ID="120" StartTime="60743" Duration="488" Color="#c40f71" />
+    <ShowFunction ID="121" StartTime="61231" Duration="510" Color="#b7b7b7" />
+    <ShowFunction ID="122" StartTime="61741" Duration="511" Color="#ceae00" />
+    <ShowFunction ID="123" StartTime="62252" Duration="488" Color="#cc00cc" />
+    <ShowFunction ID="124" StartTime="62740" Duration="511" Color="#dc117e" />
+    <ShowFunction ID="125" StartTime="63251" Duration="487" Color="#ceae00" />
+    <ShowFunction ID="126" StartTime="63738" Duration="511" Color="#c7a700" />
+    <ShowFunction ID="127" StartTime="64249" Duration="511" Color="#d000d0" />
+    <ShowFunction ID="128" StartTime="64760" Duration="488" Color="#c60f72" />
+    <ShowFunction ID="129" StartTime="65248" Duration="487" Color="#c6c6c6" />
+    <ShowFunction ID="130" StartTime="65735" Duration="511" Color="#c1a300" />
+    <ShowFunction ID="131" StartTime="66246" Duration="511" Color="#ce00ce" />
+    <ShowFunction ID="132" StartTime="66757" Duration="487" Color="#d6107b" />
+    <ShowFunction ID="133" StartTime="67244" Duration="488" Color="#c6c6c6" />
+    <ShowFunction ID="134" StartTime="67732" Duration="511" Color="#bda000" />
+    <ShowFunction ID="0" StartTime="68243" Duration="511" Color="#000000" />
+    <ShowFunction ID="135" StartTime="68754" Duration="487" Color="#c80f73" />
+    <ShowFunction ID="136" StartTime="69241" Duration="511" Color="#c6c6c6" />
+    <ShowFunction ID="137" StartTime="69752" Duration="488" Color="#cfae00" />
+    <ShowFunction ID="138" StartTime="70240" Duration="511" Color="#c700c7" />
+    <ShowFunction ID="139" StartTime="70751" Duration="487" Color="#e21182" />
+    <ShowFunction ID="140" StartTime="71238" Duration="511" Color="#c0c0c0" />
+    <ShowFunction ID="141" StartTime="71749" Duration="488" Color="#cfaf00" />
+    <ShowFunction ID="142" StartTime="72237" Duration="511" Color="#b900b9" />
+    <ShowFunction ID="143" StartTime="72748" Duration="487" Color="#c60f72" />
+    <ShowFunction ID="144" StartTime="73235" Duration="511" Color="#bfbfbf" />
+    <ShowFunction ID="145" StartTime="73746" Duration="511" Color="#cbab00" />
+    <ShowFunction ID="146" StartTime="74257" Duration="488" Color="#c700c7" />
+    <ShowFunction ID="147" StartTime="74745" Duration="510" Color="#dd117f" />
+    <ShowFunction ID="148" StartTime="75255" Duration="488" Color="#c1c1c1" />
+    <ShowFunction ID="149" StartTime="75743" Duration="511" Color="#cbab00" />
+    <ShowFunction ID="150" StartTime="76254" Duration="487" Color="#cd00cd" />
+    <ShowFunction ID="151" StartTime="76741" Duration="511" Color="#ce1077" />
+    <ShowFunction ID="152" StartTime="77252" Duration="488" Color="#c9c9c9" />
+    <ShowFunction ID="153" StartTime="77740" Duration="511" Color="#d1b000" />
+    <ShowFunction ID="154" StartTime="78251" Duration="487" Color="#c800c8" />
+    <ShowFunction ID="155" StartTime="78738" Duration="511" Color="#d5107b" />
+    <ShowFunction ID="156" StartTime="79249" Duration="488" Color="#c8c8c8" />
+    <ShowFunction ID="157" StartTime="79737" Duration="511" Color="#c3a400" />
+    <ShowFunction ID="158" StartTime="80248" Duration="511" Color="#c400c4" />
+    <ShowFunction ID="159" StartTime="80759" Duration="487" Color="#c70f73" />
+    <ShowFunction ID="160" StartTime="81246" Duration="488" Color="#c1c1c1" />
+    <ShowFunction ID="161" StartTime="81734" Duration="511" Color="#ba9c00" />
+    <ShowFunction ID="162" StartTime="82245" Duration="510" Color="#c500c5" />
+    <ShowFunction ID="116" StartTime="82755" Duration="488" Color="#dd117f" />
+    <ShowFunction ID="163" StartTime="83243" Duration="511" Color="#c2c2c2" />
+    <ShowFunction ID="164" StartTime="83754" Duration="487" Color="#caaa00" />
+    <ShowFunction ID="0" StartTime="84241" Duration="488" Color="#000000" />
+    <ShowFunction ID="165" StartTime="84729" Duration="511" Color="#950b56" />
+    <ShowFunction ID="166" StartTime="85240" Duration="511" Color="#912e4a" />
+    <ShowFunction ID="167" StartTime="85751" Duration="487" Color="#b85b39" />
+    <ShowFunction ID="168" StartTime="86238" Duration="511" Color="#959595" />
+    <ShowFunction ID="169" StartTime="86749" Duration="488" Color="#a20c5d" />
+    <ShowFunction ID="170" StartTime="87237" Duration="511" Color="#912e4a" />
+    <ShowFunction ID="171" StartTime="87748" Duration="511" Color="#b25837" />
+    <ShowFunction ID="172" StartTime="88259" Duration="487" Color="#980b57" />
+    <ShowFunction ID="173" StartTime="88746" Duration="488" Color="#970b57" />
+    <ShowFunction ID="174" StartTime="89234" Duration="511" Color="#8d2d48" />
+    <ShowFunction ID="175" StartTime="89745" Duration="487" Color="#b25938" />
+    <ShowFunction ID="176" StartTime="90232" Duration="511" Color="#929292" />
+    <ShowFunction ID="177" StartTime="90743" Duration="511" Color="#a30c5e" />
+    <ShowFunction ID="178" StartTime="91254" Duration="488" Color="#974b2f" />
+    <ShowFunction ID="179" StartTime="91742" Duration="510" Color="#b45a38" />
+    <ShowFunction ID="180" StartTime="92252" Duration="488" Color="#950b56" />
+    <ShowFunction ID="181" StartTime="92740" Duration="511" Color="#8f0b52" />
+    <ShowFunction ID="182" StartTime="93251" Duration="487" Color="#93492e" />
+    <ShowFunction ID="183" StartTime="93738" Duration="511" Color="#b95c3a" />
+    <ShowFunction ID="184" StartTime="94249" Duration="488" Color="#980b57" />
+    <ShowFunction ID="185" StartTime="94737" Duration="511" Color="#9d0c5a" />
+    <ShowFunction ID="186" StartTime="95248" Duration="487" Color="#964a2f" />
+    <ShowFunction ID="187" StartTime="95735" Duration="511" Color="#b15837" />
+    <ShowFunction ID="188" StartTime="96246" Duration="511" Color="#970b57" />
+    <ShowFunction ID="189" StartTime="96757" Duration="488" Color="#8c0b51" />
+    <ShowFunction ID="190" StartTime="97245" Duration="487" Color="#922e4b" />
+    <ShowFunction ID="191" StartTime="97732" Duration="511" Color="#b25837" />
+    <ShowFunction ID="192" StartTime="98243" Duration="488" Color="#9e9e9e" />
+    <ShowFunction ID="193" StartTime="98731" Duration="487" Color="#970b57" />
+    <ShowFunction ID="194" StartTime="99218" Duration="534" Color="#822943" />
+    <ShowFunction ID="195" StartTime="99752" Duration="488" Color="#ab5535" />
+    <ShowFunction ID="196" StartTime="100240" Duration="511" Color="#acacac" />
+    <ShowFunction ID="0" StartTime="100751" Duration="488" Color="#000000" />
+    <ShowFunction ID="197" StartTime="101239" Duration="487" Color="#a53554" />
+    <ShowFunction ID="198" StartTime="101726" Duration="511" Color="#bb5d3a" />
+    <ShowFunction ID="199" StartTime="102237" Duration="511" Color="#aaaaaa" />
+    <ShowFunction ID="200" StartTime="102748" Duration="511" Color="#b10d66" />
+    <ShowFunction ID="201" StartTime="103259" Duration="487" Color="#a25133" />
+    <ShowFunction ID="202" StartTime="103746" Duration="511" Color="#c0603c" />
+    <ShowFunction ID="203" StartTime="104257" Duration="488" Color="#a90d61" />
+    <ShowFunction ID="204" StartTime="104745" Duration="487" Color="#9d0c5b" />
+    <ShowFunction ID="205" StartTime="105232" Duration="511" Color="#a23453" />
+    <ShowFunction ID="206" StartTime="105743" Duration="511" Color="#c2613d" />
+    <ShowFunction ID="207" StartTime="106254" Duration="488" Color="#af0d65" />
+    <ShowFunction ID="208" StartTime="106742" Duration="487" Color="#a80d61" />
+    <ShowFunction ID="209" StartTime="107229" Duration="511" Color="#ac3758" />
+    <ShowFunction ID="210" StartTime="107740" Duration="511" Color="#c05f3c" />
+    <ShowFunction ID="211" StartTime="108251" Duration="488" Color="#a5a5a5" />
+    <ShowFunction ID="212" StartTime="108739" Duration="510" Color="#9c0c5a" />
+    <ShowFunction ID="213" StartTime="109249" Duration="488" Color="#a85334" />
+    <ShowFunction ID="214" StartTime="109737" Duration="511" Color="#c5623e" />
+    <ShowFunction ID="215" StartTime="110248" Duration="487" Color="#acacac" />
+    <ShowFunction ID="216" StartTime="110735" Duration="511" Color="#a50d5f" />
+    <ShowFunction ID="217" StartTime="111246" Duration="488" Color="#a73556" />
+    <ShowFunction ID="218" StartTime="111734" Duration="511" Color="#be5e3b" />
+    <ShowFunction ID="219" StartTime="112245" Duration="511" Color="#af0d65" />
+    <ShowFunction ID="220" StartTime="112756" Duration="487" Color="#a70d60" />
+    <ShowFunction ID="221" StartTime="113243" Duration="511" Color="#bc3c61" />
+    <ShowFunction ID="222" StartTime="113754" Duration="488" Color="#e37147" />
+    <ShowFunction ID="223" StartTime="114242" Duration="511" Color="#777777" />
+    <ShowFunction ID="224" StartTime="114753" Duration="510" Color="#652034" />
+    <ShowFunction ID="225" StartTime="115263" Duration="488" Color="#96304d" />
+    <ShowFunction ID="0" StartTime="115751" Duration="488" Color="#000000" />
+    <ShowFunction ID="226" StartTime="116239" Duration="510" Color="#dcdcdc" />
+    <ShowFunction ID="227" StartTime="116749" Duration="488" Color="#d9117d" />
+    <ShowFunction ID="228" StartTime="117237" Duration="511" Color="#d4d4d4" />
+    <ShowFunction ID="229" StartTime="117748" Duration="488" Color="#f4ce00" />
+    <ShowFunction ID="230" StartTime="118236" Duration="510" Color="#d900d9" />
+    <ShowFunction ID="231" StartTime="118746" Duration="488" Color="#de1180" />
+    <ShowFunction ID="232" StartTime="119234" Duration="511" Color="#d1d1d1" />
+    <ShowFunction ID="233" StartTime="119745" Duration="487" Color="#edc800" />
+    <ShowFunction ID="234" StartTime="120232" Duration="511" Color="#c900c9" />
+    <ShowFunction ID="235" StartTime="120743" Duration="511" Color="#dd117f" />
+    <ShowFunction ID="236" StartTime="121254" Duration="488" Color="#d9d9d9" />
+    <ShowFunction ID="237" StartTime="121742" Duration="511" Color="#eac500" />
+    <ShowFunction ID="238" StartTime="122253" Duration="487" Color="#db00db" />
+    <ShowFunction ID="239" StartTime="122740" Duration="511" Color="#d6107b" />
+    <ShowFunction ID="240" StartTime="123251" Duration="488" Color="#e3e3e3" />
+    <ShowFunction ID="241" StartTime="123739" Duration="510" Color="#e4c000" />
+    <ShowFunction ID="242" StartTime="124249" Duration="488" Color="#db00db" />
+    <ShowFunction ID="243" StartTime="124737" Duration="511" Color="#d5107b" />
+    <ShowFunction ID="244" StartTime="125248" Duration="488" Color="#dcdcdc" />
+    <ShowFunction ID="245" StartTime="125736" Duration="510" Color="#e7c300" />
+    <ShowFunction ID="246" StartTime="126246" Duration="511" Color="#d900d9" />
+    <ShowFunction ID="247" StartTime="126757" Duration="488" Color="#df1180" />
+    <ShowFunction ID="248" StartTime="127245" Duration="487" Color="#e1e1e1" />
+    <ShowFunction ID="249" StartTime="127732" Duration="511" Color="#debb00" />
+    <ShowFunction ID="250" StartTime="128243" Duration="511" Color="#d200d2" />
+    <ShowFunction ID="251" StartTime="128754" Duration="488" Color="#de1180" />
+    <ShowFunction ID="252" StartTime="129242" Duration="487" Color="#d6d6d6" />
+    <ShowFunction ID="253" StartTime="129729" Duration="511" Color="#d9b700" />
+    <ShowFunction ID="254" StartTime="130240" Duration="511" Color="#d700d7" />
+    <ShowFunction ID="255" StartTime="130751" Duration="488" Color="#dd117f" />
+    <ShowFunction ID="256" StartTime="131239" Duration="511" Color="#cbcbcb" />
+    <ShowFunction ID="257" StartTime="131750" Duration="487" Color="#f2cc00" />
+    <ShowFunction ID="0" StartTime="132237" Duration="511" Color="#000000" />
+    <ShowFunction ID="258" StartTime="132748" Duration="488" Color="#de1180" />
+    <ShowFunction ID="259" StartTime="133236" Duration="510" Color="#d4d4d4" />
+    <ShowFunction ID="260" StartTime="133746" Duration="511" Color="#e7c300" />
+    <ShowFunction ID="254" StartTime="134257" Duration="488" Color="#d700d7" />
+    <ShowFunction ID="261" StartTime="134745" Duration="511" Color="#dd117f" />
+    <ShowFunction ID="262" StartTime="135256" Duration="487" Color="#dcdcdc" />
+    <ShowFunction ID="263" StartTime="135743" Duration="488" Color="#efca00" />
+    <ShowFunction ID="264" StartTime="136231" Duration="511" Color="#c500c5" />
+    <ShowFunction ID="265" StartTime="136742" Duration="511" Color="#e01181" />
+    <ShowFunction ID="266" StartTime="137253" Duration="487" Color="#d8d8d8" />
+    <ShowFunction ID="267" StartTime="137740" Duration="511" Color="#e5c100" />
+    <ShowFunction ID="268" StartTime="138251" Duration="488" Color="#d700d7" />
+    <ShowFunction ID="269" StartTime="138739" Duration="511" Color="#da117d" />
+    <ShowFunction ID="270" StartTime="139250" Duration="487" Color="#d2d2d2" />
+    <ShowFunction ID="271" StartTime="139737" Duration="511" Color="#eac500" />
+    <ShowFunction ID="272" StartTime="140248" Duration="511" Color="#d800d8" />
+    <ShowFunction ID="273" StartTime="140759" Duration="487" Color="#d4107a" />
+    <ShowFunction ID="274" StartTime="141246" Duration="488" Color="#d8d8d8" />
+    <ShowFunction ID="275" StartTime="141734" Duration="511" Color="#eac500" />
+    <ShowFunction ID="276" StartTime="142245" Duration="511" Color="#d600d6" />
+    <ShowFunction ID="277" StartTime="142756" Duration="487" Color="#df1180" />
+    <ShowFunction ID="278" StartTime="143243" Duration="511" Color="#d4d4d4" />
+    <ShowFunction ID="279" StartTime="143754" Duration="488" Color="#f1cb00" />
+    <ShowFunction ID="280" StartTime="144242" Duration="511" Color="#d100d1" />
+    <ShowFunction ID="281" StartTime="144753" Duration="487" Color="#db117e" />
+    <ShowFunction ID="282" StartTime="145240" Duration="511" Color="#d5d5d5" />
+    <ShowFunction ID="283" StartTime="145751" Duration="488" Color="#f3cd00" />
+    <ShowFunction ID="284" StartTime="146239" Duration="511" Color="#d200d2" />
+    <ShowFunction ID="285" StartTime="146750" Duration="487" Color="#e01181" />
+    <ShowFunction ID="286" StartTime="147237" Duration="511" Color="#d2d2d2" />
+    <ShowFunction ID="287" StartTime="147748" Duration="511" Color="#efca00" />
+    <ShowFunction ID="0" StartTime="148259" Duration="488" Color="#000000" />
+    <ShowFunction ID="288" StartTime="148747" Duration="487" Color="#d8107c" />
+    <ShowFunction ID="289" StartTime="149234" Duration="511" Color="#c8c8c8" />
+    <ShowFunction ID="290" StartTime="149745" Duration="511" Color="#e2bf00" />
+    <ShowFunction ID="291" StartTime="150256" Duration="487" Color="#cd00cd" />
+    <ShowFunction ID="292" StartTime="150743" Duration="488" Color="#d6107b" />
+    <ShowFunction ID="293" StartTime="151231" Duration="511" Color="#c7c7c7" />
+    <ShowFunction ID="294" StartTime="151742" Duration="488" Color="#e2be00" />
+    <ShowFunction ID="295" StartTime="152230" Duration="510" Color="#b29600" />
+    <ShowFunction ID="296" StartTime="152740" Duration="511" Color="#d7107c" />
+    <ShowFunction ID="297" StartTime="153251" Duration="488" Color="#d3d3d3" />
+    <ShowFunction ID="298" StartTime="153739" Duration="511" Color="#d7b600" />
+    <ShowFunction ID="299" StartTime="154250" Duration="487" Color="#d000d0" />
+    <ShowFunction ID="300" StartTime="154737" Duration="488" Color="#c80f73" />
+    <ShowFunction ID="301" StartTime="155225" Duration="511" Color="#c1c1c1" />
+    <ShowFunction ID="302" StartTime="155736" Duration="511" Color="#dbb800" />
+    <ShowFunction ID="303" StartTime="156247" Duration="510" Color="#d000d0" />
+    <ShowFunction ID="304" StartTime="156757" Duration="488" Color="#d21079" />
+    <ShowFunction ID="305" StartTime="157245" Duration="511" Color="#cfcfcf" />
+    <ShowFunction ID="306" StartTime="157756" Duration="487" Color="#d9b700" />
+    <ShowFunction ID="307" StartTime="158243" Duration="511" Color="#ca00ca" />
+    <ShowFunction ID="308" StartTime="158754" Duration="488" Color="#d9117d" />
+    <ShowFunction ID="309" StartTime="159242" Duration="511" Color="#d2d2d2" />
+    <ShowFunction ID="310" StartTime="159753" Duration="487" Color="#e6c200" />
+    <ShowFunction ID="311" StartTime="160240" Duration="511" Color="#bf00bf" />
+    <ShowFunction ID="312" StartTime="160751" Duration="488" Color="#d5107b" />
+    <ShowFunction ID="313" StartTime="161239" Duration="511" Color="#cecece" />
+    <ShowFunction ID="314" StartTime="161750" Duration="487" Color="#e8c400" />
+    <ShowFunction ID="315" StartTime="162237" Duration="511" Color="#c800c8" />
+    <ShowFunction ID="316" StartTime="162748" Duration="488" Color="#ce1076" />
+    <ShowFunction ID="317" StartTime="163236" Duration="511" Color="#c8c8c8" />
+    <ShowFunction ID="318" StartTime="163747" Duration="487" Color="#e1bd00" />
+    <ShowFunction ID="0" StartTime="164234" Duration="488" Color="#000000" />
+    <ShowFunction ID="0" StartTime="164722" Duration="511" Color="#000000" />
+    <ShowFunction ID="319" StartTime="165233" Duration="511" Color="#001e4c" />
+    <ShowFunction ID="320" StartTime="165744" Duration="510" Color="#26004c" />
+    <ShowFunction ID="321" StartTime="166254" Duration="511" Color="#4c4233" />
+    <ShowFunction ID="322" StartTime="166765" Duration="511" Color="#36274c" />
+    <ShowFunction ID="323" StartTime="167276" Duration="488" Color="#001e4c" />
+    <ShowFunction ID="324" StartTime="167764" Duration="487" Color="#26004c" />
+    <ShowFunction ID="325" StartTime="168251" Duration="511" Color="#554a3a" />
+    <ShowFunction ID="326" StartTime="168762" Duration="488" Color="#38284f" />
+    <ShowFunction ID="327" StartTime="169250" Duration="511" Color="#001f4f" />
+    <ShowFunction ID="328" StartTime="169761" Duration="487" Color="#2e005d" />
+    <ShowFunction ID="0" StartTime="170248" Duration="511" Color="#000000" />
+    <ShowFunction ID="329" StartTime="170759" Duration="488" Color="#36274c" />
+    <ShowFunction ID="330" StartTime="171247" Duration="511" Color="#4c4000" />
+    <ShowFunction ID="331" StartTime="171758" Duration="487" Color="#4c004c" />
+    <ShowFunction ID="332" StartTime="172245" Duration="511" Color="#d5b300" />
+    <ShowFunction ID="333" StartTime="172756" Duration="488" Color="#d1d1d1" />
+    <ShowFunction ID="334" StartTime="173244" Duration="510" Color="#d200d2" />
+    <ShowFunction ID="335" StartTime="173754" Duration="488" Color="#ea1287" />
+    <ShowFunction ID="336" StartTime="174242" Duration="511" Color="#cfcfcf" />
+    <ShowFunction ID="337" StartTime="174753" Duration="487" Color="#e1bd00" />
+    <ShowFunction ID="338" StartTime="175240" Duration="511" Color="#d100d1" />
+    <ShowFunction ID="339" StartTime="175751" Duration="488" Color="#f2138b" />
+    <ShowFunction ID="340" StartTime="176239" Duration="511" Color="#cdcdcd" />
+    <ShowFunction ID="341" StartTime="176750" Duration="487" Color="#ddba00" />
+    <ShowFunction ID="342" StartTime="177237" Duration="511" Color="#cf00cf" />
+    <ShowFunction ID="343" StartTime="177748" Duration="511" Color="#ea1286" />
+    <ShowFunction ID="344" StartTime="178259" Duration="488" Color="#d6d6d6" />
+    <ShowFunction ID="345" StartTime="178747" Duration="487" Color="#e1be00" />
+    <ShowFunction ID="346" StartTime="179234" Duration="511" Color="#d200d2" />
+    <ShowFunction ID="347" StartTime="179745" Duration="488" Color="#ef1289" />
+    <ShowFunction ID="348" StartTime="180233" Duration="511" Color="#c9c9c9" />
+    <ShowFunction ID="349" StartTime="180744" Duration="510" Color="#dbb900" />
+    <ShowFunction ID="350" StartTime="181254" Duration="488" Color="#d500d5" />
+    <ShowFunction ID="351" StartTime="181742" Duration="511" Color="#eb1288" />
+    <ShowFunction ID="352" StartTime="182253" Duration="488" Color="#d7d7d7" />
+    <ShowFunction ID="353" StartTime="182741" Duration="510" Color="#dfbc00" />
+    <ShowFunction ID="354" StartTime="183251" Duration="488" Color="#de00de" />
+    <ShowFunction ID="355" StartTime="183739" Duration="511" Color="#e41183" />
+    <ShowFunction ID="356" StartTime="184250" Duration="487" Color="#dfdfdf" />
+    <ShowFunction ID="357" StartTime="184737" Duration="511" Color="#d9b700" />
+    <ShowFunction ID="358" StartTime="185248" Duration="488" Color="#d700d7" />
+    <ShowFunction ID="359" StartTime="185736" Duration="511" Color="#e01181" />
+    <ShowFunction ID="360" StartTime="186247" Duration="511" Color="#cfcfcf" />
+    <ShowFunction ID="361" StartTime="186758" Duration="487" Color="#d9b700" />
+    <ShowFunction ID="0" StartTime="187245" Duration="511" Color="#000000" />
+    <ShowFunction ID="362" StartTime="187756" Duration="488" Color="#f7138e" />
+    <ShowFunction ID="363" StartTime="188244" Duration="511" Color="#dedede" />
+    <ShowFunction ID="364" StartTime="188755" Duration="487" Color="#e5c100" />
+    <ShowFunction ID="365" StartTime="189242" Duration="511" Color="#e600e6" />
+    <ShowFunction ID="366" StartTime="189753" Duration="488" Color="#f6138e" />
+    <ShowFunction ID="367" StartTime="190241" Duration="510" Color="#dfdfdf" />
+    <ShowFunction ID="368" StartTime="190751" Duration="488" Color="#eac500" />
+    <ShowFunction ID="369" StartTime="191239" Duration="511" Color="#dc00dc" />
+    <ShowFunction ID="370" StartTime="191750" Duration="488" Color="#fe1392" />
+    <ShowFunction ID="371" StartTime="192238" Duration="510" Color="#d6d6d6" />
+    <ShowFunction ID="372" StartTime="192748" Duration="488" Color="#f1cb00" />
+    <ShowFunction ID="373" StartTime="193236" Duration="511" Color="#df00df" />
+    <ShowFunction ID="374" StartTime="193747" Duration="511" Color="#f8138f" />
+    <ShowFunction ID="375" StartTime="194258" Duration="487" Color="#e1e1e1" />
+    <ShowFunction ID="376" StartTime="194745" Duration="511" Color="#f0ca00" />
+    <ShowFunction ID="377" StartTime="195256" Duration="488" Color="#ea00ea" />
+    <ShowFunction ID="378" StartTime="195744" Duration="511" Color="#fd1392" />
+    <ShowFunction ID="379" StartTime="196255" Duration="487" Color="#d1d1d1" />
+    <ShowFunction ID="380" StartTime="196742" Duration="511" Color="#f0ca00" />
+    <ShowFunction ID="381" StartTime="197253" Duration="488" Color="#dd00dd" />
+    <ShowFunction ID="382" StartTime="197741" Duration="510" Color="#f3138c" />
+    <ShowFunction ID="383" StartTime="198251" Duration="488" Color="#dcdcdc" />
+    <ShowFunction ID="384" StartTime="198739" Duration="511" Color="#e3bf00" />
+    <ShowFunction ID="385" StartTime="199250" Duration="488" Color="#e200e2" />
+    <ShowFunction ID="386" StartTime="199738" Duration="510" Color="#f2138b" />
+    <ShowFunction ID="387" StartTime="200248" Duration="511" Color="#e2e2e2" />
+    <ShowFunction ID="388" StartTime="200759" Duration="488" Color="#e5c100" />
+    <ShowFunction ID="389" StartTime="201247" Duration="487" Color="#e100e1" />
+    <ShowFunction ID="390" StartTime="201734" Duration="511" Color="#ec1288" />
+    <ShowFunction ID="391" StartTime="202245" Duration="511" Color="#dcdcdc" />
+    <ShowFunction ID="392" StartTime="202756" Duration="488" Color="#e4c000" />
+    <ShowFunction ID="0" StartTime="203244" Duration="511" Color="#000000" />
+    <ShowFunction ID="393" StartTime="203755" Duration="487" Color="#fc1391" />
+    <ShowFunction ID="394" StartTime="204242" Duration="511" Color="#e1e1e1" />
+    <ShowFunction ID="395" StartTime="204753" Duration="488" Color="#eec800" />
+    <ShowFunction ID="396" StartTime="205241" Duration="511" Color="#de00de" />
+    <ShowFunction ID="397" StartTime="205752" Duration="487" Color="#f91390" />
+    <ShowFunction ID="398" StartTime="206239" Duration="511" Color="#d9d9d9" />
+    <ShowFunction ID="399" StartTime="206750" Duration="488" Color="#efc900" />
+    <ShowFunction ID="400" StartTime="207238" Duration="510" Color="#db00db" />
+    <ShowFunction ID="401" StartTime="207748" Duration="488" Color="#ff1493" />
+    <ShowFunction ID="402" StartTime="208236" Duration="511" Color="#d5107a" />
+    <ShowFunction ID="403" StartTime="208747" Duration="488" Color="#f2cc00" />
+    <ShowFunction ID="404" StartTime="209235" Duration="510" Color="#dc00dc" />
+    <ShowFunction ID="405" StartTime="209745" Duration="17996" Color="#f4138d" />
+    <ShowFunction ID="0" StartTime="225741" Duration="2000" Color="#000000" />
+   </Track>
+   <Track ID="2" Name="Strobe Hits" SceneID="406" isMute="0">
+    <ShowFunction ID="406" StartTime="53011" Duration="510" Color="#ffffff" />
+    <ShowFunction ID="406" StartTime="57237" Duration="510" Color="#ffffff" />
+    <ShowFunction ID="406" StartTime="88235" Duration="510" Color="#ffffff" />
+    <ShowFunction ID="406" StartTime="93738" Duration="510" Color="#ffffff" />
+    <ShowFunction ID="406" StartTime="102005" Duration="510" Color="#ffffff" />
+    <ShowFunction ID="406" StartTime="105511" Duration="510" Color="#ffffff" />
+    <ShowFunction ID="406" StartTime="117005" Duration="510" Color="#ffffff" />
+    <ShowFunction ID="406" StartTime="127013" Duration="510" Color="#ffffff" />
+    <ShowFunction ID="406" StartTime="155202" Duration="510" Color="#ffffff" />
+   </Track>
+   <Track ID="3" Name="Onset Flashes" SceneID="407" isMute="0">
+    <ShowFunction ID="407" StartTime="52175" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="53011" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="53359" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="54009" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="54497" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="55008" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="55495" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="56006" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="57004" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="57353" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="58003" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="58491" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="59489" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="60000" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="60975" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="61486" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="61997" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="62461" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="63460" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="65015" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="65503" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="65991" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="66501" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="67500" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="68963" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="69497" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="70008" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="70495" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="71494" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="73003" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="73491" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="74001" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="74489" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="75000" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="75488" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="76997" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="77484" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="77995" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="78506" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="78994" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="79505" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="81502" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="82012" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="82500" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="83498" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="84009" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="84474" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="84985" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="85495" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="85983" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="86494" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="86981" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="87469" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="87980" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="88398" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="89002" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="89373" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="90000" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="90488" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="90999" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="91509" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="92508" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="92995" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="93506" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="93994" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="94481" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="94992" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="95503" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="95991" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="96502" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="96989" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="97477" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="97988" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="98499" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="99009" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="99497" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="100495" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="101006" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="101494" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="102005" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="102423" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="103003" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="103491" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="104002" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="104489" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="105000" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="105511" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="105999" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="106509" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="106997" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="107485" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="108994" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="109992" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="110480" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="111014" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="111479" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="111989" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="112988" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="113475" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="114009" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="114497" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="114961" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="115472" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="117005" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="117376" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="118003" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="118491" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="119002" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="119489" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="120000" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="120999" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="121510" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="121997" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="122485" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="123483" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="123994" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="124505" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="124993" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="125480" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="125991" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="126479" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="127013" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="127454" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="128011" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="129010" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="129497" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="130008" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="130496" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="131006" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="131494" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="132005" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="132957" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="133491" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="134002" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="134489" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="135000" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="135488" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="135999" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="136997" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="137485" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="137996" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="138483" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="138994" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="139482" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="140991" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="141502" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="141990" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="142500" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="143011" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="143499" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="144010" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="145008" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="145496" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="146007" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="146494" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="147493" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="148003" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="149490" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="150000" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="150511" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="151997" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="153182" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="153507" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="153994" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="154505" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="155434" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="155991" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="157013" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="157500" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="157988" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="158499" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="159497" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="159985" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="161169" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="161494" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="162005" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="162493" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="163491" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="164002" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="171456" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="174010" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="174497" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="175496" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="177005" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="178004" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="178491" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="179490" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="180001" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="180999" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="181487" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="181998" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="182485" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="185504" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="186502" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="187501" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="188963" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="189498" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="190008" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="190496" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="191494" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="192005" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="192981" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="193491" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="194002" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="194490" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="195001" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="195488" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="196998" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="197485" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="197996" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="198484" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="198995" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="199505" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="201502" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="202013" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="202501" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="203499" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="205496" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="205984" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="206495" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="207493" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="208004" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="209002" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="209490" Duration="100" Color="#ffffff" />
+    <ShowFunction ID="407" StartTime="210001" Duration="100" Color="#ffffff" />
+   </Track>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <WindowState Visible="False" X="0" Y="0" Width="1920" Height="1080" />
+   <AllowChildren>True</AllowChildren>
+   <AllowResize>True</AllowResize>
+   <ShowHeader>False</ShowHeader>
+   <ShowEnableButton>True</ShowEnableButton>
+   <Collapsed>False</Collapsed>
+   <Disabled>False</Disabled>
+   <Button Icon="" Caption="GO">
+    <Function ID="2" />
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Visible="False" X="10" Y="10" Width="150" Height="150" />
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4278233600</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Slider Caption="Master" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="False" X="200" Y="10" Width="60" Height="200" />
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Percentage" Monitor="false">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="255">
+     <Channel Fixture="0">0</Channel>
+     <Channel Fixture="0">1</Channel>
+     <Channel Fixture="0">2</Channel>
+     <Channel Fixture="0">3</Channel>
+     <Channel Fixture="0">4</Channel>
+     <Channel Fixture="0">5</Channel>
+     <Channel Fixture="0">6</Channel>
+     <Channel Fixture="0">7</Channel>
+     <Channel Fixture="0">8</Channel>
+     <Channel Fixture="0">9</Channel>
+     <Channel Fixture="0">10</Channel>
+     <Channel Fixture="0">11</Channel>
+     <Channel Fixture="0">12</Channel>
+     <Channel Fixture="0">13</Channel>
+     <Channel Fixture="0">14</Channel>
+     <Channel Fixture="0">15</Channel>
+     <Channel Fixture="0">16</Channel>
+     <Channel Fixture="0">17</Channel>
+    </Level>
+   </Slider>
+   <Button Icon="" Caption="BLACKOUT">
+    <Function ID="0" />
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Visible="False" X="10" Y="180" Width="150" Height="80" />
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4278190080</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080" />
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal" />
+  </Properties>
+ </VirtualConsole>
+</Workspace>

@@ -11,6 +11,50 @@
       "analysis_file": "pitbull__time_of_our_lives_analysis.json",
       "show_file": "../shows/pitbull__time_of_our_lives_show.qxw",
       "notes": "Fill in BPM and duration after running analyze_audio.py"
+    },
+    {
+      "id": "avicii__levels",
+      "title": "Levels",
+      "artist": "Avicii",
+      "file": "avicii__levels.wav",
+      "bpm": 123.0,
+      "duration_seconds": 338.9,
+      "analysis_file": "avicii__levels_analysis.json",
+      "show_file": "../shows/avicii__levels_show.qxw",
+      "notes": "Enjoy the show"
+    },
+    {
+      "id": "david_guetta__titanium",
+      "title": "Titanium",
+      "artist": "David Guetta",
+      "file": "david_guetta__titanium.wav",
+      "bpm": 123.0,
+      "duration_seconds": 245.1,
+      "analysis_file": "david_guetta__titanium_analysis.json",
+      "show_file": "../shows/david_guetta__titanium_show.qxw",
+      "notes": ""
+    },
+    {
+      "id": "mark_ronson__uptown_funk",
+      "title": "Uptown Funk",
+      "artist": "Mark Ronson",
+      "file": "mark_ronson__uptown_funk.wav",
+      "bpm": 117.5,
+      "duration_seconds": 269.7,
+      "analysis_file": "mark_ronson__uptown_funk_analysis.json",
+      "show_file": "../shows/mark_ronson__uptown_funk_show.qxw",
+      "notes": ""
+    },
+    {
+      "id": "katy_perry__teenage_dream",
+      "title": "Teenage Dream",
+      "artist": "Katy Perry",
+      "file": "katy_perry__teenage_dream.wav",
+      "bpm": 117.5,
+      "duration_seconds": 227.7,
+      "analysis_file": "katy_perry__teenage_dream_analysis.json",
+      "show_file": "../shows/katy_perry__teenage_dream_show.qxw",
+      "notes": ""
     }
   ]
 }
