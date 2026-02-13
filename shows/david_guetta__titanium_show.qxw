@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.14.3</Version>
+  <Author>dmx-light-show-generator</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0" />
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>KeoBin</Manufacturer>
+   <Model>L2800</Model>
+   <Mode>18CH</Mode>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>18</Channels>
+   <Name>KeoBin L2800</Name>
+   <ID>0</ID>
+  </Fixture>
+  <Function ID="0" Type="Scene" Name="off M0 L0000 UV0">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0</FixtureVal>
+  </Function>
+  <Function ID="3" Type="Scene" Name="purple M130 L1100 UV100">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,130,6,128,7,0,8,255,9,0,10,128,11,0,12,255,13,0,14,128,15,0,16,255,17,100</FixtureVal>
+  </Function>
+  <Function ID="4" Type="Scene" Name="electric_blue M60 L1000 UV40">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,180,2,0,3,0,4,0,5,60,6,0,7,100,8,255,9,0,10,0,11,100,12,255,13,0,14,0,15,100,16,255,17,40</FixtureVal>
+  </Function>
+  <Function ID="5" Type="Scene" Name="lavender M60 L0010 UV40">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,180,4,0,5,60,6,180,7,130,8,255,9,0,10,180,11,130,12,255,13,0,14,180,15,130,16,255,17,40</FixtureVal>
+  </Function>
+  <Function ID="6" Type="Scene" Name="champagne M60 L0010 UV40">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,180,4,0,5,60,6,255,7,222,8,173,9,0,10,255,11,222,12,173,13,0,14,255,15,222,16,173,17,40</FixtureVal>
+  </Function>
+  <Function ID="7" Type="Scene" Name="purple M130 L1010 UV100">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,0,3,200,4,0,5,130,6,128,7,0,8,255,9,0,10,128,11,0,12,255,13,0,14,128,15,0,16,255,17,100</FixtureVal>
+  </Function>
+  <Function ID="8" Type="Scene" Name="electric_blue M60 L0100 UV40">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,180,3,0,4,0,5,60,6,0,7,100,8,255,9,0,10,0,11,100,12,255,13,0,14,0,15,100,16,255,17,40</FixtureVal>
+  </Function>
+  <Function ID="9" Type="Scene" Name="lavender M60 L0001 UV40">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,180,5,60,6,180,7,130,8,255,9,0,10,180,11,130,12,255,13,0,14,180,15,130,16,255,17,40</FixtureVal>
+  </Function>
+  <Function ID="10" Type="Scene" Name="champagne M60 L0001 UV40">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,180,5,60,6,255,7,222,8,173,9,0,10,255,11,222,12,173,13,0,14,255,15,222,16,173,17,40</FixtureVal>
+  </Function>
+  <Function ID="11" Type="Scene" Name="lavender M0 L0000 UV0">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,180,7,130,8,255,9,0,10,180,11,130,12,255,13,0,14,180,15,130,16,255,17,0</FixtureVal>
+  </Function>
+  <Function ID="12" Type="Scene" Name="purple M60 L0100 UV40">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,180,3,0,4,0,5,60,6,128,7,0,8,255,9,0,10,128,11,0,12,255,13,0,14,128,15,0,16,255,17,40</FixtureVal>
+  </Function>
+  <Function ID="13" Type="Scene" Name="purple M60 L1000 UV40">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,180,2,0,3,0,4,0,5,60,6,128,7,0,8,255,9,0,10,128,11,0,12,255,13,0,14,128,15,0,16,255,17,40</FixtureVal>
+  </Function>
+  <Function ID="14" Type="Scene" Name="electric_blue M0 L0000 UV0">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,100,8,255,9,0,10,0,11,100,12,255,13,0,14,0,15,100,16,255,17,0</FixtureVal>
+  </Function>
+  <Function ID="15" Type="Scene" Name="lavender M130 L0011 UV100">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,130,6,180,7,130,8,255,9,0,10,180,11,130,12,255,13,0,14,180,15,130,16,255,17,100</FixtureVal>
+  </Function>
+  <Function ID="16" Type="Scene" Name="champagne M130 L0011 UV100">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,130,6,255,7,222,8,173,9,0,10,255,11,222,12,173,13,0,14,255,15,222,16,173,17,100</FixtureVal>
+  </Function>
+  <Function ID="17" Type="Scene" Name="purple M190 L0111 UV170 W200">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,220,3,220,4,220,5,190,6,128,7,0,8,255,9,200,10,128,11,0,12,255,13,0,14,128,15,0,16,255,17,170</FixtureVal>
+  </Function>
+  <Function ID="18" Type="Scene" Name="electric_blue M190 L0111 UV170">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,220,3,220,4,220,5,190,6,0,7,100,8,255,9,0,10,0,11,100,12,255,13,0,14,0,15,100,16,255,17,170</FixtureVal>
+  </Function>
+  <Function ID="19" Type="Scene" Name="white M60 L0001 UV40">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,180,5,60,6,255,7,255,8,255,9,0,10,255,11,255,12,255,13,0,14,255,15,255,16,255,17,40</FixtureVal>
+  </Function>
+  <Function ID="20" Type="Scene" Name="coral M190 L1101 UV170 W200">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,220,3,0,4,220,5,190,6,255,7,127,8,80,9,200,10,255,11,127,12,80,13,0,14,255,15,127,16,80,17,170</FixtureVal>
+  </Function>
+  <Function ID="21" Type="Scene" Name="rose M190 L1101 UV170">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,220,3,0,4,220,5,190,6,255,7,82,8,131,9,0,10,255,11,82,12,131,13,0,14,255,15,82,16,131,17,170</FixtureVal>
+  </Function>
+  <Function ID="22" Type="Scene" Name="hot_pink M190 L1011 UV170">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,0,3,220,4,220,5,190,6,255,7,20,8,147,9,0,10,255,11,20,12,147,13,0,14,255,15,20,16,147,17,170</FixtureVal>
+  </Function>
+  <Function ID="23" Type="Scene" Name="white M190 L1011 UV170">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,0,3,220,4,220,5,190,6,255,7,255,8,255,9,0,10,255,11,255,12,255,13,0,14,255,15,255,16,255,17,170</FixtureVal>
+  </Function>
+  <Function ID="24" Type="Scene" Name="coral M190 L0111 UV170 W200">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,220,3,220,4,220,5,190,6,255,7,127,8,80,9,200,10,255,11,127,12,80,13,0,14,255,15,127,16,80,17,170</FixtureVal>
+  </Function>
+  <Function ID="25" Type="Scene" Name="rose M190 L0111 UV170">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,220,3,220,4,220,5,190,6,255,7,82,8,131,9,0,10,255,11,82,12,131,13,0,14,255,15,82,16,131,17,170</FixtureVal>
+  </Function>
+  <Function ID="26" Type="Scene" Name="hot_pink M190 L1110 UV170">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,220,3,220,4,0,5,190,6,255,7,20,8,147,9,0,10,255,11,20,12,147,13,0,14,255,15,20,16,147,17,170</FixtureVal>
+  </Function>
+  <Function ID="27" Type="Scene" Name="white M190 L1110 UV170">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,220,3,220,4,0,5,190,6,255,7,255,8,255,9,0,10,255,11,255,12,255,13,0,14,255,15,255,16,255,17,170</FixtureVal>
+  </Function>
+  <Function ID="28" Type="Scene" Name="coral M245 L1111 UV230 S150 W200">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,245,6,255,7,127,8,80,9,200,10,255,11,127,12,80,13,150,14,255,15,127,16,80,17,230</FixtureVal>
+  </Function>
+  <Function ID="29" Type="Scene" Name="rose M245 L1111 UV230 S150">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,245,6,255,7,82,8,131,9,0,10,255,11,82,12,131,13,150,14,255,15,82,16,131,17,230</FixtureVal>
+  </Function>
+  <Function ID="30" Type="Scene" Name="hot_pink M245 L1111 UV230">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,245,6,255,7,20,8,147,9,0,10,255,11,20,12,147,13,0,14,255,15,20,16,147,17,230</FixtureVal>
+  </Function>
+  <Function ID="31" Type="Scene" Name="white M245 L1111 UV230">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,245,6,255,7,255,8,255,9,0,10,255,11,255,12,255,13,0,14,255,15,255,16,255,17,230</FixtureVal>
+  </Function>
+  <Function ID="32" Type="Scene" Name="coral M245 L1111 UV230 W200">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,245,6,255,7,127,8,80,9,200,10,255,11,127,12,80,13,0,14,255,15,127,16,80,17,230</FixtureVal>
+  </Function>
+  <Function ID="33" Type="Scene" Name="rose M245 L1111 UV230">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,245,6,255,7,82,8,131,9,0,10,255,11,82,12,131,13,0,14,255,15,82,16,131,17,230</FixtureVal>
+  </Function>
+  <Function ID="34" Type="Scene" Name="magenta M245 L1111 UV230">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,245,6,255,7,0,8,255,9,0,10,255,11,0,12,255,13,0,14,255,15,0,16,255,17,230</FixtureVal>
+  </Function>
+  <Function ID="35" Type="Scene" Name="gold M190 L1101 UV170 W200">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,220,3,0,4,220,5,190,6,255,7,215,8,0,9,200,10,255,11,215,12,0,13,0,14,255,15,215,16,0,17,170</FixtureVal>
+  </Function>
+  <Function ID="36" Type="Scene" Name="white M130 L1100 UV100">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,130,6,255,7,255,8,255,9,0,10,255,11,255,12,255,13,0,14,255,15,255,16,255,17,100</FixtureVal>
+  </Function>
+  <Function ID="37" Type="Scene" Name="magenta M190 L1011 UV170">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,0,3,220,4,220,5,190,6,255,7,0,8,255,9,0,10,255,11,0,12,255,13,0,14,255,15,0,16,255,17,170</FixtureVal>
+  </Function>
+  <Function ID="38" Type="Scene" Name="gold M130 L1010 UV100">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,0,3,200,4,0,5,130,6,255,7,215,8,0,9,0,10,255,11,215,12,0,13,0,14,255,15,215,16,0,17,100</FixtureVal>
+  </Function>
+  <Function ID="39" Type="Scene" Name="white M130 L1010 UV100">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,0,3,200,4,0,5,130,6,255,7,255,8,255,9,0,10,255,11,255,12,255,13,0,14,255,15,255,16,255,17,100</FixtureVal>
+  </Function>
+  <Function ID="40" Type="Scene" Name="hot_pink M130 L0101 UV100">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,130,6,255,7,20,8,147,9,0,10,255,11,20,12,147,13,0,14,255,15,20,16,147,17,100</FixtureVal>
+  </Function>
+  <Function ID="41" Type="Scene" Name="magenta M130 L0101 UV100">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,130,6,255,7,0,8,255,9,0,10,255,11,0,12,255,13,0,14,255,15,0,16,255,17,100</FixtureVal>
+  </Function>
+  <Function ID="42" Type="Scene" Name="gold M130 L1100 UV100">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,130,6,255,7,215,8,0,9,0,10,255,11,215,12,0,13,0,14,255,15,215,16,0,17,100</FixtureVal>
+  </Function>
+  <Function ID="43" Type="Scene" Name="white M60 L1000 UV40">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,180,2,0,3,0,4,0,5,60,6,255,7,255,8,255,9,0,10,255,11,255,12,255,13,0,14,255,15,255,16,255,17,40</FixtureVal>
+  </Function>
+  <Function ID="44" Type="Scene" Name="hot_pink M130 L0011 UV100">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,130,6,255,7,20,8,147,9,0,10,255,11,20,12,147,13,0,14,255,15,20,16,147,17,100</FixtureVal>
+  </Function>
+  <Function ID="45" Type="Scene" Name="magenta M130 L0011 UV100">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,130,6,255,7,0,8,255,9,0,10,255,11,0,12,255,13,0,14,255,15,0,16,255,17,100</FixtureVal>
+  </Function>
+  <Function ID="46" Type="Scene" Name="magenta M190 L1110 UV170">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,220,3,220,4,0,5,190,6,255,7,0,8,255,9,0,10,255,11,0,12,255,13,0,14,255,15,0,16,255,17,170</FixtureVal>
+  </Function>
+  <Function ID="47" Type="Scene" Name="white M190 L1101 UV170">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,220,2,220,3,0,4,220,5,190,6,255,7,255,8,255,9,0,10,255,11,255,12,255,13,0,14,255,15,255,16,255,17,170</FixtureVal>
+  </Function>
+  <Function ID="48" Type="Scene" Name="gold M190 L0111 UV170 W200">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,220,3,220,4,220,5,190,6,255,7,215,8,0,9,200,10,255,11,215,12,0,13,0,14,255,15,215,16,0,17,170</FixtureVal>
+  </Function>
+  <Function ID="49" Type="Scene" Name="white M190 L0111 UV170">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,220,3,220,4,220,5,190,6,255,7,255,8,255,9,0,10,255,11,255,12,255,13,0,14,255,15,255,16,255,17,170</FixtureVal>
+  </Function>
+  <Function ID="50" Type="Scene" Name="white M130 L0101 UV100">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,200,3,0,4,200,5,130,6,255,7,255,8,255,9,0,10,255,11,255,12,255,13,0,14,255,15,255,16,255,17,100</FixtureVal>
+  </Function>
+  <Function ID="51" Type="Scene" Name="coral M60 L1000 UV40">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,180,2,0,3,0,4,0,5,60,6,255,7,127,8,80,9,0,10,255,11,127,12,80,13,0,14,255,15,127,16,80,17,40</FixtureVal>
+  </Function>
+  <Function ID="52" Type="Scene" Name="rose M60 L1000 UV40">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,180,2,0,3,0,4,0,5,60,6,255,7,82,8,131,9,0,10,255,11,82,12,131,13,0,14,255,15,82,16,131,17,40</FixtureVal>
+  </Function>
+  <Function ID="53" Type="Scene" Name="white M130 L0011 UV100">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,0,3,200,4,200,5,130,6,255,7,255,8,255,9,0,10,255,11,255,12,255,13,0,14,255,15,255,16,255,17,100</FixtureVal>
+  </Function>
+  <Function ID="54" Type="Scene" Name="coral M130 L1010 UV100">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,0,3,200,4,0,5,130,6,255,7,127,8,80,9,0,10,255,11,127,12,80,13,0,14,255,15,127,16,80,17,100</FixtureVal>
+  </Function>
+  <Function ID="55" Type="Scene" Name="rose M60 L0100 UV40">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,180,3,0,4,0,5,60,6,255,7,82,8,131,9,0,10,255,11,82,12,131,13,0,14,255,15,82,16,131,17,40</FixtureVal>
+  </Function>
+  <Function ID="56" Type="Scene" Name="coral M130 L1100 UV100">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,130,6,255,7,127,8,80,9,0,10,255,11,127,12,80,13,0,14,255,15,127,16,80,17,100</FixtureVal>
+  </Function>
+  <Function ID="57" Type="Scene" Name="rose M130 L1100 UV100">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,200,3,0,4,0,5,130,6,255,7,82,8,131,9,0,10,255,11,82,12,131,13,0,14,255,15,82,16,131,17,100</FixtureVal>
+  </Function>
+  <Function ID="58" Type="Scene" Name="coral M60 L0100 UV40">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,0,2,180,3,0,4,0,5,60,6,255,7,127,8,80,9,0,10,255,11,127,12,80,13,0,14,255,15,127,16,80,17,40</FixtureVal>
+  </Function>
+  <Function ID="59" Type="Scene" Name="rose M130 L1010 UV100">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,200,2,0,3,200,4,0,5,130,6,255,7,82,8,131,9,0,10,255,11,82,12,131,13,0,14,255,15,82,16,131,17,100</FixtureVal>
+  </Function>
+  <Function ID="60" Type="Scene" Name="white M255 L1111 UV255 S150 W255">
+   <Speed FadeIn="0" FadeOut="0" Duration="0" />
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255,5,255,6,255,7,255,8,255,9,255,10,255,11,255,12,255,13,150,14,255,15,255,16,255,17,255</FixtureVal>
+  </Function>
+  <Function ID="1" Type="Audio" Name="david_guetta__titanium.wav">
+   <Source>/Users/sarahdorich/lightdrop/audio/david_guetta__titanium.wav</Source>
+  </Function>
+  <Function ID="2" Type="Show" Name="Generated Light Show">
+   <TimeDivision Type="BPM_4_4" BPM="123" />
+   <Track ID="0" Name="Audio" SceneID="4294967295" isMute="0">
+    <ShowFunction ID="1" StartTime="0" Duration="245055" />
+   </Track>
+   <Track ID="1" Name="Main Lights" SceneID="0" isMute="0">
+    <ShowFunction ID="0" StartTime="0" Duration="534" Color="#000000" />
+    <ShowFunction ID="3" StartTime="534" Duration="464" Color="#8000ff" />
+    <ShowFunction ID="4" StartTime="998" Duration="488" Color="#0064ff" />
+    <ShowFunction ID="5" StartTime="1486" Duration="464" Color="#b482ff" />
+    <ShowFunction ID="6" StartTime="1950" Duration="488" Color="#ffdead" />
+    <ShowFunction ID="7" StartTime="2438" Duration="464" Color="#8000ff" />
+    <ShowFunction ID="8" StartTime="2902" Duration="488" Color="#0064ff" />
+    <ShowFunction ID="9" StartTime="3390" Duration="464" Color="#b482ff" />
+    <ShowFunction ID="10" StartTime="3854" Duration="488" Color="#ffdead" />
+    <ShowFunction ID="3" StartTime="4342" Duration="464" Color="#8000ff" />
+    <ShowFunction ID="4" StartTime="4806" Duration="464" Color="#0064ff" />
+    <ShowFunction ID="11" StartTime="5270" Duration="488" Color="#b482ff" />
+    <ShowFunction ID="6" StartTime="5758" Duration="488" Color="#ffdead" />
+    <ShowFunction ID="12" StartTime="6246" Duration="487" Color="#8000ff" />
+    <ShowFunction ID="8" StartTime="6733" Duration="465" Color="#0064ff" />
+    <ShowFunction ID="9" StartTime="7198" Duration="487" Color="#b482ff" />
+    <ShowFunction ID="10" StartTime="7685" Duration="465" Color="#ffdead" />
+    <ShowFunction ID="3" StartTime="8150" Duration="464" Color="#8000ff" />
+    <ShowFunction ID="4" StartTime="8614" Duration="465" Color="#0064ff" />
+    <ShowFunction ID="5" StartTime="9079" Duration="487" Color="#b482ff" />
+    <ShowFunction ID="6" StartTime="9566" Duration="488" Color="#ffdead" />
+    <ShowFunction ID="7" StartTime="10054" Duration="464" Color="#8000ff" />
+    <ShowFunction ID="8" StartTime="10518" Duration="465" Color="#0064ff" />
+    <ShowFunction ID="9" StartTime="10983" Duration="487" Color="#b482ff" />
+    <ShowFunction ID="10" StartTime="11470" Duration="488" Color="#ffdead" />
+    <ShowFunction ID="13" StartTime="11958" Duration="464" Color="#8000ff" />
+    <ShowFunction ID="14" StartTime="12422" Duration="465" Color="#0064ff" />
+    <ShowFunction ID="15" StartTime="12887" Duration="487" Color="#b482ff" />
+    <ShowFunction ID="16" StartTime="13374" Duration="488" Color="#ffdead" />
+    <ShowFunction ID="17" StartTime="13862" Duration="487" Color="#8000ff" />
+    <ShowFunction ID="18" StartTime="14349" Duration="488" Color="#0064ff" />
+    <ShowFunction ID="0" StartTime="14837" Duration="464" Color="#000000" />
+    <ShowFunction ID="19" StartTime="15301" Duration="465" Color="#ffffff" />
+    <ShowFunction ID="20" StartTime="15766" Duration="464" Color="#ff7f50" />
+    <ShowFunction ID="21" StartTime="16230" Duration="488" Color="#ff5283" />
+    <ShowFunction ID="22" StartTime="16718" Duration="487" Color="#ff1493" />
+    <ShowFunction ID="23" StartTime="17205" Duration="465" Color="#ffffff" />
+    <ShowFunction ID="24" StartTime="17670" Duration="464" Color="#ff7f50" />
+    <ShowFunction ID="25" StartTime="18134" Duration="488" Color="#ff5283" />
+    <ShowFunction ID="26" StartTime="18622" Duration="464" Color="#ff1493" />
+    <ShowFunction ID="27" StartTime="19086" Duration="488" Color="#ffffff" />
+    <ShowFunction ID="20" StartTime="19574" Duration="464" Color="#ff7f50" />
+    <ShowFunction ID="21" StartTime="20038" Duration="488" Color="#ff5283" />
+    <ShowFunction ID="22" StartTime="20526" Duration="488" Color="#ff1493" />
+    <ShowFunction ID="23" StartTime="21014" Duration="464" Color="#ffffff" />
+    <ShowFunction ID="24" StartTime="21478" Duration="488" Color="#ff7f50" />
+    <ShowFunction ID="25" StartTime="21966" Duration="464" Color="#ff5283" />
+    <ShowFunction ID="26" StartTime="22430" Duration="488" Color="#ff1493" />
+    <ShowFunction ID="27" StartTime="22918" Duration="464" Color="#ffffff" />
+    <ShowFunction ID="20" StartTime="23382" Duration="464" Color="#ff7f50" />
+    <ShowFunction ID="21" StartTime="23846" Duration="488" Color="#ff5283" />
+    <ShowFunction ID="22" StartTime="24334" Duration="488" Color="#ff1493" />
+    <ShowFunction ID="23" StartTime="24822" Duration="464" Color="#ffffff" />
+    <ShowFunction ID="24" StartTime="25286" Duration="464" Color="#ff7f50" />
+    <ShowFunction ID="25" StartTime="25750" Duration="488" Color="#ff5283" />
+    <ShowFunction ID="26" StartTime="26238" Duration="488" Color="#ff1493" />
+    <ShowFunction ID="27" StartTime="26726" Duration="464" Color="#ffffff" />
+    <ShowFunction ID="20" StartTime="27190" Duration="464" Color="#ff7f50" />
+    <ShowFunction ID="21" StartTime="27654" Duration="488" Color="#ff5283" />
+    <ShowFunction ID="22" StartTime="28142" Duration="464" Color="#ff1493" />
+    <ShowFunction ID="23" StartTime="28606" Duration="488" Color="#ffffff" />
+    <ShowFunction ID="24" StartTime="29094" Duration="488" Color="#ff7f50" />
+    <ShowFunction ID="25" StartTime="29582" Duration="464" Color="#ff5283" />
+    <ShowFunction ID="26" StartTime="30046" Duration="488" Color="#ff1493" />
+    <ShowFunction ID="0" StartTime="30534" Duration="464" Color="#000000" />
+    <ShowFunction ID="28" StartTime="30998" Duration="465" Color="#ff7f50" />
+    <ShowFunction ID="29" StartTime="31463" Duration="487" Color="#ff5283" />
+    <ShowFunction ID="30" StartTime="31950" Duration="488" Color="#ff1493" />
+    <ShowFunction ID="31" StartTime="32438" Duration="464" Color="#ffffff" />
+    <ShowFunction ID="32" StartTime="32902" Duration="488" Color="#ff7f50" />
+    <ShowFunction ID="33" StartTime="33390" Duration="464" Color="#ff5283" />
+    <ShowFunction ID="30" StartTime="33854" Duration="488" Color="#ff1493" />
+    <ShowFunction ID="31" StartTime="34342" Duration="464" Color="#ffffff" />
+    <ShowFunction ID="28" StartTime="34806" Duration="488" Color="#ff7f50" />
+    <ShowFunction ID="29" StartTime="35294" Duration="464" Color="#ff5283" />
+    <ShowFunction ID="30" StartTime="35758" Duration="488" Color="#ff1493" />
+    <ShowFunction ID="31" StartTime="36246" Duration="464" Color="#ffffff" />
+    <ShowFunction ID="32" StartTime="36710" Duration="488" Color="#ff7f50" />
+    <ShowFunction ID="33" StartTime="37198" Duration="464" Color="#ff5283" />
+    <ShowFunction ID="30" StartTime="37662" Duration="488" Color="#ff1493" />
+    <ShowFunction ID="31" StartTime="38150" Duration="464" Color="#ffffff" />
+    <ShowFunction ID="28" StartTime="38614" Duration="488" Color="#ff7f50" />
+    <ShowFunction ID="29" StartTime="39102" Duration="488" Color="#ff5283" />
+    <ShowFunction ID="30" StartTime="39590" Duration="464" Color="#ff1493" />
+    <ShowFunction ID="31" StartTime="40054" Duration="464" Color="#ffffff" />
+    <ShowFunction ID="32" StartTime="40518" Duration="488" Color="#ff7f50" />
+    <ShowFunction ID="33" StartTime="41006" Duration="464" Color="#ff5283" />
+    <ShowFunction ID="30" StartTime="41470" Duration="488" Color="#ff1493" />
+    <ShowFunction ID="31" StartTime="41958" Duration="488" Color="#ffffff" />
+    <ShowFunction ID="28" StartTime="42446" Duration="464" Color="#ff7f50" />
+    <ShowFunction ID="29" StartTime="42910" Duration="464" Color="#ff5283" />
+    <ShowFunction ID="30" StartTime="43374" Duration="488" Color="#ff1493" />
+    <ShowFunction ID="31" StartTime="43862" Duration="488" Color="#ffffff" />
+    <ShowFunction ID="32" StartTime="44350" Duration="464" Color="#ff7f50" />
+    <ShowFunction ID="33" StartTime="44814" Duration="488" Color="#ff5283" />
+    <ShowFunction ID="30" StartTime="45302" Duration="464" Color="#ff1493" />
+    <ShowFunction ID="34" StartTime="45766" Duration="511" Color="#ff00ff" />
+    <ShowFunction ID="35" StartTime="46277" Duration="511" Color="#ffd700" />
+    <ShowFunction ID="36" StartTime="46788" Duration="511" Color="#ffffff" />
+    <ShowFunction ID="22" StartTime="47299" Duration="534" Color="#ff1493" />
+    <ShowFunction ID="37" StartTime="47833" Duration="534" Color="#ff00ff" />
+    <ShowFunction ID="38" StartTime="48367" Duration="511" Color="#ffd700" />
+    <ShowFunction ID="39" StartTime="48878" Duration="464" Color="#ffffff" />
+    <ShowFunction ID="40" StartTime="49342" Duration="488" Color="#ff1493" />
+    <ShowFunction ID="41" StartTime="49830" Duration="464" Color="#ff00ff" />
+    <ShowFunction ID="42" StartTime="50294" Duration="488" Color="#ffd700" />
+    <ShowFunction ID="43" StartTime="50782" Duration="464" Color="#ffffff" />
+    <ShowFunction ID="44" StartTime="51246" Duration="488" Color="#ff1493" />
+    <ShowFunction ID="45" StartTime="51734" Duration="464" Color="#ff00ff" />
+    <ShowFunction ID="38" StartTime="52198" Duration="488" Color="#ffd700" />
+    <ShowFunction ID="39" StartTime="52686" Duration="464" Color="#ffffff" />
+    <ShowFunction ID="40" StartTime="53150" Duration="488" Color="#ff1493" />
+    <ShowFunction ID="46" StartTime="53638" Duration="464" Color="#ff00ff" />
+    <ShowFunction ID="42" StartTime="54102" Duration="488" Color="#ffd700" />
+    <ShowFunction ID="43" StartTime="54590" Duration="510" Color="#ffffff" />
+    <ShowFunction ID="44" StartTime="55100" Duration="488" Color="#ff1493" />
+    <ShowFunction ID="45" StartTime="55588" Duration="488" Color="#ff00ff" />
+    <ShowFunction ID="38" StartTime="56076" Duration="487" Color="#ffd700" />
+    <ShowFunction ID="39" StartTime="56563" Duration="488" Color="#ffffff" />
+    <ShowFunction ID="40" StartTime="57051" Duration="511" Color="#ff1493" />
+    <ShowFunction ID="41" StartTime="57562" Duration="511" Color="#ff00ff" />
+    <ShowFunction ID="42" StartTime="58073" Duration="534" Color="#ffd700" />
+    <ShowFunction ID="36" StartTime="58607" Duration="487" Color="#ffffff" />
+    <ShowFunction ID="44" StartTime="59094" Duration="488" Color="#ff1493" />
+    <ShowFunction ID="45" StartTime="59582" Duration="464" Color="#ff00ff" />
+    <ShowFunction ID="38" StartTime="60046" Duration="488" Color="#ffd700" />
+    <ShowFunction ID="39" StartTime="60534" Duration="488" Color="#ffffff" />
+    <ShowFunction ID="40" StartTime="61022" Duration="464" Color="#ff1493" />
+    <ShowFunction ID="46" StartTime="61486" Duration="488" Color="#ff00ff" />
+    <ShowFunction ID="42" StartTime="61974" Duration="464" Color="#ffd700" />
+    <ShowFunction ID="47" StartTime="62438" Duration="488" Color="#ffffff" />
+    <ShowFunction ID="44" StartTime="62926" Duration="464" Color="#ff1493" />
+    <ShowFunction ID="45" StartTime="63390" Duration="488" Color="#ff00ff" />
+    <ShowFunction ID="38" StartTime="63878" Duration="464" Color="#ffd700" />
+    <ShowFunction ID="39" StartTime="64342" Duration="464" Color="#ffffff" />
+    <ShowFunction ID="40" StartTime="64806" Duration="488" Color="#ff1493" />
+    <ShowFunction ID="46" StartTime="65294" Duration="464" Color="#ff00ff" />
+    <ShowFunction ID="42" StartTime="65758" Duration="488" Color="#ffd700" />
+    <ShowFunction ID="47" StartTime="66246" Duration="464" Color="#ffffff" />
+    <ShowFunction ID="44" StartTime="66710" Duration="488" Color="#ff1493" />
+    <ShowFunction ID="37" StartTime="67198" Duration="488" Color="#ff00ff" />
+    <ShowFunction ID="48" StartTime="67686" Duration="464" Color="#ffd700" />
+    <ShowFunction ID="49" StartTime="68150" Duration="488" Color="#ffffff" />
+    <ShowFunction ID="40" StartTime="68638" Duration="464" Color="#ff1493" />
+    <ShowFunction ID="41" StartTime="69102" Duration="488" Color="#ff00ff" />
+    <ShowFunction ID="42" StartTime="69590" Duration="464" Color="#ffd700" />
+    <ShowFunction ID="36" StartTime="70054" Duration="488" Color="#ffffff" />
+    <ShowFunction ID="44" StartTime="70542" Duration="464" Color="#ff1493" />
+    <ShowFunction ID="37" StartTime="71006" Duration="488" Color="#ff00ff" />
+    <ShowFunction ID="38" StartTime="71494" Duration="464" Color="#ffd700" />
+    <ShowFunction ID="49" StartTime="71958" Duration="488" Color="#ffffff" />
+    <ShowFunction ID="40" StartTime="72446" Duration="464" Color="#ff1493" />
+    <ShowFunction ID="46" StartTime="72910" Duration="488" Color="#ff00ff" />
+    <ShowFunction ID="42" StartTime="73398" Duration="464" Color="#ffd700" />
+    <ShowFunction ID="36" StartTime="73862" Duration="488" Color="#ffffff" />
+    <ShowFunction ID="44" StartTime="74350" Duration="464" Color="#ff1493" />
+    <ShowFunction ID="37" StartTime="74814" Duration="488" Color="#ff00ff" />
+    <ShowFunction ID="48" StartTime="75302" Duration="464" Color="#ffd700" />
+    <ShowFunction ID="49" StartTime="75766" Duration="511" Color="#ffffff" />
+    <ShowFunction ID="40" StartTime="76277" Duration="534" Color="#ff1493" />
+    <ShowFunction ID="46" StartTime="76811" Duration="488" Color="#ff00ff" />
+    <ShowFunction ID="35" StartTime="77299" Duration="487" Color="#ffd700" />
+    <ShowFunction ID="47" StartTime="77786" Duration="465" Color="#ffffff" />
+    <ShowFunction ID="22" StartTime="78251" Duration="487" Color="#ff1493" />
+    <ShowFunction ID="37" StartTime="78738" Duration="465" Color="#ff00ff" />
+    <ShowFunction ID="48" StartTime="79203" Duration="464" Color="#ffd700" />
+    <ShowFunction ID="49" StartTime="79667" Duration="465" Color="#ffffff" />
+    <ShowFunction ID="26" StartTime="80132" Duration="487" Color="#ff1493" />
+    <ShowFunction ID="46" StartTime="80619" Duration="465" Color="#ff00ff" />
+    <ShowFunction ID="35" StartTime="81084" Duration="487" Color="#ffd700" />
+    <ShowFunction ID="47" StartTime="81571" Duration="465" Color="#ffffff" />
+    <ShowFunction ID="22" StartTime="82036" Duration="487" Color="#ff1493" />
+    <ShowFunction ID="37" StartTime="82523" Duration="488" Color="#ff00ff" />
+    <ShowFunction ID="48" StartTime="83011" Duration="464" Color="#ffd700" />
+    <ShowFunction ID="49" StartTime="83475" Duration="488" Color="#ffffff" />
+    <ShowFunction ID="26" StartTime="83963" Duration="464" Color="#ff1493" />
+    <ShowFunction ID="46" StartTime="84427" Duration="488" Color="#ff00ff" />
+    <ShowFunction ID="35" StartTime="84915" Duration="464" Color="#ffd700" />
+    <ShowFunction ID="47" StartTime="85379" Duration="488" Color="#ffffff" />
+    <ShowFunction ID="22" StartTime="85867" Duration="464" Color="#ff1493" />
+    <ShowFunction ID="37" StartTime="86331" Duration="488" Color="#ff00ff" />
+    <ShowFunction ID="48" StartTime="86819" Duration="464" Color="#ffd700" />
+    <ShowFunction ID="49" StartTime="87283" Duration="488" Color="#ffffff" />
+    <ShowFunction ID="26" StartTime="87771" Duration="464" Color="#ff1493" />
+    <ShowFunction ID="46" StartTime="88235" Duration="488" Color="#ff00ff" />
+    <ShowFunction ID="35" StartTime="88723" Duration="464" Color="#ffd700" />
+    <ShowFunction ID="47" StartTime="89187" Duration="488" Color="#ffffff" />
+    <ShowFunction ID="22" StartTime="89675" Duration="464" Color="#ff1493" />
+    <ShowFunction ID="37" StartTime="90139" Duration="488" Color="#ff00ff" />
+    <ShowFunction ID="48" StartTime="90627" Duration="464" Color="#ffd700" />
+    <ShowFunction ID="49" StartTime="91091" Duration="418" Color="#ffffff" />
+    <ShowFunction ID="40" StartTime="91509" Duration="465" Color="#ff1493" />
+    <ShowFunction ID="50" StartTime="91974" Duration="464" Color="#ffffff" />
+    <ShowFunction ID="51" StartTime="92438" Duration="441" Color="#ff7f50" />
+    <ShowFunction ID="52" StartTime="92879" Duration="534" Color="#ff5283" />
+    <ShowFunction ID="44" StartTime="93413" Duration="465" Color="#ff1493" />
+    <ShowFunction ID="53" StartTime="93878" Duration="464" Color="#ffffff" />
+    <ShowFunction ID="54" StartTime="94342" Duration="465" Color="#ff7f50" />
+    <ShowFunction ID="55" StartTime="94807" Duration="487" Color="#ff5283" />
+    <ShowFunction ID="26" StartTime="95294" Duration="465" Color="#ff1493" />
+    <ShowFunction ID="27" StartTime="95759" Duration="487" Color="#ffffff" />
+    <ShowFunction ID="56" StartTime="96246" Duration="465" Color="#ff7f50" />
+    <ShowFunction ID="57" StartTime="96711" Duration="487" Color="#ff5283" />
+    <ShowFunction ID="44" StartTime="97198" Duration="488" Color="#ff1493" />
+    <ShowFunction ID="53" StartTime="97686" Duration="487" Color="#ffffff" />
+    <ShowFunction ID="58" StartTime="98173" Duration="465" Color="#ff7f50" />
+    <ShowFunction ID="59" StartTime="98638" Duration="464" Color="#ff5283" />
+    <ShowFunction ID="40" StartTime="99102" Duration="465" Color="#ff1493" />
+    <ShowFunction ID="27" StartTime="99567" Duration="487" Color="#ffffff" />
+    <ShowFunction ID="20" StartTime="100054" Duration="465" Color="#ff7f50" />
+    <ShowFunction ID="21" StartTime="100519" Duration="487" Color="#ff5283" />
+    <ShowFunction ID="22" StartTime="101006" Duration="465" Color="#ff1493" />
+    <ShowFunction ID="23" StartTime="101471" Duration="487" Color="#ffffff" />
+    <ShowFunction ID="24" StartTime="101958" Duration="465" Color="#ff7f50" />
+    <ShowFunction ID="25" StartTime="102423" Duration="487" Color="#ff5283" />
+    <ShowFunction ID="26" StartTime="102910" Duration="465" Color="#ff1493" />
+    <ShowFunction ID="27" StartTime="103375" Duration="487" Color="#ffffff" />
+    <ShowFunction ID="56" StartTime="103862" Duration="465" Color="#ff7f50" />
+    <ShowFunction ID="21" StartTime="104327" Duration="464" Color="#ff5283" />
+    <ShowFunction ID="44" StartTime="104791" Duration="488" Color="#ff1493" />
+    <ShowFunction ID="23" StartTime="105279" Duration="487" Color="#ffffff" />
+    <ShowFunction ID="24" StartTime="105766" Duration="465" Color="#ff7f50" />
+    <ShowFunction ID="25" StartTime="106231" Duration="487" Color="#ff5283" />
+    <ShowFunction ID="26" StartTime="106718" Duration="465" Color="#ff1493" />
+    <ShowFunction ID="0" StartTime="107183" Duration="487" Color="#000000" />
+    <ShowFunction ID="28" StartTime="107670" Duration="488" Color="#ff7f50" />
+    <ShowFunction ID="29" StartTime="108158" Duration="464" Color="#ff5283" />
+    <ShowFunction ID="30" StartTime="108622" Duration="488" Color="#ff1493" />
+    <ShowFunction ID="31" StartTime="109110" Duration="464" Color="#ffffff" />
+    <ShowFunction ID="32" StartTime="109574" Duration="488" Color="#ff7f50" />
+    <ShowFunction ID="33" StartTime="110062" Duration="464" Color="#ff5283" />
+    <ShowFunction ID="30" StartTime="110526" Duration="488" Color="#ff1493" />
+    <ShowFunction ID="31" StartTime="111014" Duration="465" Color="#ffffff" />
+    <ShowFunction ID="28" StartTime="111479" Duration="487" Color="#ff7f50" />
+    <ShowFunction ID="29" StartTime="111966" Duration="465" Color="#ff5283" />
+    <ShowFunction ID="30" StartTime="112431" Duration="487" Color="#ff1493" />
+    <ShowFunction ID="31" StartTime="112918" Duration="465" Color="#ffffff" />
+    <ShowFunction ID="32" StartTime="113383" Duration="487" Color="#ff7f50" />
+    <ShowFunction ID="33" StartTime="113870" Duration="465" Color="#ff5283" />
+    <ShowFunction ID="30" StartTime="114335" Duration="487" Color="#ff1493" />
+    <ShowFunction ID="31" StartTime="114822" Duration="465" Color="#ffffff" />
+    <ShowFunction ID="28" StartTime="115287" Duration="487" Color="#ff7f50" />
+    <ShowFunction ID="29" StartTime="115774" Duration="465" Color="#ff5283" />
+    <ShowFunction ID="30" StartTime="116239" Duration="487" Color="#ff1493" />
+    <ShowFunction ID="31" StartTime="116726" Duration="465" Color="#ffffff" />
+    <ShowFunction ID="32" StartTime="117191" Duration="487" Color="#ff7f50" />
+    <ShowFunction ID="33" StartTime="117678" Duration="465" Color="#ff5283" />
+    <ShowFunction ID="30" StartTime="118143" Duration="487" Color="#ff1493" />
+    <ShowFunction ID="31" StartTime="118630" Duration="465" Color="#ffffff" />
+    <ShowFunction ID="28" StartTime="119095" Duration="487" Color="#ff7f50" />
+    <ShowFunction ID="29" StartTime="119582" Duration="465" Color="#ff5283" />
+    <ShowFunction ID="30" StartTime="120047" Duration="487" Color="#ff1493" />
+    <ShowFunction ID="31" StartTime="120534" Duration="124521" Color="#ffffff" />
+    <ShowFunction ID="0" StartTime="243055" Duration="2000" Color="#000000" />
+   </Track>
+   <Track ID="2" Name="Strobe Hits" SceneID="60" isMute="0">
+    <ShowFunction ID="60" StartTime="15998" Duration="487" Color="#ffffff" />
+    <ShowFunction ID="60" StartTime="30998" Duration="487" Color="#ffffff" />
+    <ShowFunction ID="60" StartTime="33854" Duration="487" Color="#ffffff" />
+    <ShowFunction ID="60" StartTime="35271" Duration="487" Color="#ffffff" />
+    <ShowFunction ID="60" StartTime="36710" Duration="487" Color="#ffffff" />
+    <ShowFunction ID="60" StartTime="38614" Duration="487" Color="#ffffff" />
+    <ShowFunction ID="60" StartTime="43374" Duration="487" Color="#ffffff" />
+    <ShowFunction ID="60" StartTime="44582" Duration="487" Color="#ffffff" />
+    <ShowFunction ID="60" StartTime="107183" Duration="487" Color="#ffffff" />
+    <ShowFunction ID="60" StartTime="108367" Duration="487" Color="#ffffff" />
+    <ShowFunction ID="60" StartTime="109342" Duration="487" Color="#ffffff" />
+    <ShowFunction ID="60" StartTime="110410" Duration="487" Color="#ffffff" />
+    <ShowFunction ID="60" StartTime="111943" Duration="487" Color="#ffffff" />
+    <ShowFunction ID="60" StartTime="113127" Duration="487" Color="#ffffff" />
+    <ShowFunction ID="60" StartTime="114218" Duration="487" Color="#ffffff" />
+    <ShowFunction ID="60" StartTime="115287" Duration="487" Color="#ffffff" />
+    <ShowFunction ID="60" StartTime="118607" Duration="487" Color="#ffffff" />
+    <ShowFunction ID="60" StartTime="119814" Duration="487" Color="#ffffff" />
+   </Track>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <WindowState Visible="False" X="0" Y="0" Width="1920" Height="1080" />
+   <AllowChildren>True</AllowChildren>
+   <AllowResize>True</AllowResize>
+   <ShowHeader>False</ShowHeader>
+   <ShowEnableButton>True</ShowEnableButton>
+   <Collapsed>False</Collapsed>
+   <Disabled>False</Disabled>
+   <Button Icon="" Caption="GO">
+    <Function ID="2" />
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Visible="False" X="10" Y="10" Width="150" Height="150" />
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4278233600</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Slider Caption="Master" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="False" X="200" Y="10" Width="60" Height="200" />
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Percentage" Monitor="false">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="255">
+     <Channel Fixture="0">0</Channel>
+     <Channel Fixture="0">1</Channel>
+     <Channel Fixture="0">2</Channel>
+     <Channel Fixture="0">3</Channel>
+     <Channel Fixture="0">4</Channel>
+     <Channel Fixture="0">5</Channel>
+     <Channel Fixture="0">6</Channel>
+     <Channel Fixture="0">7</Channel>
+     <Channel Fixture="0">8</Channel>
+     <Channel Fixture="0">9</Channel>
+     <Channel Fixture="0">10</Channel>
+     <Channel Fixture="0">11</Channel>
+     <Channel Fixture="0">12</Channel>
+     <Channel Fixture="0">13</Channel>
+     <Channel Fixture="0">14</Channel>
+     <Channel Fixture="0">15</Channel>
+     <Channel Fixture="0">16</Channel>
+     <Channel Fixture="0">17</Channel>
+    </Level>
+   </Slider>
+   <Button Icon="" Caption="BLACKOUT">
+    <Function ID="0" />
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Visible="False" X="10" Y="180" Width="150" Height="80" />
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4278190080</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080" />
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal" />
+  </Properties>
+ </VirtualConsole>
+</Workspace>
