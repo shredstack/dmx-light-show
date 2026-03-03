@@ -434,11 +434,11 @@ def _has_nearby_onset(time: float, onset_set: set,
 def _get_fade_for_tier(tier: int) -> int:
     """Energy-driven fade times: smooth fades for calm, hard cuts for peaks."""
     if tier <= 1:
-        return 400
+        return 200
     elif tier == 2:
-        return 300
+        return 100
     elif tier == 3:
-        return 150
+        return 50
     else:
         return 0
 
@@ -684,23 +684,26 @@ def generate_show_timeline(ids: IDAllocator, analysis: dict,
             color_name, color2_name = color2_name, color_name
 
         # --- Scale disco ball LED intensity with energy ---
-        # At low energy the ball dims, at high energy it's full brightness.
-        # Floor at 0.3 so the ball is never completely dark (that's what
-        # blackout scenes are for).
-        intensity = max(0.3, energy)
+        # Floor at 0.55 so colors are always vibrant — quiet sections
+        # look different through color choice, not by going dark.
+        intensity = max(0.55, energy)
         color_rgb = [int(c * intensity) for c in color_rgb]
         color2_rgb = [int(c * intensity) for c in color2_rgb]
 
         # --- Compute per-beat feature levels (continuous interpolation) ---
         lasers = get_laser_pattern(tier, beat_idx, onset_dense)
-        motor = int(energy * 245)       # continuous, not 5-step
-        uv = int(energy * 230)          # continuous, not 5-step
 
-        # White LED driven by brightness in energetic sections
+        # Motor always runs (floor 80) so the disco ball always spins.
+        # Quiet sections = slow rotation, peaks = fast.
+        motor = 80 + int(energy * 165)          # range 80-245
+        uv = 50 + int(energy * 180)             # range 50-230
+
+        # White LED always contributes a little warmth, scales up
+        # with brightness during energetic sections
         if tier >= 3:
             white = int(brightness * 220)
         else:
-            white = 0
+            white = int(brightness * 80)
 
         # Strobe only on peak moments (tier 5, first 2 of every 8 beats)
         strobe = 150 if (tier == 5 and beat_idx % 8 < 2) else 0
@@ -731,92 +734,6 @@ def generate_show_timeline(ids: IDAllocator, analysis: dict,
                   ID=str(blackout["id"]),
                   StartTime=str(end_start), Duration="2000",
                   Color="#000000")
-
-    # --- Track 2: Strobe Hits (onset clusters in high-energy regions) ---
-    strobe_scene = scene_cache.get_or_create(
-        "white", [255, 255, 255], 255, [255, 255, 255, 255], 150, 255, 255)
-
-    strobe_track = ET.SubElement(show_elem, "Track", ID="2",
-                                 Name="Strobe Hits",
-                                 SceneID=str(strobe_scene["id"]),
-                                 isMute="0")
-
-    avg_beat_ms = int(60000 / bpm)
-    last_strobe_end = 0
-
-    for idx in range(len(onset_times) - 3):
-        window_start = onset_times[idx]
-        window_end = window_start + 0.5
-        cluster_count = sum(1 for t in onset_times[idx:idx + 10]
-                            if t < window_end)
-
-        if cluster_count >= 4:
-            s_idx = _find_segment(window_start, seg_bounds)
-            if (s_idx < len(seg_avg_energies)
-                    and seg_avg_energies[s_idx] > 0.5):
-                start_ms = int(window_start * 1000)
-                if start_ms >= last_strobe_end + avg_beat_ms:
-                    ET.SubElement(strobe_track, "ShowFunction",
-                                  ID=str(strobe_scene["id"]),
-                                  StartTime=str(start_ms),
-                                  Duration=str(avg_beat_ms),
-                                  Color="#ffffff")
-                    last_strobe_end = start_ms + avg_beat_ms
-
-    # --- Track 3: Sub-beat onset flashes ---
-    # Short UV/white flashes on onsets that fall between beats, adding
-    # rhythmic detail that the beat grid alone can't capture.
-    flash_scene = scene_cache.get_or_create(
-        "white", [255, 255, 255], 0, [0, 0, 0, 0], 0, 200, 220)
-
-    flash_track = ET.SubElement(show_elem, "Track", ID="3",
-                                Name="Onset Flashes",
-                                SceneID=str(flash_scene["id"]),
-                                isMute="0")
-
-    flash_duration_ms = 100  # short burst
-    last_flash_beat_idx = -1
-
-    for onset_t in onset_times:
-        onset_ms = int(onset_t * 1000)
-
-        # Only in high-energy segments
-        s_idx = _find_segment(onset_t, seg_bounds)
-        if s_idx >= len(seg_avg_energies) or seg_avg_energies[s_idx] <= 0.5:
-            continue
-
-        # Find which beat gap this onset falls in
-        is_between_beats = True
-        current_beat_idx = -1
-        for bi in range(len(beat_times)):
-            bt_ms = int(beat_times[bi] * 1000)
-            # If onset is within 60ms of a beat, it's ON the beat, skip
-            if abs(onset_ms - bt_ms) < 60:
-                is_between_beats = False
-                break
-            if beat_times[bi] > onset_t:
-                current_beat_idx = bi - 1
-                break
-        else:
-            current_beat_idx = len(beat_times) - 1
-
-        if not is_between_beats:
-            continue
-
-        # Limit to 1 flash per beat gap
-        if current_beat_idx == last_flash_beat_idx:
-            continue
-        last_flash_beat_idx = current_beat_idx
-
-        # Don't overlap with end of song
-        if onset_ms + flash_duration_ms > duration_ms:
-            continue
-
-        ET.SubElement(flash_track, "ShowFunction",
-                      ID=str(flash_scene["id"]),
-                      StartTime=str(onset_ms),
-                      Duration=str(flash_duration_ms),
-                      Color="#ffffff")
 
     return {
         "show_id": show_id,

@@ -55,6 +55,17 @@
       "analysis_file": "katy_perry__teenage_dream_analysis.json",
       "show_file": "../shows/katy_perry__teenage_dream_show.qxw",
       "notes": ""
+    },
+    {
+      "id": "bieber__baby",
+      "title": "Baby",
+      "artist": "Bieber",
+      "file": "bieber__baby.wav",
+      "bpm": 129.2,
+      "duration_seconds": 214.2,
+      "analysis_file": "bieber__baby_analysis.json",
+      "show_file": "../shows/bieber__baby_show.qxw",
+      "notes": ""
     }
   ]
 }
